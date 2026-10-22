@@ -12,19 +12,70 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  // Header Search
+  // Header Search with live dropdown suggestions
   const headerSearchInput = document.getElementById('headerSearchInput');
-  const headerSearchBtn = document.getElementById('headerSearchBtn');
-  function doSearch() {
-    const q = headerSearchInput.value.trim();
-    if (q) window.location.href = `/?search=${encodeURIComponent(q)}`;
-  }
-  if (headerSearchBtn) headerSearchBtn.onclick = doSearch;
+  const searchDropdown = document.getElementById('searchDropdown');
+  let searchTimeout = null;
+
   if (headerSearchInput) {
-    headerSearchInput.onkeydown = (e) => {
-      if (e.key === 'Enter') doSearch();
-    };
+    headerSearchInput.addEventListener('input', (e) => {
+      const q = e.target.value.trim();
+      if (!q) {
+        if (searchDropdown) searchDropdown.style.display = 'none';
+        return;
+      }
+
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(async () => {
+        const res = await API.search(q);
+        const items = res.items || [];
+        if (!searchDropdown) return;
+        if (items.length === 0) {
+          searchDropdown.innerHTML = '<div style="padding: 12px; text-align: center; color: var(--text-muted); font-size: 0.85rem;">Ничего не найдено</div>';
+          searchDropdown.style.display = 'block';
+          return;
+        }
+
+        searchDropdown.innerHTML = '';
+        items.slice(0, 8).forEach(item => {
+          const id = item.kinopoiskId || item.filmId;
+          const row = document.createElement('div');
+          row.className = 'search-item';
+          const rating = item.ratingKinopoisk || item.rating;
+          row.innerHTML = `
+            <img class="search-item-poster" src="${item.posterUrlPreview || item.posterUrl || ''}" alt="" />
+            <div class="search-item-info">
+              <div class="search-item-title">${item.nameRu || item.nameOriginal || 'Фильм'}</div>
+              <div class="search-item-meta">
+                ${rating ? `<span>${parseFloat(rating).toFixed(1)}</span> • ` : ''}
+                <span>${item.year || ''}</span> • 
+                <span>${item.genres?.[0]?.genre || ''}</span>
+              </div>
+            </div>
+          `;
+          row.onclick = () => {
+            searchDropdown.style.display = 'none';
+            window.location.href = `/movie.html?id=${id}`;
+          };
+          searchDropdown.appendChild(row);
+        });
+        searchDropdown.style.display = 'block';
+      }, 250);
+    });
+
+    headerSearchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const q = headerSearchInput.value.trim();
+        if (q) window.location.href = `/?search=${encodeURIComponent(q)}`;
+      }
+    });
   }
+
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.search-container') && searchDropdown) {
+      searchDropdown.style.display = 'none';
+    }
+  });
 
   // DOM Elements
   const bcCategory = document.getElementById('bcCategory');
@@ -50,11 +101,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const cinemaIframe = document.getElementById('cinemaIframe');
 
   // Direct Download Elements
-  const dlQualitySelect = document.getElementById('dlQualitySelect');
-  const dlVoiceSelect = document.getElementById('dlVoiceSelect');
-  const startDownloadBtn = document.getElementById('startDownloadBtn');
-  const dlStatusBox = document.getElementById('dlStatusBox');
-  const dlStatusMsg = document.getElementById('dlStatusMsg');
+  const openPlayerNewTabBtn = document.getElementById('openPlayerNewTabBtn');
 
   // Similar Movies Elements
   const similarBlock = document.getElementById('similarBlock');
@@ -310,65 +357,22 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
   }
 
-  // Setup Direct Video Download
+  // Setup Direct Video Download / Fullscreen
   function setupDownloadSection(id, details, balancers, directStream) {
-    if (!startDownloadBtn || !dlVoiceSelect || !dlQualitySelect) return;
+    if (!openPlayerNewTabBtn) return;
 
-    const voiceList = [];
-    if (directStream && Array.isArray(directStream.audios) && directStream.audios.length > 0) {
-      directStream.audios.forEach(v => {
-        if (v && !voiceList.includes(v)) voiceList.push(v);
-      });
-    }
-
-    balancers.forEach(b => {
-      (b.translations || []).forEach(t => {
-        if (t && t.name && !voiceList.includes(t.name)) {
-          voiceList.push(t.name);
-        }
-      });
-    });
-
-    if (voiceList.length > 0) {
-      dlVoiceSelect.innerHTML = voiceList.map((v, idx) => 
-        `<option value="${encodeURIComponent(v)}" ${idx === 0 ? 'selected' : ''}>${v}</option>`
-      ).join('');
-    } else {
-      dlVoiceSelect.innerHTML = '<option value="default" selected>Основная озвучка (Дубляж / Проф.)</option>';
-    }
-
-    startDownloadBtn.onclick = () => {
-      const quality = dlQualitySelect.value;
-      const voiceRaw = dlVoiceSelect.value;
-      const voiceName = voiceRaw === 'default' ? 'Дубляж' : decodeURIComponent(voiceRaw);
-      const title = details.nameRu || details.nameOriginal || 'movie';
-      
-      if (dlStatusBox && dlStatusMsg) {
-        dlStatusBox.style.display = 'flex';
-        dlStatusMsg.textContent = `Загрузка «${title}» (${quality}, ${voiceName})...`;
+    openPlayerNewTabBtn.onclick = () => {
+      let playerUrl = '';
+      if (cinemaIframe && cinemaIframe.src) {
+        playerUrl = cinemaIframe.src;
+      } else if (currentActiveBalancer && currentActiveBalancer.defaultIframe) {
+        playerUrl = currentActiveBalancer.defaultIframe;
+      } else {
+        const collaps = balancers.find(b => b.name && b.name.toLowerCase().includes('collaps'));
+        playerUrl = collaps ? collaps.defaultIframe : `https://api.nextembed.ws/embed/movie/${id}`;
       }
-
-      // Generate direct download URL
-      const downloadUrl = `/api/movies/${id}/download-mp4?quality=${quality}&voice=${encodeURIComponent(voiceName)}&title=${encodeURIComponent(title)}`;
-      
-      // Native browser file download: creates an invisible anchor with download attribute and clicks it
-      // This immediately instructs the browser to trigger a file save dialog or background download without opening a video player page
-      const a = document.createElement('a');
-      a.href = downloadUrl;
-      a.download = `${title}_${quality}.mp4`;
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-
-      showToast(`Началось скачивание «${title} (${quality})»`);
-
-      setTimeout(() => {
-        if (dlStatusMsg) dlStatusMsg.textContent = `Загрузка начата! Если файл не появился, проверьте загрузки браузера.`;
-      }, 1800);
-
-      setTimeout(() => {
-        if (dlStatusBox) dlStatusBox.style.display = 'none';
-      }, 8000);
+      window.open(playerUrl, '_blank');
+      showToast('Плеер открыт на весь экран');
     };
   }
 
@@ -390,13 +394,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             const poster = m.posterUrlPreview || m.posterUrl || '';
             return `
               <a href="/movie.html?id=${mId}" class="movie-card">
-                <div class="poster-container">
-                  <img src="${poster}" alt="${title}" loading="lazy">
-                  ${rating ? `<div class="rating-badge-card">${parseFloat(rating).toFixed(1)}</div>` : ''}
+                <div class="card-poster-wrapper">
+                  <img class="card-poster" src="${poster}" alt="${title}" loading="lazy">
+                  ${rating ? `<span class="card-rating">${parseFloat(rating).toFixed(1)}</span>` : ''}
                 </div>
-                <div class="movie-info">
-                  <div class="movie-title">${title}</div>
-                  <div class="movie-year">${year}</div>
+                <div class="card-info">
+                  <div class="card-title" title="${title}">${title}</div>
+                  <div class="card-meta"><span>${year}</span></div>
                 </div>
               </a>
             `;
