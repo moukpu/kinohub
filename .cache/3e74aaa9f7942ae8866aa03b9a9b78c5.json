@@ -1,0 +1,58 @@
+{
+  "kinopoiskId": 409372,
+  "kinopoiskHDId": "40d06ef10d2ebaa9a043e95e6ba08e97",
+  "imdbId": "tt1022603",
+  "nameRu": "500 дней лета",
+  "nameEn": null,
+  "nameOriginal": "(500) Days of Summer",
+  "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/409372.jpg",
+  "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/409372.jpg",
+  "coverUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-ott/1648503/2a0000017c284215c9ccddcf0fe040d36f48/orig",
+  "logoUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a00000170ed748e020b4dcd5e61e311f02c/orig",
+  "reviewsCount": 767,
+  "ratingGoodReview": 89,
+  "ratingGoodReviewVoteCount": 649,
+  "ratingKinopoisk": 7.6,
+  "ratingKinopoiskVoteCount": 315586,
+  "ratingImdb": 7.6,
+  "ratingImdbVoteCount": 614000,
+  "ratingFilmCritics": 7.9,
+  "ratingFilmCriticsVoteCount": 228,
+  "ratingAwait": null,
+  "ratingAwaitCount": 0,
+  "ratingRfCritics": 100,
+  "ratingRfCriticsVoteCount": 5,
+  "webUrl": "https://www.kinopoisk.ru/film/409372/",
+  "year": 2009,
+  "filmLength": 95,
+  "slogan": "Это не любовная история, это история о любви",
+  "description": "Главный герой работает в агентстве, выпускающем поздравительные открытки. Он придумывает все те забавные подписи, которые мы с Вами читаем на них. Молодой человек влюбляется в свою коллегу и решает, что она - «та, единственная». Но 500 дней их отношений показывают герою, что путь к счастью непредсказуем, неконтролируем и - невероятно забавен!",
+  "shortDescription": "Том и Саммер полюбили друг друга, но надолго ли? Душевный антиромком о двух молодых жителях Лос-Анджелеса",
+  "editorAnnotation": null,
+  "isTicketsAvailable": false,
+  "productionStatus": null,
+  "type": "FILM",
+  "ratingMpaa": "pg13",
+  "ratingAgeLimits": "age12",
+  "countries": [
+    {
+      "country": "США"
+    }
+  ],
+  "genres": [
+    {
+      "genre": "мелодрама"
+    },
+    {
+      "genre": "комедия"
+    }
+  ],
+  "startYear": null,
+  "endYear": null,
+  "serial": false,
+  "shortFilm": false,
+  "completed": false,
+  "hasImax": false,
+  "has3D": false,
+  "lastSync": "2026-10-19T22:51:56.957465"
+}

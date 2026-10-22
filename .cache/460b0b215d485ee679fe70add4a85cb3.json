@@ -1,0 +1,693 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 77263,
+      "imdbId": "tt0083100",
+      "nameRu": "Приключения Шерлока Холмса и доктора Ватсона: Собака Баскервилей",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.7,
+      "ratingImdb": 8.5,
+      "year": 1981,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/77263.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/77263.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a000001992dc6818374269ab0d50f02bbe8/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000173c311ff31d46ce01c7ecfaa0c39/orig",
+      "description": "Труп Чарльза Баскервиля обнаруживают неподалеку от его родового поместья. Выражение нечеловеческого ужаса на лице покойника и следы крупной собаки поблизости заставляют вспомнить старинную легенду о проклятии, тяготеющем над родом Баскервилей. Шерлоку Холмсу предстоит докопаться до истины.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 32898,
+      "imdbId": "tt0119472",
+      "nameRu": "Достучаться до небес",
+      "nameEn": null,
+      "nameOriginal": "Knockin' on Heaven's Door",
+      "countries": [
+        {
+          "country": "Германия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.6,
+      "ratingImdb": 7.8,
+      "year": 1997,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/32898.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/32898.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a000001895473288f7c7ed23a13e75fb739/orig",
+      "logoUrl": null,
+      "description": "Волею судеб две абсолютные противоположности, тихоня Руди и разгильдяй Мартин, оказываются в одной больничной палате. Узнав неутешительные прогнозы, друзья решают использовать последние дни на полную катушку — угнать машину с деньгами, напиться текилы, и, конечно, увидеть море.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 819101,
+      "imdbId": "tt3460252",
+      "nameRu": "Омерзительная восьмерка",
+      "nameEn": null,
+      "nameOriginal": "The Hateful Eight",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "вестерн"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.8,
+      "year": 2015,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/819101.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/819101.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c075b70e049389b4bc0eb8c3bb2/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000016e4b04a98f5dd75ad1f6ce2902a7/orig",
+      "description": "США после Гражданской войны. Легендарный охотник за головами Джон Рут по кличке Вешатель конвоирует заключенную. По пути к ним прибиваются еще несколько путешественников. Снежная буря вынуждает компанию искать укрытие в лавке на отшибе, где уже расположилось весьма пёстрое общество: генерал конфедератов, мексиканец, ковбой… И один из них — не тот, за кого себя выдает.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 41431,
+      "imdbId": "tt0309047",
+      "nameRu": "Война",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.5,
+      "year": 2002,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/41431.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/41431.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1648503/2a0000017c073eab9e685c2b784ec72e19bb/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a000001725ab02f3bec9f230edc876899c2/orig",
+      "description": "Аслан Гугаев, командир отряда чеченских боевиков, отпускает троих пленников: двух русских солдат, сержанта Ивана Ермакова и рядового Кулика — потому что они не контрактники, а призывники, и англичанина Джона Бойла — потому что он должен собрать два миллиона фунтов стерлингов и привезти деньги Гугаеву в качестве выкупа за свою невесту Маргарет. Маргарет остается у Аслана. Так же, как и капитан российской армии Медведев...\n\nЗа отведенные ему два месяца Джон не находит нужную сумму и не находит поддержки у британских властей, зато, вернувшись в Россию, находит Ваню Ермакова, живущего в Тобольске. Джон и Ваня опять едут в Чечню. Чтобы освободить английскую девушку Маргарет и русского капитана Медведева...",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 43395,
+      "imdbId": "tt0068161",
+      "nameRu": "...А зори здесь тихие",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.6,
+      "ratingImdb": 8,
+      "year": 1972,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/43395.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/43395.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c073ad77ad28e368b919ab23b09/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a00000171ca6d6cebada7f8cb21c10c0ded/orig",
+      "description": "В прифронтовой полосе группа девушек-зенитчиц вынуждена вступить в неравный бой с вражескими десантниками. Эти девчонки мечтали о большой любви, нежности, семейном тепле - но на их долю выпала жестокая война, и они до конца выполнили свой воинский долг…",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 367,
+      "imdbId": "tt0180093",
+      "nameRu": "Реквием по мечте",
+      "nameEn": null,
+      "nameOriginal": "Requiem for a Dream",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.3,
+      "year": 2000,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/367.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/367.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c0776a99dad2a442c08310b80bf/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a00000170ed52c078442096b077ab2b68c8/orig",
+      "description": "Каждый стремится к своей заветной мечте. Сара Голдфарб мечтала сняться в известном телешоу, ее сын Гарольд с другом Тайроном — сказочно разбогатеть, подруга Гарольда Мэрион грезила о собственном модном магазине, но на их пути были всевозможные препятствия. Все они выбирают неочевидные пути достижения своих целей, и мечты по-прежнему остаются недостижимыми, а жизни героев рушатся безвозвратно.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 6385370,
+      "imdbId": "tt33764258",
+      "nameRu": "Одиссея",
+      "nameEn": null,
+      "nameOriginal": "The Odyssey",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8.4,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/6385370.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/6385370.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "После Троянской войны Одиссей, царь Итаки, во главе небольшого войска возвращается домой к своей жене Пенелопе. На своём пути Одиссей сталкивается со множеством испытаний, встречает циклопов, сирен и великанов-людоедов.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 160977,
+      "imdbId": "tt0472043",
+      "nameRu": "Апокалипсис",
+      "nameEn": null,
+      "nameOriginal": "Apocalypto",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Мексика"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.8,
+      "year": 2006,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/160977.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/160977.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000018a0852049b2def3adcb8b5c852d0/orig",
+      "logoUrl": null,
+      "description": "1517 год. Полуостров Юкатан. В один день рушится мир индейца по имени Лапа Ягуара. Его деревню захватывает соседнее племя, уничтожая хижины, забирая местных жителей в плен. Его ведут в город, чтобы принести в жертву богам. Перед лицом неминуемой смерти Лапа Ягуара должен побороть свои самые сильные страхи и совершить отчаянный рывок, чтобы спасти то, что ему дорого.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 63912,
+      "imdbId": "tt0080439",
+      "nameRu": "Укрощение строптивого",
+      "nameEn": null,
+      "nameOriginal": "Il bisbetico domato",
+      "countries": [
+        {
+          "country": "Италия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 7.6,
+      "year": 1980,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/63912.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/63912.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a00000187510dcaa043a5a9306b6ba69124/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017af26e8324212ce5113d8a0cfce5/orig",
+      "description": "Категорически не приемлющий женского общества грубоватый фермер вполне счастлив и доволен своей холостяцкой жизнью. Но неожиданно появившаяся в его жизни женщина пытается изменить его взгляды на жизнь и очаровать его.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 81297,
+      "imdbId": "tt0405159",
+      "nameRu": "Малышка на миллион",
+      "nameEn": null,
+      "nameOriginal": "Million Dollar Baby",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "спорт"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8.1,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/81297.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/81297.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017c0749ecadba778ee386ef6cfcd9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000016fc7de45b87c5d981231c222e834/orig",
+      "description": "Тренеру по боксу Фрэнку Данну так и не удалось воспитать чемпиона. Он владеет спортивным залом в Лос-Анджелесе, где всё ещё проводит тренировки. Дочь не отвечает на его письма, а его лучший боец подписал контракт с другим менеджером. Неожиданно в жизни Фрэнка появляется Мэгги Фицжеральд, 31-летняя официантка, мечтающая стать боксером. Фрэнк не желает тренировать женщину, но упорство Мэгги заставляет его передумать. Впереди - их главное сражение, требующее собрать в кулак всю волю и мужество.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 3797,
+      "imdbId": "tt0118971",
+      "nameRu": "Адвокат дьявола",
+      "nameEn": null,
+      "nameOriginal": "The Devil's Advocate",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Германия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.5,
+      "year": 1997,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/3797.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/3797.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017c0780e3936f727150f74fe6992d/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a00000170ed5b8e1ecae36e3dd06f2aa272/orig",
+      "description": "В Нью-Йорк по приглашению главы крупного юридического концерна прибывает Кевин Ломакс, молодой адвокат. До этого он был известен тем, что защищал исключительно негодяев и притом не проиграл ни одного процесса. На новом месте работы он вполне счастлив, он живет в роскошной квартире с любящей женой, его окружают интересные люди.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 649917,
+      "imdbId": "tt2119532",
+      "nameRu": "По соображениям совести",
+      "nameEn": null,
+      "nameOriginal": "Hacksaw Ridge",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.1,
+      "year": 2016,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/649917.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/649917.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c2859a1da6157358cd86beae4b9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000016ef3b6cd72483b0148986c8f1bf6/orig",
+      "description": "Медик американской армии времён Второй мировой войны Десмонд Досс, который служил во время битвы за Окинаву, отказывается убивать людей и становится первым идейным уклонистом в американской истории, удостоенным Медали Почёта.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 965754,
+      "imdbId": "tt3829920",
+      "nameRu": "Дело храбрых",
+      "nameEn": null,
+      "nameOriginal": "Only the Brave",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.6,
+      "year": 2017,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/965754.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/965754.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c071d589af9553ddfe53f27b877/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a0000016eadd54db9cccdcae1e1073931c4/orig",
+      "description": "История о команде пожарных под названием Granite Mountain Hotshots, столкнувшихся в Аризоне с одним из самых смертоносных пожаров в истории.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 44811,
+      "imdbId": "tt0091341",
+      "nameRu": "Кин-дза-дза!",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.8,
+      "year": 1986,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/44811.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/44811.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c07373a8f1d210be71e05902b9e/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a00000172283c3f03232fdeb4a6e989bb28/orig",
+      "description": "Прораб Владимир Николаевич Машков и не подозревал, что обычный путь до универсама за хлебом и макаронами обернется межгалактическим путешествием. А все эта встреча со странным босоногим человеком с каким-то маленьким устройством — «машинкой перемещения», как тот ее назвал. Владимир Николаевич нажал кнопку и оказался вместе со случайным попутчиком, студентом в кроличьей шапке, в какой-то пустыне — на планете Плюк в тентуре, галактика Кин-дза-дза в спирали.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 803422,
+      "imdbId": null,
+      "nameRu": "Пеле: Рождение легенды",
+      "nameEn": null,
+      "nameOriginal": "Pelé: Birth of a Legend",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "спорт"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 7.1,
+      "year": 2015,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/803422.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/803422.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c073db8642dc68108d332c1f93b/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a000001720da2fd736a4009bf98ed8080c8/orig",
+      "description": "История стремительного восхождения талантливого мальчика Пеле из трущоб Сан-Паулу - от дворовой босоногой команды до победы на Чемпионате мира.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 688,
+      "imdbId": "tt0295297",
+      "nameRu": "Гарри Поттер и Тайная комната",
+      "nameEn": null,
+      "nameOriginal": "Harry Potter and the Chamber of Secrets",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.5,
+      "year": 2002,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/688.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/688.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000019ac9bfbad8d3951766f2bdb82371/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017e12791a83f15ab89c146aa13b32/orig",
+      "description": "Гарри Поттер переходит на второй курс Школы чародейства и волшебства Хогвартс. Эльф Добби предупреждает Гарри об опасности, которая поджидает его там, и просит больше не возвращаться в школу.\nЮный волшебник не следует совету эльфа и становится свидетелем таинственных событий, разворачивающихся в Хогвартсе. Вскоре Гарри и его друзья узнают о существовании Тайной Комнаты и сталкиваются с новыми приключениями, пытаясь победить темные силы.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 387556,
+      "imdbId": null,
+      "nameRu": "Хатико: Самый верный друг",
+      "nameEn": null,
+      "nameOriginal": "Hachi: A Dog's Tale",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.1,
+      "year": 2008,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/387556.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/387556.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a0000017c077d5cf17cdad303029ba7e2ef/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a00000170ed7317a4c5db1255afe40119e1/orig",
+      "description": "Однажды, возвращаясь с работы, профессор колледжа нашел на вокзале симпатичного щенка породы акита-ину. Профессор и Хатико стали верными друзьями. Каждый день пес провожал и встречал хозяина на вокзале.",
+      "ratingAgeLimits": "age0"
+    },
+    {
+      "kinopoiskId": 843649,
+      "imdbId": "tt4154756",
+      "nameRu": "Мстители: Война бесконечности",
+      "nameEn": null,
+      "nameOriginal": "Avengers: Infinity War",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.4,
+      "year": 2018,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/843649.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/843649.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c07a13bd3addefb905ed4160bf3/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000178c586374cd541732e2109769c2d/orig",
+      "description": "Пока Мстители и их союзники продолжают защищать мир от различных опасностей, с которыми не смог бы справиться один супергерой, новая угроза возникает из космоса: Танос. Межгалактический тиран преследует цель собрать все шесть Камней Бесконечности — артефакты невероятной силы, с помощью которых можно менять реальность. Всё, с чем Мстители сталкивались ранее, вело к этому моменту — судьба Земли никогда ещё не была столь неопределённой.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 4541,
+      "imdbId": "tt0120382",
+      "nameRu": "Шоу Трумана",
+      "nameEn": null,
+      "nameOriginal": "The Truman Show",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.2,
+      "year": 1998,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4541.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4541.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c078a04843b372331c0468ff43a/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a000001726fc66c0999477160b7458816c6/orig",
+      "description": "Страховой агент Труман Бербэнк живёт в маленьком прибрежном городке. У него есть любящая жена и лучший друг, а каждый его день похож на предыдущий. Он и не подозревает, что с самого рождения является героем масштабного реалити-шоу, за которым наблюдает весь мир, а вокруг него — декорации и актёры. Но однажды отлаженная система даёт сбой, и у Трумана появляются сомнения в реальности окружающего его мира.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 3563,
+      "imdbId": null,
+      "nameRu": "Трасса 60",
+      "nameEn": null,
+      "nameOriginal": "Interstate 60",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.5,
+      "year": 2001,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/3563.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/3563.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c0758c7b66254e8e6ca8d734977/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a000001707bb1b3476ce4475f49e5ca4f0b/orig",
+      "description": "Нил Оливер, на первый взгляд, вполне доволен своей жизнью: у него обеспеченные родители, милая девушка, а впереди — обучение на юриста в престижном университете. Однако будущее Нила определяет отец, не особо интересуясь мнением сына. Парень же мечтает стать художником, но отказать родителю не решается. С недавних пор ему стала сниться девушка, которую он никак не может выбросить из головы. Однажды загадочный мужчина Рэй предлагает ему доставить посылку и совершить поездку по автостраде 60, которой нет ни на одной карте США. В пути он встречает чудаковатого О. В. Гранта, вместе с которым отправляется навстречу приключениям, пытаясь разыскать незнакомку из своих снов.",
+      "ratingAgeLimits": "age18"
+    }
+  ]
+}

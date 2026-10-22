@@ -1,0 +1,76 @@
+{
+  "kinopoiskId": 7378605,
+  "kinopoiskHDId": null,
+  "imdbId": "tt35538033",
+  "nameRu": "Обитель зла",
+  "nameEn": null,
+  "nameOriginal": "Resident Evil",
+  "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7378605.jpg",
+  "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7378605.jpg",
+  "coverUrl": null,
+  "logoUrl": null,
+  "reviewsCount": 20,
+  "ratingGoodReview": 73,
+  "ratingGoodReviewVoteCount": 12,
+  "ratingKinopoisk": 7.3,
+  "ratingKinopoiskVoteCount": 21369,
+  "ratingImdb": 7.6,
+  "ratingImdbVoteCount": 67530,
+  "ratingFilmCritics": 7.8,
+  "ratingFilmCriticsVoteCount": 260,
+  "ratingAwait": null,
+  "ratingAwaitCount": 0,
+  "ratingRfCritics": 100,
+  "ratingRfCriticsVoteCount": 8,
+  "webUrl": "https://www.kinopoisk.ru/film/7378605/",
+  "year": 2026,
+  "filmLength": 90,
+  "slogan": null,
+  "description": "Незадачливому курьеру поручено доставить посылку в отдалённую больницу. Там парень оказывается в эпицентре вспышки неизвестного вируса и теперь вынужден сражаться с ордами мутировавших существ.",
+  "shortDescription": "Курьер везёт посылку в Раккун-Сити, где обитают зомби. Стремительный и остроумный хоррор режиссёра «Орудий» ",
+  "editorAnnotation": null,
+  "isTicketsAvailable": false,
+  "productionStatus": "PRE_PRODUCTION",
+  "type": "FILM",
+  "ratingMpaa": "r",
+  "ratingAgeLimits": "age18",
+  "countries": [
+    {
+      "country": "США"
+    },
+    {
+      "country": "Франция"
+    },
+    {
+      "country": "Германия"
+    },
+    {
+      "country": "Австралия"
+    },
+    {
+      "country": "Канада"
+    },
+    {
+      "country": "Чехия"
+    },
+    {
+      "country": "Новая Зеландия"
+    }
+  ],
+  "genres": [
+    {
+      "genre": "боевик"
+    },
+    {
+      "genre": "ужасы"
+    }
+  ],
+  "startYear": null,
+  "endYear": null,
+  "serial": false,
+  "shortFilm": false,
+  "completed": false,
+  "hasImax": false,
+  "has3D": false,
+  "lastSync": "2026-09-30T12:44:02.990079"
+}

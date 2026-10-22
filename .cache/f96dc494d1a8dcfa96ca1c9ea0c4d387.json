@@ -1,0 +1,675 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 495518,
+      "imdbId": null,
+      "nameRu": "Один день",
+      "nameEn": null,
+      "nameOriginal": "One Day",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7,
+      "year": 2011,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/495518.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/495518.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c08187eb3f57ea6328cf91bd0a8/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000171a619fabb503b196a9810490bcb/orig",
+      "description": "Эмма романтична, остра на язык и хочет изменить мир к лучшему. Декстер — плейбой, баловень судьбы и хочет, чтобы мир принадлежал ему. Впервые они встретились на выпускном в колледже и провели вместе только один день. А потом пришла ночь, и они решили остаться друзьями.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 399,
+      "imdbId": "tt0112573",
+      "nameRu": "Храброе сердце",
+      "nameEn": null,
+      "nameOriginal": "Braveheart",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.3,
+      "year": 1995,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/399.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/399.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c07549df694bc30cc703c423502/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017255018266012214bf35c8f20797/orig",
+      "description": "Действие фильма начинается в 1280 году в Шотландии. Это история легендарного национального героя Уильяма Уоллеса, посвятившего себя борьбе с англичанами при короле Эдварде Длинноногом.\nОн рано лишился отца, погибшего от рук англичан, и его забрал к себе дядя Оргайл, который дал ему хорошее образование в Европе. На родину Уильям возвращается уже взрослым человеком, мечтающим завести семью и жить мирной жизнью.\nНо судьба распорядилась иначе. Его невесту убили англичане, и он начал свой крестовый поход за свободу.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 4871,
+      "imdbId": "tt0105323",
+      "nameRu": "Запах женщины",
+      "nameEn": null,
+      "nameOriginal": "Scent of a Woman",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8,
+      "year": 1992,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4871.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4871.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c0727840f3816175ab3854cdcf9/orig",
+      "logoUrl": null,
+      "description": "Наступил День благодарения, и отставной полковник разведки Фрэнк Слэйд решает справить праздник, побаловав себя поездкой в Нью-Йорк. Фрэнк хочет обставить свой последний «коронный выход» по высшему разряду: изысканный отель, шикарный лимузин, дорогая выпивка и женщины потрясающей красоты.\n\nЕсть лишь две проблемы. Первая: Фрэнк слеп на оба глаза. И вторая: волнующиеся родственники полковника решают нанять за небольшую сумму провожатого в лице нуждающегося студента престижного колледжа по имени Чарли Симмз. Последнее, что было нужно в поездке полковнику Слэйду - так это «зеленый» юнец Чарли. Но случилось так, что путешествие этих двух потрясающе непохожих друг на друга людей изменило их жизни навсегда.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 394,
+      "imdbId": "tt6493238",
+      "nameRu": "Бешеные псы",
+      "nameEn": null,
+      "nameOriginal": "Reservoir Dogs",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.3,
+      "year": 1991,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/394.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/394.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c075c057072c9d12275a13466a9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000172982695aba03b7c1b6e9a1e5398/orig",
+      "description": "Это должно было стать идеальным преступлением. Задумав ограбить ювелирный магазин, криминальный босс Джо Кэбот собрал вместе шестерых опытных и совершенно незнакомых друг с другом преступников. Но с самого начала все пошло не так, и обычный грабеж превратился в кровавую бойню.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 45660,
+      "imdbId": null,
+      "nameRu": "Вам и не снилось...",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.8,
+      "year": 1980,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/45660.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/45660.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a000001a0582521c577164278b4200b46e6/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000172275e86f49aca5fe9a2ad6375fa/orig",
+      "description": "Школьники Роман и Катя тянутся друг к другу со всей безоглядностью первой любви. Мать Кати очень счастлива во втором браке и в озарении этого счастья хорошо понимает дочь. Роман находит поддержку у отца, давно и безответно любящего Катину маму. Но рядом ходят люди, ничего не знающие о любви...",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 47015,
+      "imdbId": "tt0378194",
+      "nameRu": "Убить Билла 2",
+      "nameEn": null,
+      "nameOriginal": "Kill Bill: Vol. 2",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": 8,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/47015.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/47015.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c07228589feabc15b51a8c436c8/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a000001714e84ca2db80170a68edee3ea1b/orig",
+      "description": "Убив двух человек из банды, Невеста лишь наполовину приблизилась к цели. Теперь на очереди Бад и Элли Драйвер. Еще два опасных шага перед последней схваткой, в которой она должна убить Билла.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1345722,
+      "imdbId": null,
+      "nameRu": "Белый снег",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "спорт"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 5.8,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1345722.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1345722.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000019ab64d41f8c6997c264989f38f27/orig",
+      "logoUrl": null,
+      "description": "Фильм повествует о том, как маленькая девочка Лена из Магадана, преодолев все испытания, достигла высочайших успехов в спорте, а также о реальных событиях, произошедших в 1997 году на чемпионате мира по лыжным видам спорта в Норвегии, когда впервые в истории лыжных гонок российская лыжница Елена Вяльбе завоевала пять золотых медалей из пяти возможных.",
+      "ratingAgeLimits": "age6"
+    },
+    {
+      "kinopoiskId": 6103378,
+      "imdbId": "tt33086385",
+      "nameRu": "Сводишь с ума",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": null,
+      "year": 2025,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/6103378.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/6103378.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/12808873/2a00000199b9d4ba2b4e59991bcc793ad92b/orig",
+      "logoUrl": null,
+      "description": "Алиса заселяется в просторную квартиру в Санкт-Петербурге, в которой начинает сбоить зеркало, показывая юной квартирантке параллельную реальность той же самой квартиры. Вот только проживает в этой параллельной реальности не Алиса, а тусовщик Иван.",
+      "ratingAgeLimits": "age16"
+    },
+    {
+      "kinopoiskId": 933307,
+      "imdbId": "tt4540710",
+      "nameRu": "Опасная игра Слоун",
+      "nameEn": null,
+      "nameOriginal": "Miss Sloane",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.5,
+      "year": 2016,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/933307.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/933307.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c078cdcbc372a81e8a76f9bdf10/orig",
+      "logoUrl": null,
+      "description": "Элизабет Слоун — самый востребованный и рисковый лоббист политического бизнеса США. Ловко ведя психологические игры и используя искусство манипуляции, она сражает оппонентов своей непредсказуемостью и никогда не проигрывает. Но когда она берется за самое сложное в своей карьере дело, то понимает, что цена победы может быть слишком высокой.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 368936,
+      "imdbId": null,
+      "nameRu": "Приключения Шерлока Холмса и доктора Ватсона: Король шантажа",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.3,
+      "year": 1980,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/368936.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/368936.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c0735c2871dcae6fe191ae6b797/orig",
+      "logoUrl": null,
+      "description": "К Шерлоку Холмсу за помощью обращается некая леди Брекуэлл, одна из жертв известного лондонского шантажиста по имени Чарльз Огестос Милвертон. Если великий сыщик не остановит циничного негодяя, семейное благополучие молодой леди окажется под угрозой. Шерлок Холмс и доктор Ватсон как истинные джентельмены не могут отказать в помощи беззащитной женщине.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1262160,
+      "imdbId": "tt10272386",
+      "nameRu": "Отец",
+      "nameEn": null,
+      "nameOriginal": "The Father",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Франция"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 8.2,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1262160.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1262160.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000018a188d3e911cb896a2a3f93dbcd9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a00000179cb8d5e510f9cbc61b234f24a7e/orig",
+      "description": "Энтони уже далеко не молод и живет один в лондонской квартире. Он считает, что прекрасно справляется со всем сам, и помощь ему не нужна, но его дочь Энн противоположного мнения. Она собралась переезжать в Париж и хочет найти отцу сиделку. Энтони упирается всеми возможными способами, но в его квартире начинают происходить странности — в гостиной оказывается посторонний мужчина, дочь вдруг меняет внешность, и куда-то постоянно пропадают любимые часы.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5105855,
+      "imdbId": "tt13097932",
+      "nameRu": "Одна жизнь",
+      "nameEn": null,
+      "nameOriginal": "One Life",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Австралия"
+        },
+        {
+          "country": "Чехия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 7.5,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5105855.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5105855.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000018e9a4a1b44476195334eb8e7647c/orig",
+      "logoUrl": null,
+      "description": "Скромного и непубличного джентльмена Николаса Уинтона приглашают на телевизионное ток-шоу, где он наконец-то узнает всю правду о событиях Второй мировой войны, когда он пытался спасти сотни детей от гибели в концлагере. Одна жизнь может изменить судьбы сотен людей — как в прошлом, так и в настоящем.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 507,
+      "imdbId": "tt0088247",
+      "nameRu": "Терминатор",
+      "nameEn": null,
+      "nameOriginal": "The Terminator",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.1,
+      "year": 1984,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/507.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/507.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c075c19b763d40a30294a7361c7/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a00000171792adfa7a846c14bc8a7bdb2d3/orig",
+      "description": "История противостояния солдата Кайла Риза и киборга-терминатора, прибывших в 1984 год из пост-апокалиптического будущего, где миром правят машины-убийцы, а человечество находится на грани вымирания.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 453406,
+      "imdbId": "tt1392190",
+      "nameRu": "Безумный Макс: Дорога ярости",
+      "nameEn": null,
+      "nameOriginal": "Mad Max: Fury Road",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Австралия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 8.1,
+      "year": 2015,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/453406.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/453406.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c074f85dc607e1a5d471d27587d/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a000001714e80bb3a7adf5dd16a6131d839/orig",
+      "description": "Преследуемый призраками прошлого Макс уверен, что лучший способ выжить — скитаться в одиночестве. Но он попадает в плен и вынужденно присоединяется к бунтарям, бегущим через пустыню от тирании Несмертного Джо. Они забрали у него кое-что очень ценное, и разъярённый диктатор бросает все силы в погоню за мятежниками.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 44720,
+      "imdbId": "tt0049397",
+      "nameRu": "Карнавальная ночь",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мюзикл"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.4,
+      "year": 1956,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/44720.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/44720.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017c077489bf2f8e529e8fe281bec5/orig",
+      "logoUrl": null,
+      "description": "Команда молодых работников клуба готовится к встрече Нового года. Они задумывают провести интересный и веселый праздник, но, на беду ребят, их берется контролировать директор клуба Огурцов — бюрократ, буквоед и чинуша. Собрав всех в своем кабинете, он подробно рассказывает о том, как правильно и полезно провести новогоднюю ночь. Организаторы понимают, что Огурцов собирается вместо праздника преподнести гостям клуба некий коктейль из смотра художественной самодеятельности и партсобрания. И тогда молодежь решает хитростью обойти недалекого начальника, чтобы организовать настоящий новогодний бал.",
+      "ratingAgeLimits": "age0"
+    },
+    {
+      "kinopoiskId": 40895,
+      "imdbId": "tt0185584",
+      "nameRu": "Особенности национальной рыбалки",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": 7.2,
+      "year": 1998,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/40895.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/40895.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c07399a17078777d5c76583663d/orig",
+      "logoUrl": null,
+      "description": "Компания старых приятелей, достойно выдержавших испытание национальной охотой, вновь собирается вместе - на сей раз для того, чтобы культурно отдохнуть под видом рыбной ловли. В разгар веселья друзья узнают, что, сами того не ведая, пересекли государственную границу и отдыхают уже в Финляндии.\n\nПосле поспешного возвращения выясняется, что по ту сторону Финского залива осталось очень много водки. Так что хочешь не хочешь, а придётся возвращаться.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1318972,
+      "imdbId": "tt11083552",
+      "nameRu": "Гнев человеческий",
+      "nameEn": null,
+      "nameOriginal": "Wrath of Man",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.7,
+      "ratingImdb": 7.1,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1318972.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1318972.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c2d4c24f10f2c1a6ef7bd0b5c84/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a00000179d1cc14e6c741017c7f7a2f15c2/orig",
+      "description": "Грузовики лос-анджелесской инкассаторской компании Fortico Security часто подвергаются нападениям, и во время очередного ограбления погибают оба охранника. Через некоторое время в компанию устраивается крепкий немногословный британец Патрик Хилл. Он получает от босса прозвище Эйч и, впритык к необходимому минимуму пройдя тесты по фитнесу, стрельбе и вождению, отправляется на первое задание. Вскоре и его грузовик пытаются ограбить вооруженные налётчики, но Эйч в одиночку расправляется с целой бандой и становится героем. Кажется, слава и уважение коллег его совершенно не интересуют, ведь он преследует свои цели.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5452393,
+      "imdbId": "tt26446278",
+      "nameRu": "Граф Монте-Кристо",
+      "nameEn": null,
+      "nameOriginal": "Le Comte de Monte-Cristo",
+      "countries": [
+        {
+          "country": "Франция"
+        },
+        {
+          "country": "Бельгия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.6,
+      "year": 2024,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5452393.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5452393.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a000001947434d8b78167dea5d3ae8ae118/orig",
+      "logoUrl": null,
+      "description": "1815 год. В день свадьбы с возлюбленной молодого капитана дальнего плавания Эдмона Дантеса по лживому доносу и несправедливому обвинению в государственной измене без суда и следствия отправляют в одну из самых страшных тюрем — в замок Иф. После 4 лет заключения в тюрьме он встречает ещё одного узника — аббата Фариа, который пытается прорыть тоннель для побега. Став помощником Фариа, Дантес узнает от него о месте, где спрятаны несметные богатства ордена тамплиеров. Спустя 10 лет, совершив побег и добравшись до сокровищ, Дантес становится загадочным графом Монте-Кристо и начинает воплощать хитроумный план мести, чтобы покарать тех, кто сломал ему жизнь.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1209777,
+      "imdbId": "tt9738784",
+      "nameRu": "Уроки фарси",
+      "nameEn": null,
+      "nameOriginal": "Persian Lessons",
+      "countries": [
+        {
+          "country": "Германия"
+        },
+        {
+          "country": "Россия"
+        },
+        {
+          "country": "Беларусь"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.4,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1209777.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1209777.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000017c2d298219052a2b3574fdb26103/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a000001791c6cca43470f071b1d9bd6bf5f/orig",
+      "description": "1942 год, оккупированная Европа. Оказавшись в концлагере, бельгиец еврейского происхождения Жиль Кремье выдает себя за перса — для него это единственная возможность остаться в живых. Довольные таким редким уловом немецкие солдаты приводят Жиля к концлагерному повару Клаусу Коху, который мечтает, как только закончится война, уехать в Иран и открыть там ресторан. Кох ищет настоящего перса, который научит его говорить на фарси. Так начинается история Жиля Кремье и Клауса Коха — еврея и немца, узника и тюремщика, учителя и ученика.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 527,
+      "imdbId": "tt0107048",
+      "nameRu": "День сурка",
+      "nameEn": null,
+      "nameOriginal": "Groundhog Day",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8,
+      "year": 1993,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/527.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/527.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c280960074c3af237df3c1d8d12/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017232af2c763c840b5902d98a404d/orig",
+      "description": "Телевизионный комментатор Фил Коннорс каждый год приезжает в маленький городок в штате Пенсильвания на празднование Дня сурка. Но на этот раз веселье рискует зайти слишком далеко. Время сыграло с ним злую шутку: оно взяло да и остановилось.\n\nТеперь на календаре Фила чернеет одна и та же дата - 2 февраля, из которой он никак не может выбраться. Неунывающий ведущий пытается извлечь выгоду из своего комичного положения: впереди у него уйма времени и безмятежное предсказуемое будущее.\n\nОтныне с ним не случится ничего плохого... и ничего хорошего. У Фила осталась одна заветная мечта, простая и незамысловатая - 3 февраля...",
+      "ratingAgeLimits": "age18"
+    }
+  ]
+}

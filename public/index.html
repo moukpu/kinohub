@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KinoHub — Фильмы и Сериалы онлайн</title>
+  <link rel="stylesheet" href="/css/style.css?v=4.0">
+</head>
+<body>
+
+  <!-- Minimal Header -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand" onclick="location.reload(); return false;">
+        <span>Kino<span class="logo-orange">Hub</span></span>
+      </a>
+
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="searchInput" 
+          class="search-input" 
+          placeholder="Поиск фильмов и сериалов..." 
+          autocomplete="off" 
+        />
+        <div id="searchDropdown" class="search-dropdown"></div>
+      </div>
+
+      <nav class="nav-links">
+        <button class="nav-link active" data-nav="home">Главная</button>
+        <button class="nav-link" data-nav="films">Фильмы</button>
+        <button class="nav-link" data-nav="series">Сериалы</button>
+        <button class="nav-link" data-nav="top250">Топ-250</button>
+        <button class="nav-link" data-nav="bookmarks">Закладки</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Spotlight Feature Card -->
+    <div id="spotlightCard" class="spotlight-card" style="display: none;"></div>
+
+    <!-- Home View -->
+    <div id="homeSection">
+      <section>
+        <div class="section-header">
+          <h2 class="section-title">Популярное сейчас</h2>
+        </div>
+        <div id="popularCarousel" class="movie-carousel"></div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2 class="section-title">Топ-250 лучших фильмов</h2>
+          <button class="btn btn-secondary btn-sm" id="viewAllTop250Btn">Все 250 фильмов →</button>
+        </div>
+        <div id="top250Carousel" class="movie-carousel"></div>
+      </section>
+
+      <section>
+        <div class="section-header">
+          <h2 class="section-title">Сериалы</h2>
+        </div>
+        <div id="seriesCarousel" class="movie-carousel"></div>
+      </section>
+    </div>
+
+    <!-- Catalog Grid View -->
+    <div id="catalogSection" style="display: none;">
+      <div class="section-header">
+        <h2 id="catalogTitle" class="section-title">Каталог</h2>
+      </div>
+
+      <div id="filterBar" class="filter-bar">
+        <div class="filter-group">
+          <span class="filter-label">Сортировка:</span>
+          <select id="sortSelect" class="filter-select">
+            <option value="RATING">По рейтингу</option>
+            <option value="NUM_VOTE">По популярности</option>
+            <option value="YEAR">По году</option>
+          </select>
+        </div>
+
+        <div class="filter-group" style="flex: 1;">
+          <div id="genrePills" class="genre-tags"></div>
+        </div>
+      </div>
+
+      <div id="catalogGrid" class="movie-grid"></div>
+    </div>
+  </main>
+
+  <!-- Clean, Simple Cinema Modal -->
+  <div id="movieModal" class="modal-overlay">
+    <div class="modal-container">
+      <button id="modalClose" class="modal-close" title="Закрыть">✕</button>
+
+      <div class="modal-body">
+        <!-- Cinema Screen -->
+        <div class="player-wrapper">
+          <iframe 
+            id="playerIframe" 
+            src="" 
+            allow="autoplay; fullscreen; picture-in-picture" 
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <!-- Single Streamlined Controls Bar -->
+        <div class="cinema-controls-bar">
+          <div class="control-item">
+            <span class="control-label">Озвучка:</span>
+            <select id="voiceoverSelect" class="control-select"></select>
+          </div>
+
+          <div class="control-item">
+            <span class="control-label">Качество:</span>
+            <select id="qualitySelect" class="control-select">
+              <option value="1080p">1080p (Full HD)</option>
+              <option value="720p">720p (HD)</option>
+              <option value="480p">480p (SD)</option>
+            </select>
+          </div>
+
+          <div class="control-item">
+            <span class="control-label">Сервер:</span>
+            <select id="balancerSelect" class="control-select"></select>
+          </div>
+
+          <div class="actions-group">
+            <button id="downloadMp4Btn" class="btn btn-primary">
+              ⬇ Скачать MP4
+            </button>
+            <a id="magnetLinkBtn" href="#" class="btn btn-secondary" style="display: none;">
+              Magnet
+            </a>
+            <button id="bookmarkBtn" class="btn btn-secondary">
+              В закладки
+            </button>
+          </div>
+        </div>
+
+        <!-- Movie Info Summary -->
+        <div class="movie-info-panel">
+          <div class="movie-header-row">
+            <h1 id="modalTitle" class="movie-title"></h1>
+            <div id="modalRatings" class="movie-ratings"></div>
+          </div>
+          
+          <div id="modalMeta" class="movie-meta-line"></div>
+          <p id="modalDesc" class="movie-description"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toastContainer" class="toast-container"></div>
+
+  <script src="/js/api.js?v=4.0"></script>
+  <script src="/js/app.js?v=4.0"></script>
+</body>
+</html>

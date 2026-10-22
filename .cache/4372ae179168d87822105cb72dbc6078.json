@@ -1,0 +1,723 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 1382256,
+      "imdbId": "tt12042730",
+      "nameRu": "Проект «Конец света»",
+      "nameEn": null,
+      "nameOriginal": "Project Hail Mary",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.2,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1382256.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1382256.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "Микробиолог Райленд Грейс просыпается на космическом корабле, не помня ни себя, ни свою миссию. Мужчина выясняет, что он — единственный выживший из экипажа, отправленного к звезде Тау Кита в поисках спасения от катастрофы на Земле. Чтобы найти решение, Райленду предстоит положиться на свои обширные научные знания и изобретательность, но, возможно, ему не придётся искать в одиночку.",
+      "ratingAgeLimits": null
+    },
+    {
+      "kinopoiskId": 389,
+      "imdbId": "tt0110413",
+      "nameRu": "Леон",
+      "nameEn": null,
+      "nameOriginal": "Léon",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.7,
+      "ratingImdb": 8.5,
+      "year": 1994,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/389.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/389.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a000001893576ecd6cc34fc6a76f8d638c2/orig",
+      "logoUrl": null,
+      "description": "Профессиональный убийца Леон неожиданно для себя самого решает помочь 12-летней соседке Матильде, семью которой убили коррумпированные полицейские.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 251733,
+      "imdbId": "tt0499549",
+      "nameRu": "Аватар",
+      "nameEn": null,
+      "nameOriginal": "Avatar",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.9,
+      "year": 2009,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/251733.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/251733.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c0785270848e3d609328a0711e8/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a00000176f1bb64212c9df414a8909c8f44/orig",
+      "description": "Бывший морпех Джейк Салли прикован к инвалидному креслу. Несмотря на немощное тело, Джейк в душе по-прежнему остается воином. Он получает задание совершить путешествие в несколько световых лет к базе землян на планете Пандора, где корпорации добывают редкий минерал, имеющий огромное значение для выхода Земли из энергетического кризиса.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 461939,
+      "imdbId": "tt1189340",
+      "nameRu": "Линкольн для адвоката",
+      "nameEn": null,
+      "nameOriginal": "The Lincoln Lawyer",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.3,
+      "year": 2011,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/461939.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/461939.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c2847a6dd91d7740aeb23fe2cb2/orig",
+      "logoUrl": null,
+      "description": "Мики Холлер — блестящий и удачливый адвокат из Лос-Анджелеса, чей яркий имидж и образ жизни отлично дополняет его любимая машина «Линкольн». Очередное дело — нападение богатого клиента Луи Руле на проститутку сначала казалось легким, и он без труда добился оправдательного приговора для подзащитного. Но вскоре Микки понимает, что его клиент скрывает правду. Пока Холлер пытается вывести Руле на чистую воду, его подставляют по-крупному, и теперь уже угроза тюремного заключения нависает над самим адвокатом.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 81314,
+      "imdbId": "tt0407887",
+      "nameRu": "Отступники",
+      "nameEn": null,
+      "nameOriginal": "The Departed",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Гонконг"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 8.5,
+      "year": 2006,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/81314.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/81314.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000018d2170320e2d7a4975e53a2a63eb/orig",
+      "logoUrl": null,
+      "description": "Два лучших выпускника полицейской академии оказались по разные стороны баррикады: один из них — агент мафии в рядах правоохранительных органов, другой — «крот», внедрённый в мафию. Каждый считает своим долгом обнаружить и уничтожить противника.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 2213,
+      "imdbId": "tt0120338",
+      "nameRu": "Титаник",
+      "nameEn": null,
+      "nameOriginal": "Titanic",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8,
+      "year": 1997,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/2213.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/2213.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a0000017c072058bf3296e607be426aedf6/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a000001729e8bc06ab8fbd24ff28cf4e297/orig",
+      "description": "Апрель 1912 года. В первом и последнем плавании шикарного «Титаника» встречаются двое. Пассажир нижней палубы Джек выиграл билет в карты, а богатая наследница Роза отправляется в Америку, чтобы выйти замуж по расчёту. Чувства молодых людей только успевают расцвести, и даже не классовые различия создадут испытания влюблённым, а айсберг, вставший на пути считавшегося непотопляемым лайнера.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 2656,
+      "imdbId": "tt0119116",
+      "nameRu": "Пятый элемент",
+      "nameEn": null,
+      "nameOriginal": "The Fifth Element",
+      "countries": [
+        {
+          "country": "Франция"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.6,
+      "year": 1997,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/2656.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/2656.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000018ca5840284aa08ddffd4e6d96724/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017af8518090563463ba17354a88cb/orig",
+      "description": "2257 год. Бывший секретный агент Корбен Даллас работает таксистом, ест в одном и том же ресторане и не ждёт перемен от жизни. Всё меняется, когда в его такси падает инопланетянка Лилу — единственное существо, способное спасти человечество. Вместе им предстоит остановить надвигающееся зло и предотвратить межгалактическую войну.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 3442,
+      "imdbId": "tt0332452",
+      "nameRu": "Троя",
+      "nameEn": null,
+      "nameOriginal": "Troy",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Болгария"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.3,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/3442.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/3442.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017c2800708c8538ed3827cfbdfa3f/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017298c094048b106f4e76d40a8ad8/orig",
+      "description": "1193 год до нашей эры. Парис украл прекрасную Елену, жену царя Спарты Менелая. За честь Менелая вступается его брат – царь Агамемнон. Его армия под предводительством Ахиллеса подошла к Трое и взяла город в кровавую осаду, длившуюся долгих десять лет… Два мира будут воевать за честь и власть. Тысячи умрут за славу. И за любовь нация сгорит дотла.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 522,
+      "imdbId": "tt0120735",
+      "nameRu": "Карты, деньги, два ствола",
+      "nameEn": null,
+      "nameOriginal": "Lock, Stock and Two Smoking Barrels",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.6,
+      "ratingImdb": 8.1,
+      "year": 1998,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/522.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/522.jpg",
+      "coverUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-ott/1534341/2a0000017c080ffd5ca1b3597c9a96a63c10/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a000001703f66c445bb1a49e630887e02c7/orig",
+      "description": "Четверо приятелей накопили по 25 тысяч фунтов, чтобы один из них мог сыграть в карты с опытным шулером и матерым преступником, известным по кличке Гарри Топор. Парень проиграл 500 тысяч, на выплату долга ему дали неделю, а в противном случае и ему и его друзьям каждый день будут отрубать по пальцу. Ребята решают ограбить бандитов, решивших ограбить трех ботаников, выращивающих марихуану для местного наркобарона.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 9691,
+      "imdbId": "tt0361748",
+      "nameRu": "Бесславные ублюдки",
+      "nameEn": null,
+      "nameOriginal": "Inglourious Basterds",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Германия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "военный"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.4,
+      "year": 2009,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/9691.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/9691.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017c07741fcec6f5fcde1f00be1cfe/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000016e4acd33a1edfdb81b7818353e04/orig",
+      "description": "Вторая мировая война. В оккупированной немцами Франции группа американских солдат-евреев наводит страх на нацистов, жестоко убивая и скальпируя солдат.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 586397,
+      "imdbId": "tt1853728",
+      "nameRu": "Джанго освобожденный",
+      "nameEn": null,
+      "nameOriginal": "Django Unchained",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "вестерн"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.5,
+      "year": 2012,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/586397.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/586397.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c2854acfeef8063004b88e8f47c/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a00000170cfa903c504effbb48cb6d55881/orig",
+      "description": "Шульц — эксцентричный охотник за головами, который выслеживает и отстреливает самых опасных преступников. Он освобождает раба по имени Джанго, поскольку тот может помочь ему в поисках трёх бандитов. Джанго знает этих парней в лицо, ведь у него с ними свои счёты.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 42571,
+      "imdbId": "tt0091251",
+      "nameRu": "Иди и смотри",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.3,
+      "year": 1985,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/42571.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/42571.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a0000017c2803a7a64c7172664e5c7f615a/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a00000171f4392f8cd060c36db5969e8ea1/orig",
+      "description": "1943 год, Великая Отечественная война. Подросток Флёра, откопав карабин среди обрывков колючей проволоки, ржавых пулемётных лент и простреленных касок, отправляется в лес к партизанам.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 44745,
+      "imdbId": null,
+      "nameRu": "Кавказская пленница, или Новые приключения Шурика",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мюзикл"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 8.2,
+      "year": 1966,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/44745.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/44745.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000018ca653f8c51f69a66327a11dff08/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000172283baed060fc41e02fa6cc1e88/orig",
+      "description": "Отправившись в одну из горных республик собирать фольклор, студент Шурик влюбляется в симпатичную Нину — спортсменку, отличницу, комсомолку и просто красавицу. Однако банда из трёх человек похищает девушку, чтобы насильно выдать замуж. Поняв, что происходит, Шурик отважно бросается освобождать кавказскую пленницу.",
+      "ratingAgeLimits": "age6"
+    },
+    {
+      "kinopoiskId": 322,
+      "imdbId": "tt0304141",
+      "nameRu": "Гарри Поттер и узник Азкабана",
+      "nameEn": null,
+      "nameOriginal": "Harry Potter and the Prisoner of Azkaban",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.9,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/322.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/322.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13074011/2a0000019ac528797626ac435c31210db275/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000017e1279bdad156b0db18e10058195/orig",
+      "description": "Гарри, Рон и Гермиона возвращаются на третий курс школы чародейства и волшебства Хогвартс. На этот раз они должны раскрыть тайну узника, сбежавшего из тюрьмы Азкабан, чье пребывание на воле создает для Гарри смертельную опасность.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 377,
+      "imdbId": "tt0114369",
+      "nameRu": "Семь",
+      "nameEn": null,
+      "nameOriginal": "Se7en",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.6,
+      "year": 1995,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/377.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/377.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c0772217c51790e7db1405bd29c/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a00000170ed536b85ebaac1aea7efd0dd26/orig",
+      "description": "Детектив Уильям Сомерсет — ветеран уголовного розыска, мечтающий уйти на пенсию и уехать подальше от города и его грешных обитателей. За семь дней до пенсии на Сомерсета сваливаются две неприятности: молодой напарник Миллс и особо изощренное убийство. Острый ум опытного следователя сразу определяет, что за этим преступлением, скорее всего, последуют другие.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1188529,
+      "imdbId": "tt8946378",
+      "nameRu": "Достать ножи",
+      "nameEn": null,
+      "nameOriginal": "Knives Out",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.9,
+      "year": 2019,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1188529.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1188529.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a00000198a30c6d866d274dff1cfa1a07a0/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a00000176f1c6464b62d464e2e9ddd8dbb6/orig",
+      "description": "На следующее утро после празднования 85-летия известного автора криминальных романов Харлана Тромби виновника торжества находят мёртвым. Налицо — явное самоубийство, но полиция по протоколу опрашивает всех присутствующих в особняке членов семьи, хотя, в этом деле больше заинтересован частный детектив Бенуа Блан. Тем же утром он получил конверт с наличными от неизвестного и заказ на расследование смерти Харлана. Не нужно быть опытным следователем, чтобы понять, что все приукрашивают свои отношения с почившим главой семейства, но Блану достаётся настоящий подарок — медсестра покойного, которая физически не выносит ложь.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 725190,
+      "imdbId": "tt2654430",
+      "nameRu": "Одержимость",
+      "nameEn": null,
+      "nameOriginal": "Whiplash",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "музыка"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.5,
+      "year": 2013,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/725190.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/725190.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a000001873740d79f0de1dcd9c91599295d/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1648503/2a000001705c8d2d5529bc6e4f7119b3c215/orig",
+      "description": "Эндрю мечтает стать великим. Казалось бы, вот-вот его мечта осуществится. Юношу замечает настоящий гений, дирижер лучшего в стране оркестра. Желание Эндрю добиться успеха быстро становится одержимостью, а безжалостный наставник продолжает подталкивать его все дальше и дальше – за пределы человеческих возможностей. Кто выйдет победителем из этой схватки?",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5273,
+      "imdbId": "tt0298148",
+      "nameRu": "Шрэк 2",
+      "nameEn": null,
+      "nameOriginal": "Shrek 2",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.4,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5273.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5273.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c28093779c963febf9ea02079e8/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000171a63b7faf92e12dc84419f3a492/orig",
+      "description": "Шрэк и Фиона возвращаются после медового месяца и находят письмо от родителей Фионы с приглашением на ужин. Однако те не подозревают, что их дочь тоже стала огром! Вместе с Осликом счастливая пара отправляется в путешествие, полное неожиданностей, и попадает в круговорот событий, во время которых приобретает множество друзей…",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 336,
+      "imdbId": "tt0073486",
+      "nameRu": "Пролетая над гнездом кукушки",
+      "nameEn": null,
+      "nameOriginal": "One Flew Over the Cuckoo's Nest",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 8.6,
+      "year": 1975,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/336.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/336.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017c07838b83cdc15fd2757f214742/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000173c33c1d7f06c88a8d0114aa4faa/orig",
+      "description": "Рэндла Патрика Макмёрфи, патологического преступника и бунтаря, переводят из колонии в психиатрическую клинику, чтобы установить, является он душевнобольным или нет. В клинике он обнаруживает, что отделение контролирует хладнокровная, строгая и одержимая распорядком старшая медсестра Милдред Рэтчед. Макмёрфи намерен не подчиняться абсурдным, на его взгляд, правилам и одновременно повеселиться от души. Его бунтарская натура заражает других пациентов, но сестра Рэтчед решительно настроена пресечь это.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 8124,
+      "imdbId": "tt0099785",
+      "nameRu": "Один дома",
+      "nameEn": null,
+      "nameOriginal": "Home Alone",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.8,
+      "year": 1990,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8124.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8124.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a000001843ddb39fbbe03af49e6d4c39f6e/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a00000172550ce8255397b4e3d6f9938ddf/orig",
+      "description": "Американское семейство отправляется из Чикаго в Европу, но в спешке сборов бестолковые родители забывают дома... одного из своих детей. Юное создание, однако, не теряется и демонстрирует чудеса изобретательности. И когда в дом залезают грабители, им приходится не раз пожалеть о встрече с милым крошкой.",
+      "ratingAgeLimits": "age0"
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "total": 100,
+  "totalPages": 5,
+  "items": [
+    {
+      "kinopoiskId": 13803971,
+      "imdbId": null,
+      "nameRu": "Кубок Гагарина. Героем может стать каждый",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "спорт"
+        },
+        {
+          "genre": "документальный"
+        }
+      ],
+      "ratingKinopoisk": 9.5,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/13803971.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/13803971.jpg"
+    },
+    {
+      "kinopoiskId": 6327824,
+      "imdbId": null,
+      "nameRu": "Я приду",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 9.5,
+      "ratingImdb": null,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/6327824.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/6327824.jpg"
+    },
+    {
+      "kinopoiskId": 11688917,
+      "imdbId": null,
+      "nameRu": "Маринад 4: Год любви",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "короткометражка"
+        }
+      ],
+      "ratingKinopoisk": 9.4,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/11688917.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/11688917.jpg"
+    },
+    {
+      "kinopoiskId": 2500772,
+      "imdbId": null,
+      "nameRu": "Жизнь человека. Последнее интервью",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "документальный"
+        }
+      ],
+      "ratingKinopoisk": 9.3,
+      "ratingImdb": null,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/2500772.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/2500772.jpg"
+    },
+    {
+      "kinopoiskId": 1003587,
+      "imdbId": "tt6146460",
+      "nameRu": "Гамильтон",
+      "nameEn": null,
+      "nameOriginal": "Hamilton's America",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "мюзикл"
+        }
+      ],
+      "ratingKinopoisk": 9.3,
+      "ratingImdb": 8.3,
+      "year": 2016,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1003587.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1003587.jpg"
+    },
+    {
+      "kinopoiskId": 962472,
+      "imdbId": "tt5396486",
+      "nameRu": "Hot Wheels. За гранью воображения",
+      "nameEn": null,
+      "nameOriginal": "Team Hot Wheels: The Skills to Thrill",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "детский"
+        }
+      ],
+      "ratingKinopoisk": 9.3,
+      "ratingImdb": 6.8,
+      "year": 2015,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/962472.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/962472.jpg"
+    },
+    {
+      "kinopoiskId": 8420095,
+      "imdbId": null,
+      "nameRu": "Маринад: Тайна письма",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "короткометражка"
+        }
+      ],
+      "ratingKinopoisk": 9.3,
+      "ratingImdb": null,
+      "year": 2025,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8420095.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8420095.jpg"
+    },
+    {
+      "kinopoiskId": 1228543,
+      "imdbId": null,
+      "nameRu": "14 лет и 3 минуты до победы: Фильм о чемпионстве «Локомотива»",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "спорт"
+        },
+        {
+          "genre": "документальный"
+        }
+      ],
+      "ratingKinopoisk": 9.2,
+      "ratingImdb": null,
+      "year": 2018,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1228543.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1228543.jpg"
+    },
+    {
+      "kinopoiskId": 45319,
+      "imdbId": "tt0216434",
+      "nameRu": "Жил-был пёс",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        },
+        {
+          "genre": "короткометражка"
+        }
+      ],
+      "ratingKinopoisk": 9.2,
+      "ratingImdb": 8.4,
+      "year": 1982,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/45319.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/45319.jpg"
+    },
+    {
+      "kinopoiskId": 1043713,
+      "imdbId": "tt6679360",
+      "nameRu": "Он вам не Димон",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "документальный"
+        }
+      ],
+      "ratingKinopoisk": 9.2,
+      "ratingImdb": 8.7,
+      "year": 2017,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/no-poster.png",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp/no-poster.png"
+    },
+    {
+      "kinopoiskId": 4421986,
+      "imdbId": "tt13797922",
+      "nameRu": "Слайм. Очень липкое приключение",
+      "nameEn": null,
+      "nameOriginal": "De nog grotere slijmfilm",
+      "countries": [
+        {
+          "country": "Нидерланды"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 9.2,
+      "ratingImdb": 4.7,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4421986.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4421986.jpg"
+    },
+    {
+      "kinopoiskId": 1339977,
+      "imdbId": "tt11620828",
+      "nameRu": "Уровень тревоги: Полночь",
+      "nameEn": null,
+      "nameOriginal": "Threat Level Midnight: The Movie",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "короткометражка"
+        }
+      ],
+      "ratingKinopoisk": 9.2,
+      "ratingImdb": 9.6,
+      "year": 2011,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1339977.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1339977.jpg"
+    },
+    {
+      "kinopoiskId": 952236,
+      "imdbId": "tt5223716",
+      "nameRu": "Hot Wheels. Мегатрасса",
+      "nameEn": null,
+      "nameOriginal": "Team Hot Wheels: Build the Epic Race",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "детский"
+        }
+      ],
+      "ratingKinopoisk": 9.2,
+      "ratingImdb": 6.4,
+      "year": 2015,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/952236.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/952236.jpg"
+    },
+    {
+      "kinopoiskId": 1111028,
+      "imdbId": "tt6446792",
+      "nameRu": "Минифорс. Новые герои",
+      "nameEn": null,
+      "nameOriginal": "Miniforce: New Heroes Rise",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "детский"
+        }
+      ],
+      "ratingKinopoisk": 9.2,
+      "ratingImdb": null,
+      "year": 2016,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1111028.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1111028.jpg"
+    },
+    {
+      "kinopoiskId": 1101316,
+      "imdbId": "tt7575284",
+      "nameRu": "Энчантималс. Дом, милый дом",
+      "nameEn": null,
+      "nameOriginal": "Enchantimals Finding Home",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "детский"
+        }
+      ],
+      "ratingKinopoisk": 9.1,
+      "ratingImdb": 6.7,
+      "year": 2017,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1101316.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1101316.jpg"
+    },
+    {
+      "kinopoiskId": 435,
+      "imdbId": "tt0120689",
+      "nameRu": "Зеленая миля",
+      "nameEn": null,
+      "nameOriginal": "The Green Mile",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 9.1,
+      "ratingImdb": 8.6,
+      "year": 1999,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/435.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/435.jpg"
+    },
+    {
+      "kinopoiskId": 1111031,
+      "imdbId": null,
+      "nameRu": "Лига Watchcar. Возвращение чемпиона",
+      "nameEn": null,
+      "nameOriginal": "Paueobaeteul wachika: wachagameoneui yeokseup",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "детский"
+        }
+      ],
+      "ratingKinopoisk": 9.1,
+      "ratingImdb": null,
+      "year": 2017,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1111031.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1111031.jpg"
+    },
+    {
+      "kinopoiskId": 326,
+      "imdbId": "tt0111161",
+      "nameRu": "Побег из Шоушенка",
+      "nameEn": null,
+      "nameOriginal": "The Shawshank Redemption",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 9.1,
+      "ratingImdb": 9.3,
+      "year": 1994,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/326.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/326.jpg"
+    },
+    {
+      "kinopoiskId": 8808796,
+      "imdbId": null,
+      "nameRu": "Кубок Гагарина. Верить в мечту",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "спорт"
+        },
+        {
+          "genre": "документальный"
+        }
+      ],
+      "ratingKinopoisk": 9.1,
+      "ratingImdb": null,
+      "year": 2025,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8808796.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8808796.jpg"
+    },
+    {
+      "kinopoiskId": 1360641,
+      "imdbId": "tt12026598",
+      "nameRu": "Пушистый патруль",
+      "nameEn": null,
+      "nameOriginal": "De patitas a la calle",
+      "countries": [
+        {
+          "country": "Австралия"
+        },
+        {
+          "country": "Перу"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 9.1,
+      "ratingImdb": 6.1,
+      "year": 2019,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1360641.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1360641.jpg"
+    }
+  ]
+}

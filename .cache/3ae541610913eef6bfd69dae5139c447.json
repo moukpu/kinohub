@@ -1,0 +1,245 @@
+[
+  {
+    "staffId": 1209599,
+    "nameRu": "Зак Креггер",
+    "nameEn": "Zach Cregger",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1209599.jpg",
+    "professionText": "Режиссеры",
+    "professionKey": "DIRECTOR"
+  },
+  {
+    "staffId": 1874420,
+    "nameRu": "Остин Абрамс",
+    "nameEn": "Austin Abrams",
+    "description": "Bryan",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1874420.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 1752488,
+    "nameRu": "Пол Уолтер Хаузер",
+    "nameEn": "Paul Walter Hauser",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1752488.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 3927989,
+    "nameRu": "Зак Черри",
+    "nameEn": "Zach Cherry",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3927989.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 6683883,
+    "nameRu": "Кали Реис",
+    "nameEn": "Kali Reis",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6683883.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 2706985,
+    "nameRu": "Джонно Уилсон",
+    "nameEn": "Johnno Wilson",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2706985.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 2520509,
+    "nameRu": "Девон Стюарт",
+    "nameEn": "Devon Stewart",
+    "description": "озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2520509.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 1109261,
+    "nameRu": "Шон В. Лойзер",
+    "nameEn": "Shaun W. Loeser",
+    "description": "Puker (в титрах не указан)",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1109261.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 1209599,
+    "nameRu": "Зак Креггер",
+    "nameEn": "Zach Cregger",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1209599.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 30809,
+    "nameRu": "Роберт Кульцер",
+    "nameEn": "Robert Kulzer",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_30809.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 40019,
+    "nameRu": "Рой Ли",
+    "nameEn": "Roy Lee",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_40019.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 5651695,
+    "nameRu": "Асад Кызылбаши",
+    "nameEn": "Asad Qizilbash",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_5651695.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 1435141,
+    "nameRu": "Картер Свон",
+    "nameEn": "Carter Swan",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1435141.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 1091280,
+    "nameRu": "Мири Юн",
+    "nameEn": "Miri Yoon",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1091280.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 456003,
+    "nameRu": "Оливер Бербен",
+    "nameEn": "Oliver Berben",
+    "description": "исполнительный продюсер",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_456003.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 16406,
+    "nameRu": "Роберт Берначчи",
+    "nameEn": "Robert Bernacchi",
+    "description": "исполнительный продюсер",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_16406.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 374591,
+    "nameRu": "Николь Браун",
+    "nameEn": "Nicole Brown",
+    "description": "исполнительный продюсер",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_374591.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 38181,
+    "nameRu": "Виктор Хадида",
+    "nameEn": "Victor Hadida",
+    "description": "исполнительный продюсер",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_38181.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 10430275,
+    "nameRu": "",
+    "nameEn": "Richard Wright",
+    "description": "исполнительный продюсер",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10430275.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 29743,
+    "nameRu": "Дэвид Минковски",
+    "nameEn": "David Minkowski",
+    "description": "продюсер: Чехия",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_29743.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 1209599,
+    "nameRu": "Зак Креггер",
+    "nameEn": "Zach Cregger",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1209599.jpg",
+    "professionText": "Сценаристы",
+    "professionKey": "WRITER"
+  },
+  {
+    "staffId": 4746484,
+    "nameRu": "Шей Хаттен",
+    "nameEn": "Shay Hatten",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_4746484.jpg",
+    "professionText": "Сценаристы",
+    "professionKey": "WRITER"
+  },
+  {
+    "staffId": 611243,
+    "nameRu": "Дариуш Вольски",
+    "nameEn": "Dariusz Wolski",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_611243.jpg",
+    "professionText": "Операторы",
+    "professionKey": "OPERATOR"
+  },
+  {
+    "staffId": 1988315,
+    "nameRu": "Томас Хэммок",
+    "nameEn": "Tom Hammock",
+    "description": "постановщик",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1988315.jpg",
+    "professionText": "Художники",
+    "professionKey": "DESIGN"
+  },
+  {
+    "staffId": 6244621,
+    "nameRu": "Павел Крейци",
+    "nameEn": "Pavel Krejci",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6244621.jpg",
+    "professionText": "Художники",
+    "professionKey": "DESIGN"
+  },
+  {
+    "staffId": 2032887,
+    "nameRu": "Мартина Тер-Акопова",
+    "nameEn": "Martina Ter-Akopowá",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2032887.jpg",
+    "professionText": "Художники",
+    "professionKey": "DESIGN"
+  },
+  {
+    "staffId": 2090117,
+    "nameRu": "",
+    "nameEn": "Caroline Fahrer Debes",
+    "description": "по костюмам",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2090117.jpg",
+    "professionText": "Художники",
+    "professionKey": "DESIGN"
+  }
+]

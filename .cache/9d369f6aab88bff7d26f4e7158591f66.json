@@ -1,0 +1,50 @@
+{
+  "total": 9,
+  "items": [
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/17925?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (дублированный)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/183945?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Видеоэссе: Почему «500 дней лета» — культовое кино",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/18059?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Проморолик №2",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/15751?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Проморолик",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/13877?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Фрагмент",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/13199?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "О съёмках",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/10996?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (русский язык)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/10938?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/9813?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Тизер",
+      "site": "KINOPOISK_WIDGET"
+    }
+  ]
+}

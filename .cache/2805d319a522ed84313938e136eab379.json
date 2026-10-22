@@ -1,0 +1,708 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 327,
+      "imdbId": "tt0071562",
+      "nameRu": "Крестный отец 2",
+      "nameEn": null,
+      "nameOriginal": "The Godfather: Part II",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 9,
+      "year": 1974,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/327.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/327.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a000001964993e026e0fda2a57213c2f427/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a000001729829ea0f824160c7dd396ab0a4/orig",
+      "description": "Для дона Корлеоне и его сына не существует моральных преград на пути к достижению целей. Они превращают мафию, построенную по патриархальным сицилийским законам, в весьма прагматичную, жесткую корпорацию, плавно интегрируя её в большой бизнес Америки.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 346,
+      "imdbId": null,
+      "nameRu": "12 разгневанных мужчин",
+      "nameEn": null,
+      "nameOriginal": "12 Angry Men",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 9,
+      "year": 1956,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/346.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/346.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "Юношу обвиняют в убийстве собственного отца, ему грозит электрический стул. Двенадцать присяжных собираются, чтобы вынести вердикт: виновен или нет. С начала заседания почти все считают подсудимого виновным, и лишь только один из двенадцати позволил себе усомниться. И он решает убедить остальных в своей правоте.",
+      "ratingAgeLimits": "age16"
+    },
+    {
+      "kinopoiskId": 1183599,
+      "imdbId": "tt12200256",
+      "nameRu": "Огонь",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 6.5,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1183599.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1183599.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c2d209274c1294b0e9f9a0d3f99/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a00000178c58053b3aaf74c885e05914c85/orig",
+      "description": "После гибели подчинённого бывалый инструктор бригады пожарных Алексей Соколов хотел было уволиться, но лето в России — жаркая пора. Взяв в команду шестым нахального новичка, парня своей дочери, Соколов отправляется на очередное задание в Карелию. И это задание будет гораздо сложнее, чем он мог себе представить.",
+      "ratingAgeLimits": "age6"
+    },
+    {
+      "kinopoiskId": 77265,
+      "imdbId": null,
+      "nameRu": "Шерлок Холмс и доктор Ватсон: Кровавая надпись",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 8.3,
+      "year": 1979,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/77265.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/77265.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017c0769ea9625cd2ac64a348d58a4/orig",
+      "logoUrl": null,
+      "description": "В первой серии мы оказываемся свидетелями знакомства Шерлока Холмса с доктором Ватсоном. Во второй — Шерлок Холмс раскроет тайну «кровавой надписи» и выследит загадочного неуловимого убийцу.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 7226,
+      "imdbId": "tt0276919",
+      "nameRu": "Догвилль",
+      "nameEn": null,
+      "nameOriginal": "Dogville",
+      "countries": [
+        {
+          "country": "Франция"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Швеция"
+        },
+        {
+          "country": "Германия"
+        },
+        {
+          "country": "Италия"
+        },
+        {
+          "country": "Дания"
+        },
+        {
+          "country": "Норвегия"
+        },
+        {
+          "country": "Нидерланды"
+        },
+        {
+          "country": "Финляндия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8,
+      "year": 2003,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7226.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7226.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017c07307b243913f660a85a866ccd/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a0000016eadd3919d559d33125b651d4fd5/orig",
+      "description": "Юная Грейс, сбежав от банды гангстеров, находит спасение в маленьком городке Догвилль где-то в Скалистых горах. Местные жители – один прекраснее другого – готовы ее укрыть. А взамен им совсем ничего не надо, ну, разве что помочь по дому или присмотреть за детьми. Но постепенно милый Догвилль превращается для девушки в тюрьму.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 46368,
+      "imdbId": "tt0073442",
+      "nameRu": "Не может быть!",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.6,
+      "year": 1975,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/46368.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/46368.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c073211f7cde4326a96e50a4abf/orig",
+      "logoUrl": null,
+      "description": "Фильм включает три новеллы о негативных явлениях провинциальной жизни молодой страны Советов: тупости, пьянстве, стяжательстве, бездуховности - всем том, что и сейчас существует благополучно и повсеместно.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 681849,
+      "imdbId": null,
+      "nameRu": "Лучшее предложение",
+      "nameEn": null,
+      "nameOriginal": "La migliore offerta",
+      "countries": [
+        {
+          "country": "Италия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.8,
+      "year": 2012,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/681849.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/681849.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017c071c175369939ffcae0c3f983b/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a0000016e4aff166f01a8553533fe417a69/orig",
+      "description": "Вергилий Олдман — управляющий директор ведущего аукционного дома. Время от времени со своим партнёром Билли на глазах у всего мира он проворачивает хитроумные аферы, ловко манипулируя и вводя в заблуждение как продавцов, так и покупателей. В секретном зале своей виллы он собрал сотни бесценных картин из разных эпох.\n\nОднажды таинственная женщина, скрывающая свою личность, просит его продать антиквариат её семьи. Среди многочисленных произведений искусства раз за разом Олдман обнаруживает частицы давно утерянного механизма. В своё время поговаривали, что для того, чтобы его оживить, создатели прибегали к помощи высших сил… Складывая, как пазл, найденные детали, вместе со своим гениальным другом Робертом они пытаются разгадать этот секрет. Но Олдман заинтересован не только предметами старины…",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 41442,
+      "imdbId": "tt0200267",
+      "nameRu": "Ворошиловский стрелок",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.4,
+      "year": 1999,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/41442.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/41442.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c0782364222de94a52414c333e9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a000001771ad01a7b636622995da8971f83/orig",
+      "description": "Пенсионер, железнодорожник в отставке, скромно живёт со своей внучкой Катей. В соседнем доме постоянно собираются трое молодых бездельников, чувствующие себя безнаказанными хозяевами жизни. Однажды они хитростью заманили Катю к себе, где изнасиловали.\n\nПоначалу насильников арестовывают, однако отец одного из них — большой милицейский начальник — освобождает их. После безуспешных попыток наказать преступников законным путём, Иван Фёдорович посчитал своим долгом восстановить справедливость сам...",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 63991,
+      "imdbId": "tt0383574",
+      "nameRu": "Пираты Карибского моря: Сундук мертвеца",
+      "nameEn": null,
+      "nameOriginal": "Pirates of the Caribbean: Dead Man's Chest",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.4,
+      "year": 2006,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/63991.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/63991.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017c280c4ceb3d74b4756c083a37b7/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000016eadd30c4364e99037d0995bd78d/orig",
+      "description": "Вновь оказавшись в ирреальном мире, лихой капитан Джек Воробей неожиданно узнает, что является должником легендарного капитана «Летучего Голландца» Дэйви Джонса. Джек должен в кратчайшие сроки решить эту проблему, иначе ему грозит вечное проклятие и рабское существование после смерти. Вдобавок ко всему, срывается свадьба Уилла Тернера и Элизабет Суонн, которые вынуждены составить Джеку компанию в его злоключениях…",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 2717,
+      "imdbId": "tt0266697",
+      "nameRu": "Убить Билла",
+      "nameEn": null,
+      "nameOriginal": "Kill Bill: Vol. 1",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.7,
+      "ratingImdb": 8.2,
+      "year": 2003,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/2717.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/2717.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c07263bfee0256f77776d195476/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a0000016fc34960ad93f63ad1fd539a7b4e/orig",
+      "description": "В беременную наёмную убийцу по кличке Чёрная Мамба во время бракосочетания стреляет человек по имени Билл. Но голова у женщины оказалась крепкой — пролежав четыре года в коме, бывшая невеста приходит в себя. Она горит желанием найти предателей. Теперь только безжалостная месть успокоит сердце Чёрной Мамбы, и она начинает по очереди убивать членов банды Билла, решив оставить главаря напоследок.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 46638,
+      "imdbId": "tt0076391",
+      "nameRu": "Мимино",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8,
+      "year": 1977,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/46638.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/46638.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000018da881aa273a373fbeae2f38d8e8/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a00000177abddb913d2179b1109828e65d8/orig",
+      "description": "Провинциальный пилот Валико Мизандари по прозвищу Мимино, что значит «сокол», занимается вертолётными перевозками почты, фруктов, кур, баранов и даже коров в горных районах Грузинской ССР. Однажды встретив в Тбилисском аэропорту приятеля по лётному училищу и увидев, на каком великолепном сверхзвуковом самолёте тот летает и в компании каких красавиц-стюардесс работает, Мимино решает изменить свою жизнь и отправляется в Москву подавать документы на переобучение. В гостинице он оказывается в одном номере с армянским водителем Рубеном Хачикяном, которого ошибочно приняли за профессора-эндокринолога.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5619,
+      "imdbId": "tt0121766",
+      "nameRu": "Звёздные войны: Эпизод 3 – Месть ситхов",
+      "nameEn": null,
+      "nameOriginal": "Star Wars: Episode III - Revenge of the Sith",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Швейцария"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Италия"
+        },
+        {
+          "country": "Таиланд"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.7,
+      "year": 2005,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5619.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5619.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c2809e221f689e793b31560dff8/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000016fa88938a9fba0dfc503ce6411e7/orig",
+      "description": "Идёт третий год Войн клонов. Галактическая Республика, некогда бывшая спокойным и гармоничным государством, превратилась в поле битвы между армиями клонов, возглавляемых канцлером Палпатином, и армадами дроидов, которых ведёт граф Дуку, тёмный лорд ситхов. Республика медленно погружается во тьму. Лишь рыцари-джедаи, защитники мира и справедливости, могут противостоять злу, которое вскоре поглотит галактику. Но настоящая битва идёт в душе у молодого рыцаря-джедая Энакина, который разрывается между долгом джедая и любовью к своей жене, сенатору Падме Амидале. И от того, какое чувство в нём победит, зависит будущее всего мира.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 738,
+      "imdbId": null,
+      "nameRu": "Жизнь Дэвида Гейла",
+      "nameEn": null,
+      "nameOriginal": "The Life of David Gale",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Германия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.5,
+      "year": 2002,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/738.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/738.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000017c0776dbd02336697629d79b7ca7/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a0000016e043be2e9c73723c7a400e3d062/orig",
+      "description": "Дэвид Гейл — человек, который пробовал жить в соответствии со своими принципами, но, в причудливом повороте судьбы, этот преданный отец, популярный профессор и ярый противник смертной казни окажется в камере смертников за убийство активистки Констанции Харравей. За три дня до исполнения приговора Гейл соглашается дать интервью репортеру Битси Блум.\nНо журналистка вскоре понимает, что ее участие в этом деле не ограничится одним интервью и что жизнь человека находится в ее руках. Поставив на кон свою собственную безопасность, она начинает расследовать те ужасные события, которые окружали смерть Констанции.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 3707,
+      "imdbId": "tt0335345",
+      "nameRu": "Страсти Христовы",
+      "nameEn": null,
+      "nameOriginal": "The Passion of the Christ",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.3,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/3707.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/3707.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000018d46eccf9f527e1bdc2b00895633/orig",
+      "logoUrl": null,
+      "description": "Попытка детально воссоздать последние двенадцать часов из жизни Иисуса Христа.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 838,
+      "imdbId": "tt0145487",
+      "nameRu": "Человек-паук",
+      "nameEn": null,
+      "nameOriginal": "Spider-Man",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 7.4,
+      "year": 2002,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/838.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/838.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c0726bafc6799ff1815121821cc/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000016eadd455a2f17fd3676319109d80/orig",
+      "description": "Питер Паркер – обыкновенный школьник. Однажды он отправился с классом на экскурсию, где его кусает странный паук-мутант. Через время парень почувствовал в себе нечеловеческую силу и ловкость в движении, а главное – умение лазать по стенам и метать стальную паутину. Свои способности он направляет на защиту слабых. Так Питер становится настоящим супергероем по имени Человек-паук, который помогает людям и борется с преступностью. Но там, где есть супергерой, рано или поздно всегда объявляется и суперзлодей...",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 692861,
+      "imdbId": "tt2267998",
+      "nameRu": "Исчезнувшая",
+      "nameEn": null,
+      "nameOriginal": "Gone Girl",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.1,
+      "year": 2014,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/692861.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/692861.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13051577/2a00000198f13476fa88c3246dca2b246607/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1648503/2a0000017bf4245c84f48dbdc48af1aca7f8/orig",
+      "description": "Всё было готово для празднования пятилетия супружеской жизни, когда вдруг необъяснимо пропала виновница торжества. Остались следы борьбы в доме, кровь, которую явно пытались стереть, и цепочка подсказок в игре «охота за сокровищами» - жена ежегодно устраивала её для своего обожаемого мужа. И похоже, что эти подсказки дают шанс пролить свет на судьбу исчезнувшей.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 462606,
+      "imdbId": "tt1219289",
+      "nameRu": "Области тьмы",
+      "nameEn": null,
+      "nameOriginal": "Limitless",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.4,
+      "year": 2011,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/462606.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/462606.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c074e0dfd5dc8d9353ddc5bdf3d/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a0000016e4af6c2eb6d8d847857255fe628/orig",
+      "description": "Нью-йоркский писатель Эдди, желая преодолеть чёрную полосу в жизни, принимает засекреченный препарат под названием NZT. Таблетка выводит мозг парня на работу в нереальной мощности. Этот творческий наркотик меняет всю жизнь Эдди, за короткий срок он зарабатывает кучу денег, но скоро начинает страдать от зловещих побочных эффектов препарата. А когда пытается найти других NZT-гениев, чтобы понять, как можно справиться с этим пристрастием, он узнает страшную правду…",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 8408,
+      "imdbId": "tt0330373",
+      "nameRu": "Гарри Поттер и Кубок огня",
+      "nameEn": null,
+      "nameOriginal": "Harry Potter and the Goblet of Fire",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.7,
+      "year": 2005,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8408.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8408.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000019ac9c5385f40dea2a3ded81c1d5e/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017e12773bfdd3f76d7522a25066bd/orig",
+      "description": "Гарри Поттер, Рон и Гермиона возвращаются на четвёртый курс школы чародейства и волшебства Хогвартс. При таинственных обстоятельствах Гарри был отобран в число участников опасного соревнования — Турнира Трёх Волшебников, однако проблема в том, что все его соперники — намного старше и сильнее.\nК тому же, знаки указывают на возвращение Лорда Волдеморта. Вскоре Гарри предстоит побороться не только за победу в соревновании, но и за свою жизнь.",
+      "ratingAgeLimits": "age16"
+    },
+    {
+      "kinopoiskId": 6889,
+      "imdbId": "tt0328107",
+      "nameRu": "Гнев",
+      "nameEn": null,
+      "nameOriginal": "Man on Fire",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.7,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/6889.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/6889.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13074011/2a00000199d5091120661f0cc282b8efa82b/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a00000171c5194130d623da9a140731f771/orig",
+      "description": "Состоятельные жители Мехико в панике: всего за шесть дней в городе пропали 24 человека. Бывшего агента ЦРУ Джона Кризи нанимают телохранителем девятилетней дочери промышленника Сэмюэля Рамоса, Питы Рамос. Поначалу Кризи терпит соседство не по годам развитой девочки, но со временем они становятся друзьями.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5502,
+      "imdbId": "tt0096874",
+      "nameRu": "Назад в будущее 2",
+      "nameEn": null,
+      "nameOriginal": "Back to the Future Part II",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.8,
+      "year": 1989,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5502.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5502.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c0786a59fce43a74c18951c2519/orig",
+      "logoUrl": null,
+      "description": "Продолжение фантастической истории о приключениях американского подростка во времени. На этот раз с помощью модернизированной Доком машины времени Марти из 80-х попадает в будущее.\n\nДети Марти в беде, и их надо выручать. Приходится повозиться со злодеем...",
+      "ratingAgeLimits": "age12"
+    }
+  ]
+}

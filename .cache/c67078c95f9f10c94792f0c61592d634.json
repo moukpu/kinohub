@@ -1,0 +1,687 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 7653,
+      "imdbId": "tt0114055",
+      "nameRu": "Особенности национальной охоты",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.4,
+      "year": 1995,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7653.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7653.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017c0813fc6d9c0a4f5ebe55a4bf06/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a00000176fce87992e28f07cd0d070ac56e/orig",
+      "description": "Молодой финский специалист по охоте, «финик», уговаривает своего русского друга помочь ему поучаствовать в настоящей русской охоте, дабы познакомиться с нравами и привычками русских охотников.\n\nДо боли знакомые нам бесконечные застолья с последующими приключениями, насыщенными крепким запахом водки, непрестанно удивляют и поражают «финика», но все же, сопоставляя традиции исторического прошлого со своеобразием настоящего, финн не жалеет о потерянном времени...",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1091,
+      "imdbId": "tt0119654",
+      "nameRu": "Люди в чёрном",
+      "nameEn": null,
+      "nameOriginal": "Men in Black",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.3,
+      "year": 1997,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1091.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1091.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c0782fda15a6aa3ce860c99c4ab/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017179252ff8a3a180b99cf02e7565/orig",
+      "description": "Они - самый большой секрет Земли. Они работают на неофициальное правительственное агентство, регулирующее деятельность инопланетян на Земле.\nОни - это лучшая, последняя и единственная линия защиты Земли от отбросов вселенной. Их работа секретна, их оружие совершенно, им нет равных, они не оставляют следов. Они - это Люди в черном.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 485311,
+      "imdbId": "tt1504320",
+      "nameRu": "Король говорит!",
+      "nameEn": null,
+      "nameOriginal": "The King's Speech",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8,
+      "year": 2010,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/485311.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/485311.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a000001875200a7c135382464b303c157d9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017af1cccb336a15c9d84a853ad1ef/orig",
+      "description": "1936 год. После того как его брат отрёкся от престола, герцог Йоркский соглашается на трон. Измученный сильным заиканием и сомнениями в собственных способностях руководить страной, Георг VI обращается за помощью к логопеду по имени Лайонел Лог.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 6944852,
+      "imdbId": "tt34956443",
+      "nameRu": "Нэчжа побеждает Царя драконов",
+      "nameEn": null,
+      "nameOriginal": "Ne zha zhi mo tong nao hai",
+      "countries": [
+        {
+          "country": "Китай"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 7.9,
+      "year": 2025,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/6944852.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/6944852.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13074011/2a00000198e62bce98324dc3e397f5fce348/orig",
+      "logoUrl": null,
+      "description": "Наделенный неконтролируемой силой озорной и весёлый мальчишка Нэчжа, чтобы спасти своих родителей и друзей, отправляется в грандиозное и полное приключений путешествие по волшебным мирам. Любовь к семье, мудрый, но непутёвый наставник и вера в крепкую дружбу помогают ему преодолеть испытания на своём пути.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 1234939,
+      "imdbId": null,
+      "nameRu": "Счастье в конверте",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 6.4,
+      "year": 2019,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1234939.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1234939.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c2d2f2feedfb38d85a40ed6b803/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a000001769bf4aec3c5eed88dd2f1887ffa/orig",
+      "description": "Три удивительные истории о любви и дружбе, о вере в мечту и связи поколений, о том, как не предавать себя и оставаться человеком в любой жизненной ситуации.\n\nВ век технологий люди привыкли спешить, бежать, зарабатывать, забывая при этом о главном – о себе и своих настоящих желаниях. Нам кажется, что мы станем счастливее как только у нас появится новая машина или высокая зарплата. А все значительно проще – секрет счастья скрыт в душе каждого человека: в умении верить в чудо, дружить, любить, быть отважным, следовать за своей мечтой!",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 368937,
+      "imdbId": null,
+      "nameRu": "Приключения Шерлока Холмса и доктора Ватсона: Охота на тигра",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 8.3,
+      "year": 1980,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/368937.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/368937.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a0000017c0734eb142164ba4eafc3800e56/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a00000173c31122f4289a972f9e73725784/orig",
+      "description": "Доктор Ватсон рано похоронил своего друга в водах Рейхенбахского водопада. Шерлок Холмс не так прост. Он воскрес из мертвых, чтобы вступить в схватку с последним безжалостным убийцей из шайки гения преступного мира профессора Мориарти...",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5928,
+      "imdbId": "tt0104431",
+      "nameRu": "Один дома 2: Затерянный в Нью-Йорке",
+      "nameEn": null,
+      "nameOriginal": "Home Alone 2: Lost in New York",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 6.9,
+      "year": 1992,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5928.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5928.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017c280ae7bb74e6c44a915d3ed8fa/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000170ed5eac70d1cc0e4843a4e73c8c/orig",
+      "description": "Самый маленький герой Америки устраивает большой переполох в Нью-Йорке! Кевин МакКалистер вернулся! Но теперь он один не дома, а в Нью-Йорке и у него достаточно денег и кредитных карточек, чтобы превратить Большое Яблоко в собственную площадку для игр.\n\nНо, как всегда, Кевину не суждено быть долго одному: его старые приятели ― жулики Гарри и Марв ― сбежали из тюрьмы, куда они попали стараниями Кевина. И надо же им было попасть именно в тот город, где Кевин планировал поразвлечься! Новые западни и ловушки уже ждут горе-бандитов.",
+      "ratingAgeLimits": "age0"
+    },
+    {
+      "kinopoiskId": 436263,
+      "imdbId": "tt1343703",
+      "nameRu": "Брестская крепость",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        },
+        {
+          "country": "Беларусь"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.4,
+      "year": 2010,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/436263.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/436263.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c28465f7f0dc05f9ae7326c9ced/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a00000171ca733695f217f7867cda9c75fa/orig",
+      "description": "История о героической обороне Брестской крепости, которая приняла на себя первый удар немецко-фашистских захватчиков 22 июня 1941 года. Рассказ о трёх главных очагах сопротивления, возглавляемых командиром полка Петром Гавриловым, комиссаром Ефимом Фоминым и начальником 9-й погранзаставы Андреем Кижеватовым.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 409507,
+      "imdbId": "tt1220719",
+      "nameRu": "Ип Ман",
+      "nameEn": null,
+      "nameOriginal": "Yip Man",
+      "countries": [
+        {
+          "country": "Гонконг"
+        },
+        {
+          "country": "Китай"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8,
+      "year": 2008,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/409507.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/409507.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a0000019ab5e83dc6f406b792d66863012f/orig",
+      "logoUrl": null,
+      "description": "Признанный мастер кунг-фу Ип Ман живёт в Фошане — городе, славном школами боевых искусств. Ип Ман практикует вин-чун и, хотя является сильнейшим бойцом города, своей школы у него нет, и он не берет учеников. Дома он проводит лишь легкие спарринги с приятелями. Проходят годы, Китай захватывают воинственные японцы, и Ип Ман оказывается одним из немногих, кто даже в жесточайших условиях оккупации не забывает о чести, достоинстве и, конечно же, мудрости, которую несет в себе кунг-фу.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 382,
+      "imdbId": "tt0120586",
+      "nameRu": "Американская история X",
+      "nameEn": null,
+      "nameOriginal": "American History X",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.5,
+      "year": 1998,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/382.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/382.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000017c074ac8711e0d9ff163c7beb75b/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a00000170ed5465312908f2e30bb6c1a9d6/orig",
+      "description": "Лидер местной банды скинхедов Дерек Виньярд прочно удерживает авторитет в своём районе. Убеждённый в своей правоте, он беспощадно расправляется с теми, кто имеет не белый цвет кожи. Независимость и смелость Дерека вызывают восхищение у его младшего брата Дэнни, который уже тоже сделал свой выбор.\nНо совершённое Дереком зверское убийство двух чернокожих парней разделяет дороги братьев: Дерек оказывается в тюрьме, где существует свой расклад сил, а Дэнни на свободе успешно продолжает дело брата. До тех пор, пока их пути не пересекаются вновь.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 351,
+      "imdbId": "tt0169547",
+      "nameRu": "Красота по-американски",
+      "nameEn": null,
+      "nameOriginal": "American Beauty",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.3,
+      "year": 1999,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/351.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/351.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c07729e4200e8597a7905055bb8/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a00000170ed5073f25626c684b6f0dcc0bd/orig",
+      "description": "Лестер Бернэм переживает кризис среднего возраста. Его не уважают и не ценят на работе, а от счастливой семьи осталась лишь видимость. У жены Кэролайн страстный роман с коллегой по работе, а угрюмая дочь-подросток Джейн увлечена соседским парнем, побывавшим в психиатрической больнице.\n\nТерзаемый душевными муками Лестер впадает в депрессию. Но неожиданно для себя влюбляется в одноклассницу дочери Анджелу, и эта страсть дает Лестеру мощный жизненный импульс. Он ощущает прилив сил и желаний и готов снова радоваться красоте.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 406,
+      "imdbId": "tt0090605",
+      "nameRu": "Чужие",
+      "nameEn": null,
+      "nameOriginal": "Aliens",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "ужасы"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.4,
+      "year": 1986,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/406.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/406.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c280333725899021452d3f7e0be/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a00000172550240536a2f24fe2027a9d6d4/orig",
+      "description": "Чужой – совершенный организм. Идеальная машина для убийства, чье физическое превосходство сочетается с его феноменальной жаждой уничтожения. Офицер Элен Рипли и команда космического корабля Ностромо один раз уже встретилась с такой тварью. В живых осталась только Элен.\n\nКапсула с Элен найдена спасателями после многих лет блуждания в космосе. Ей сообщают, что планета L.V. 426 колонизирована, и ей придется вернуться туда, где начался ее кошмар, ибо связь с колонистами прервалась. И вот в составе группы космического десанта Рипли отправляется на проклятую планету. Но теперь их там поджидает не один Чужой, а тысячи. Кто сможет выжить в этой войне: чудовища, способные только убивать, или люди, способные мыслить?",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 944098,
+      "imdbId": "tt5027774",
+      "nameRu": "Три билборда на границе Эббинга, Миссури",
+      "nameEn": null,
+      "nameOriginal": "Three Billboards Outside Ebbing, Missouri",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.1,
+      "year": 2017,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/944098.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/944098.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c2875ba31f6639282df6c728b09/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000170ed8b76ad4d0c0700e393a62897/orig",
+      "description": "Спустя несколько месяцев после убийства дочери Милдред Хейс преступники так и не найдены. Отчаявшаяся женщина решается на смелый шаг - арендует на въезде в город три билборда и оставляет на них послание главе полиции Уильяму Уиллоуби. Когда в ситуацию оказывается втянут ещё и заместитель шерифа Диксон, инфантильный маменькин сынок со склонностью к насилию, борьба между Милдред и властями города только усугубляется.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 413362,
+      "imdbId": "tt1010048",
+      "nameRu": "Миллионер из трущоб",
+      "nameEn": null,
+      "nameOriginal": "Slumdog Millionaire",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Франция"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Индия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 8,
+      "year": 2008,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/413362.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/413362.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13051577/2a00000197a372863cbd23907c90d064ee03/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000170ed756db324d46c759fd779f758/orig",
+      "description": "Джамал Малик, 18-летний сирота из трущоб в Мумбаи, всего в одном шаге от победы в телеигре «Кто хочет стать миллионером?» и выигрыша 20 миллионов рупий. Прервав игру, его арестовывает полиция по подозрению в мошенничестве. Откуда юнец, выросший на улице, может знать так много?\nНа допросе в полиции Джамал рассказывает печальную историю своей жизни: о пережитых приключениях вместе с братом, о стычках с местными бандами, о своей трагической любви. Каждая глава личной истории удивительным образом дала ему ответы на вопросы телевикторины.\nКогда игру возобновят, инспектору полиции и шестидесяти миллионам зрителей захочется выяснить ответ только на один вопрос: зачем этот юноша, без явного стремления к богатству, решил принять участие в телепрограмме?",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 233084,
+      "imdbId": "tt0386792",
+      "nameRu": "Творение Господне",
+      "nameEn": null,
+      "nameOriginal": "Something the Lord Made",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/233084.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/233084.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017c072869c0dc7f11fd3ed24882f5/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000016eadd09a578f39a429bad5c10964/orig",
+      "description": "1940-е. Опытный хирург Альфред Блэлок совершает революцию в медицине. Работая в одной из больниц Балтимора, он разрабатывает методику операций по спасению детей с врождённым пороком сердца. Его верным помощником и лучшим другом становится чернокожий лаборант Вивьен Томас, что считается вопиющим фактом. Дружба и совместные исследования Альфреда и Вивьена оказываются под угрозой.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 893506,
+      "imdbId": "tt6537238",
+      "nameRu": "Салют-7",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "приключения"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7.2,
+      "year": 2017,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/893506.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/893506.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c07569a6189073fc2ad637f9adb/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017f889932aa09582fe653d99c0aa4/orig",
+      "description": "Космическая станция «Салют-7», находящаяся на орбите в беспилотном режиме, неожиданно перестаёт отвечать на сигналы центра управления полётами. Принято решение об отправке на орбиту спасательной экспедиции — космический экипаж должен найти «мёртвую» станцию и впервые в мире провести стыковку с 20-тонной глыбой неуправляемого железа.\n\nКосмонавты понимают, что шансов вернуться на Землю у них немного. Но этот рискованный путь — единственно возможный. Они должны не только проникнуть на «Салют-7», но и оживить его.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 7466,
+      "imdbId": "tt0106489",
+      "nameRu": "Бронкская история",
+      "nameEn": null,
+      "nameOriginal": "A Bronx Tale",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.8,
+      "year": 1993,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7466.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7466.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017c0738732164c45a851a05b88c98/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000173b99263a9dd0ee2592fcde56e2c/orig",
+      "description": "Король бронкской мафии Сонни убил человека. Просто так. Из-за места на парковке. Среди бела дня вытащил пистолет и несколько раз выстрелил. Полиция узнала, что свидетелем преступления был 9-летний Калоджеро, и допросила мальчика. Но Калоджеро не выдал Сонни. Так началась их дружба. И когда Калоджеро вырос, он не просто стал свидетелем других кровавых деяний своего босса, но и сам оказался на краю пропасти.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 441,
+      "imdbId": "tt0119698",
+      "nameRu": "Принцесса Мононоке",
+      "nameEn": null,
+      "nameOriginal": "Mononoke-hime",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "аниме"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.3,
+      "year": 1997,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/441.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/441.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c073aacd7d6ed3d44e60181a097/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a00000173947daba25a2156e8af43dbb41b/orig",
+      "description": "Убив вепря, юный принц Аситака навлек на себя смертельное проклятие. Старая знахарка предсказала, что только он сам способен изменить свою судьбу, и отважный воин отправился в опасное путешествие. Так он оказался в загадочной стране, где люди под предводительством злой госпожи Эбоси воевали с обитателями леса: духами, демонами и гигантскими существами, каких Аситака раньше никогда не видел. \nИ была с ними принцесса Мононоке - повелительница зверей и дочь волчицы. Теперь судьба всех зависит только от одного воина - принца Аситаки.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 3793,
+      "imdbId": "tt0360486",
+      "nameRu": "Константин: Повелитель тьмы",
+      "nameEn": null,
+      "nameOriginal": "Constantine",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Германия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "ужасы"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7,
+      "year": 2005,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/3793.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/3793.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a000001863ac17704bf4e94ca16c36a500e/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000017298c1b0900a0043eef1cb396999/orig",
+      "description": "Джону Константину удалось не только побывать в аду, но и вернуться обратно. Родившись с неугодным самому себе талантом — способностью распознавать помесь ангелов и демонов, которые бродят по земле в облике людей, — Константин под давлением обстоятельств пытается совершить самоубийство, лишь бы избавиться от мучительных видений. Но неудачно. Воскрешенный против собственной воли он снова оказывается в мире живых. Теперь, отмеченный печатью суицида и получивший временное право на жизнь, он патрулирует границу, разделяющую рай и ад, тщетно надеясь на обретение спасения путем сражения с земными ставленниками зла.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 539,
+      "imdbId": "tt0119217",
+      "nameRu": "Умница Уилл Хантинг",
+      "nameEn": null,
+      "nameOriginal": "Good Will Hunting",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.4,
+      "year": 1997,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/539.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/539.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/12808873/2a00000196590a8886051d5869022c4043fc/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a000001714e7e24490f373f9cbfc7f419af/orig",
+      "description": "Уилл Хантинг - 20-летний вундеркинд из Бостона, который то и дело ввязывается в неприятные истории. И когда полиция арестовывает его за очередную драку, профессор математики берет его под свою опеку, но при одном условии: Уилл должен пройти курс психотерапии. Сеансы «перевоспитания», начавшиеся с недоверия, постепенно перерастают в дружбу между Уиллом и его наставником.",
+      "ratingAgeLimits": "age18"
+    }
+  ]
+}

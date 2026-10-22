@@ -1,0 +1,25 @@
+{
+  "total": 4,
+  "items": [
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/213429?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (дублированный)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/213395?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/211882?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Тизер-трейлер (дублированный)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/211714?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Тизер-трейлер",
+      "site": "KINOPOISK_WIDGET"
+    }
+  ]
+}

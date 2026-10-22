@@ -1,0 +1,657 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 464963,
+      "imdbId": "tt0944947",
+      "nameRu": "Игра престолов",
+      "nameEn": null,
+      "nameOriginal": "Game of Thrones",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 9,
+      "ratingImdb": 9.2,
+      "year": 2011,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/464963.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/464963.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017d5bad9aee6287b862b1414eb223/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a00000170b077ba4dca5c9303185c5e8003/orig",
+      "description": "К концу подходит время благоденствия, и лето, длившееся почти десятилетие, угасает. Вокруг средоточия власти Семи королевств, Железного трона, зреет заговор, и в это непростое время король решает искать поддержки у друга юности Эддарда Старка. В мире, где все — от короля до наемника — рвутся к власти, плетут интриги и готовы вонзить нож в спину, есть место и благородству, состраданию и любви. Между тем никто не замечает пробуждение тьмы из легенд далеко на Севере — и лишь Стена защищает живых к югу от нее.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 404900,
+      "imdbId": "tt0903747",
+      "nameRu": "Во все тяжкие",
+      "nameEn": null,
+      "nameOriginal": "Breaking Bad",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.9,
+      "ratingImdb": 9.5,
+      "year": 2008,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/404900.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/404900.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c07954f2e92e530a0947de62952/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017802c0dff697971233b0e9def244/orig",
+      "description": "Школьный учитель химии Уолтер Уайт узнаёт, что болен раком лёгких. Учитывая сложное финансовое состояние дел семьи, а также перспективы, Уолтер решает заняться изготовлением метамфетамина. Для этого он привлекает своего бывшего ученика Джесси Пинкмана, когда-то исключённого из школы при активном содействии Уайта. Пинкман сам занимался варкой мета, но накануне, в ходе рейда УБН, он лишился подельника и лаборатории.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 79848,
+      "imdbId": "tt0141842",
+      "nameRu": "Сопрано",
+      "nameEn": null,
+      "nameOriginal": "The Sopranos",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.9,
+      "ratingImdb": 9.2,
+      "year": 1999,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/79848.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/79848.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c0794961cfb170d9ead352a11b3/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017d77540e6493c43ea7a286e39ae4/orig",
+      "description": "Мафиозный босс Северного Джерси Тони Сопрано эффективно решает проблемы «семьи». Но с собственной роднёй ситуация сложнее: дети от рук отбились, брак под угрозой, в отношениях с пожилой матерью сплошное недопонимание. После серии панических атак он решает тайно посещать психотерапевта.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1040419,
+      "imdbId": "tt6226232",
+      "nameRu": "Детство Шелдона",
+      "nameEn": null,
+      "nameOriginal": "Young Sheldon",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.8,
+      "ratingImdb": 7.7,
+      "year": 2017,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1040419.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1040419.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a000001940c6cdbebfed6708f318013252d/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000176ae4fe07d00529988504128daab/orig",
+      "description": "История о непростом детстве вундеркинда Шелдона Купера. Родители юного гения не разделяют увлечения сына наукой: его мать очень религиозна, а отец, бывший футбольный тренер, предпочитает проводить вечера в компании пива и телевизора. Со сверстниками тоже не ладится, ведь Шелдона куда больше детских игрушек интересует, где можно взять обогащённый уран для научных экспериментов.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 6589776,
+      "imdbId": "tt31938062",
+      "nameRu": "Питт",
+      "nameEn": null,
+      "nameOriginal": "The Pitt",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8.7,
+      "ratingImdb": 8.9,
+      "year": 2025,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/6589776.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/6589776.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "Молодые врачи и опытные специалисты отделения неотложной помощи в Питтсбурге каждый день сталкиваются с тяжёлыми случаями, где счёт идет на минуты. За пределами операционных — личные драмы, амбиции и выбор между правилами и состраданием.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1009510,
+      "imdbId": "tt5421602",
+      "nameRu": "Энн",
+      "nameEn": null,
+      "nameOriginal": "Anne with an E",
+      "countries": [
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.9,
+      "ratingImdb": 8.6,
+      "year": 2017,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1009510.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1009510.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1648503/2a000001970c30b94816e458d441fd552c5b/orig",
+      "logoUrl": null,
+      "description": "Энн — тринадцатилетняя сирота. Девочка рано лишилась родителей и с тех пор живёт в детском приюте. Жизнь героини резко меняется, когда в результате ошибки она попадает к новым приёмным родителям, старой деве и её младшему брату.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 796660,
+      "imdbId": "tt3032476",
+      "nameRu": "Лучше звоните Солу",
+      "nameEn": null,
+      "nameOriginal": "Better Call Saul",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 9,
+      "year": 2015,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/796660.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/796660.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c079fa1c914dd8ece10dfe1a1b5/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a000001786df23de12a17b612806b370ee4/orig",
+      "description": "История об испытаниях и невзгодах, которые приходится преодолеть Солу Гудману, адвокату по уголовным делам, в тот период, когда он пытается открыть свою собственную адвокатскую контору в Альбукерке, штат Нью-Мексико.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 77044,
+      "imdbId": "tt0108778",
+      "nameRu": "Друзья",
+      "nameEn": null,
+      "nameOriginal": "Friends",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 9.2,
+      "ratingImdb": 8.8,
+      "year": 1994,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/77044.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/77044.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000019ac1e3255fb4e23b21622f60343e/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000018030bc50f4eaebeb776ebeb26b87/orig",
+      "description": "Шестеро друзей – Рейчел, Моника, Фиби, Джоуи, Чендлер и Росс – живут по соседству, вместе убивают время, делятся секретами и иногда очень сильно влюбляются.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 591929,
+      "imdbId": "tt1865718",
+      "nameRu": "Гравити Фолз",
+      "nameEn": null,
+      "nameOriginal": "Gravity Falls",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 9,
+      "ratingImdb": 8.9,
+      "year": 2012,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/591929.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/591929.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c076b69b9a4ae9c47e6a5b295db/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a00000170cd8dc5cbb1908b56731c972792/orig",
+      "description": "Приключения двойняшек Диппера и Мэйбл, которые проводят летние каникулы у двоюродного дедушки в городке под названием Гравити Фолз.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 1227803,
+      "imdbId": "tt7366338",
+      "nameRu": "Чернобыль",
+      "nameEn": null,
+      "nameOriginal": "Chernobyl",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.7,
+      "ratingImdb": 9.3,
+      "year": 2019,
+      "type": "MINI_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1227803.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1227803.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c2d2cf4532a65340ff78b24de8c/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000016e4b12d8f7141e7fece3a6268d6d/orig",
+      "description": "26 апреля 1988 года химик Валерий Легасов, надёжно спрятав шесть аудиокассет со своими воспоминаниями, вешается у себя в квартире.\n\n26 апреля 1986 года в 1:23:45 во время проведения эксперимента по безопасности на Чернобыльской АЭС происходит взрыв реактора и пожар. Поднятые по тревоге пожарные без спецзащиты прибывают на место аварии, не подозревая, что оказались в эпицентре крупнейшей в истории человечества техногенной катастрофы. Руководство ЧАЭС уверяет Кремль, что ситуация под контролем, и радиационный фон в норме, но по настоянию академика Легасова его вместе с зампредседателя Совета Министров Борисом Щербиной отправляют разобраться в происходящем на месте.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 253245,
+      "imdbId": "tt0386676",
+      "nameRu": "Офис",
+      "nameEn": null,
+      "nameOriginal": "The Office",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.7,
+      "ratingImdb": 9,
+      "year": 2005,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/253245.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/253245.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c28389a2c951ea47e67cfd687ad/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a0000016e043b4793e173b39744ee414fa1/orig",
+      "description": "Сериал о трудовых буднях небольшого регионального офиса крупной компании, обитатели которого целыми днями должны терпеть закидоны своего непутевого босса.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 89540,
+      "imdbId": "tt0069628",
+      "nameRu": "Семнадцать мгновений весны",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 9,
+      "ratingImdb": 8.7,
+      "year": 1973,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/89540.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/89540.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c077eaf85726e4c2ed1af702725/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a00000171cac591fbcf13d6c04d40ab0b77/orig",
+      "description": "Германия, канун окончания Второй мировой войны. Советский разведчик полковник Исаев, он же - штандартенфюрер СС Штирлиц, исполняет последние задания Центра, диктуемые ходом военных действий и политическими интригами верхов противоборствующих сторон.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 77202,
+      "imdbId": "tt0078655",
+      "nameRu": "Место встречи изменить нельзя",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.9,
+      "ratingImdb": 8.7,
+      "year": 1979,
+      "type": "MINI_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/77202.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/77202.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/17702706/2a0000019b35a726738fe8f70ba40eb8b3f2/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a00000172276fe4d856d9811b91b6f48d21/orig",
+      "description": "Убийства, засады, погони, перестрелки на фоне послевоенной Москвы. Сотрудники МУРа против таинственной и неуловимой банды «Чёрная кошка». Демобилизовавшийся офицер разведки Володя Шарапов начинает работать в отделе по борьбе с бандитизмом. Одно из первых дел, в расследовании которых он участвует, — убийство гражданки Ларисы Груздевой.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 378244,
+      "imdbId": "tt1048097",
+      "nameRu": "Ликвидация",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.6,
+      "ratingImdb": 8.1,
+      "year": 2007,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/378244.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/378244.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017ec0a016ddf9eb5146df65574e0a/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a00000175bbf796aaf521f94bc7c5bd8066/orig",
+      "description": "Послевоенная Одесса, разгул преступности. В городе орудует банда бывших диверсантов во главе с загадочным Академиком, которого не знают даже свои. Бандиты грабят военные склады и пытаются переправить продовольствие, обмундирование и оружие бандеровцам. В это время недовольный Жуковым Сталин назначает его командующим Одесским округом. Маршал всеми силами пытается навести в городе порядок.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1189814,
+      "imdbId": "tt13496050",
+      "nameRu": "Казанова",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": null,
+      "year": 2020,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1189814.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1189814.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/17702706/2a0000019cd42ec696c2810f38ba3a4b1eec/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a000001760578a4ca68f2d96ab1d3247ca8/orig",
+      "description": "Москва, 1978 год, канун Олимпийских игр. В Советском Союзе зарегистрировано несколько случаев мошенничества, жертвами которого стали женщины с положением в обществе. Преступника потерпевшие описывают одинаково: обаятельный, интеллигентный мужчина средних лет, с лёгкостью втирается в доверие. \nПосле попытки самоубийства заместителя председателя райисполкома за расследование резонансного дела берутся капитан милиции Шмаков и старший лейтенант милиции Полина Новгородцева. Запутанное дело перерастает в личную драму, когда Казанова узнаёт, что за ним по пятам идут московские следователи. Он намеревается провернуть привычный трюк, но на этот раз всё развивается по незапланированному сценарию.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 160958,
+      "imdbId": "tt0410975",
+      "nameRu": "Отчаянные домохозяйки",
+      "nameEn": null,
+      "nameOriginal": "Desperate Housewives",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.6,
+      "year": 2004,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/160958.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/160958.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017c28354a4a302abefbbd0a3c872e/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000016e4ad12f65c4de138bb6c1c80fc1/orig",
+      "description": "В центре событий - четыре современные домохозяйки, которые живут в тихом пригороде и отчаянно ищут личного счастья.\n\nСьюзан осталась одна после того, как муж променял её на секретаршу. Бывшая фотомодель, а ныне неверная жена, Габриель вышла замуж по расчёту, а потом поняла, что нуждается не в деньгах, а в настоящей любви, и завела роман с юным садовником. Бри пытается сохранить разваливающийся брак и найти общий язык с сыном-наркоманом и слишком рано повзрослевшей дочерью. Линнет поставила крест на блестящей карьере в крупной компании, чтобы посвятить всё свое время воспитанию детей.\n\nВнезапное самоубийство их подружки Мэри Элис Янг оставляет всех в недоумении и заставляет искать разгадку ее смерти. Мэри расстается с жизнью, но обретает способность проникать во все секреты, спрятанные за наглухо закрытыми дверями этого благополучного американского пригорода.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 502838,
+      "imdbId": "tt1475582",
+      "nameRu": "Шерлок",
+      "nameEn": null,
+      "nameOriginal": "Sherlock",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.8,
+      "ratingImdb": 9,
+      "year": 2010,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/502838.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/502838.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c079d3763e2847dc80479329734/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a00000176f14b4a1e2a3f40dd652de59d6e/orig",
+      "description": "События разворачиваются в наши дни. Он прошел Афганистан, остался инвалидом. По возвращении в родные края встречается с загадочным, но своеобразным гениальным человеком. Тот в поиске соседа по квартире. Лондон, 2010 год. Происходят необъяснимые убийства. Скотланд-Ярд без понятия, за что хвататься. Существует лишь один человек, который в силах разрешить проблемы и найти ответы на сложные вопросы.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 306084,
+      "imdbId": "tt0898266",
+      "nameRu": "Теория большого взрыва",
+      "nameEn": null,
+      "nameOriginal": "The Big Bang Theory",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.6,
+      "ratingImdb": 8.1,
+      "year": 2007,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/306084.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/306084.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c07a22ba8109ab7ccd2b11064e9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a00000176f21cbab61e42c30e88f9c4bd2f/orig",
+      "description": "Два блестящих физика Леонард и Шелдон — великие умы, которые понимают, как устроена вселенная. Но их гениальность ничуть не помогает им общаться с людьми, особенно с женщинами. Всё начинает меняться, когда напротив них поселяется красавица Пенни. \nСтоит также отметить пару странных друзей этих физиков: Воловиц который любит употреблять фразы на разных языках, включая русский, а Раджеш Кутраппали теряет дар речи при виде женщин.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 251568,
+      "imdbId": "tt0285403",
+      "nameRu": "Клиника",
+      "nameEn": null,
+      "nameOriginal": "Scrubs",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.7,
+      "ratingImdb": 8.4,
+      "year": 2001,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/251568.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/251568.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c98a9e2e2599ee02df6da74dbdf/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c98a9bc1e7fbac12cdabbfe8f9e/orig",
+      "description": "Отучившись четыре года в медицинской школе, Джон Дориан приходит работать интерном в клинику. Вместе с ним здесь же будет применять полученные знания и его лучший друг со времен колледжа Крис Терк. Не имеющие опыта практической работы молодые специалисты сразу же погружаются в хаотический мир жизни больницы.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 4909559,
+      "imdbId": "tt14186672",
+      "nameRu": "Лэндмен",
+      "nameEn": null,
+      "nameOriginal": "Landman",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.2,
+      "year": 2024,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4909559.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4909559.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000019a902874c3f5ce5447f7bd90885c/orig",
+      "logoUrl": null,
+      "description": "Мидленд-Одесса, Техас. Лэндмен Томми Норрис работает на нефтяную компанию M-TEX Oil. Каждый день ему приходится решать различные проблемы, разбираясь с мексиканскими картелями, полицейскими, федералами, конкурирующими компаниями и землевладельцами, а также с бывшей женой и двумя взрослыми детьми.",
+      "ratingAgeLimits": "age18"
+    }
+  ]
+}

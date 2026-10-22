@@ -1,0 +1,67 @@
+{
+  "kinopoiskId": 5494049,
+  "kinopoiskHDId": "9a86170d02314d5589c33163ea45dd5e",
+  "imdbId": "tt22084616",
+  "nameRu": "Человек-паук: Новый день",
+  "nameEn": null,
+  "nameOriginal": "Spider-Man: Brand New Day",
+  "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5494049.jpg",
+  "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5494049.jpg",
+  "coverUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-ott/1672343/0280264f-da2a-404a-a4f7-6e16ee83181e/orig",
+  "logoUrl": null,
+  "reviewsCount": 64,
+  "ratingGoodReview": 66,
+  "ratingGoodReviewVoteCount": 34,
+  "ratingKinopoisk": 7.9,
+  "ratingKinopoiskVoteCount": 608589,
+  "ratingImdb": 7.9,
+  "ratingImdbVoteCount": 346004,
+  "ratingFilmCritics": 7.6,
+  "ratingFilmCriticsVoteCount": 435,
+  "ratingAwait": null,
+  "ratingAwaitCount": 0,
+  "ratingRfCritics": 89,
+  "ratingRfCriticsVoteCount": 9,
+  "webUrl": "https://www.kinopoisk.ru/film/5494049/",
+  "year": 2026,
+  "filmLength": 150,
+  "slogan": null,
+  "description": "Одинокий и повзрослевший Питер Паркер полностью посвящает себя борьбе с преступностью в Нью-Йорке, поскольку 4 года назад после заклинания Доктора Стренджа мир и все близкие забыли его. Но с ростом угроз и нагрузки на Человека-паука его способности претерпевают странные изменения, способные поставить под угрозу его существование. Тем временем в городе случается новая цепочка преступлений, которая приводит к появлению одного из самых опасных противников в жизни Питера.",
+  "shortDescription": "Питер Паркер возвращается после заклинания Доктора Стренджа. Кассовый суперхит с Томом Холландом и Зендеей",
+  "editorAnnotation": null,
+  "isTicketsAvailable": false,
+  "productionStatus": "PRE_PRODUCTION",
+  "type": "FILM",
+  "ratingMpaa": "pg13",
+  "ratingAgeLimits": "age16",
+  "countries": [
+    {
+      "country": "США"
+    },
+    {
+      "country": "Великобритания"
+    },
+    {
+      "country": "Германия"
+    },
+    {
+      "country": "Канада"
+    }
+  ],
+  "genres": [
+    {
+      "genre": "приключения"
+    },
+    {
+      "genre": "боевик"
+    }
+  ],
+  "startYear": null,
+  "endYear": null,
+  "serial": false,
+  "shortFilm": false,
+  "completed": false,
+  "hasImax": false,
+  "has3D": false,
+  "lastSync": "2026-10-21T13:02:05.384453"
+}

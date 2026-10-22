@@ -1,0 +1,678 @@
+{
+  "total": 700,
+  "totalPages": 35,
+  "items": [
+    {
+      "kinopoiskId": 5494049,
+      "imdbId": "tt22084616",
+      "nameRu": "Человек-паук: Новый день",
+      "nameEn": null,
+      "nameOriginal": "Spider-Man: Brand New Day",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Германия"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.1,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5494049.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5494049.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "Одинокий и повзрослевший Питер Паркер полностью посвящает себя борьбе с преступностью в Нью-Йорке, поскольку 4 года назад после заклинания Доктора Стренджа мир и все близкие забыли его. Но с ростом угроз и нагрузки на Человека-паука его способности претерпевают странные изменения, способные поставить под угрозу его существование. Тем временем в городе случается новая цепочка преступлений, которая приводит к появлению одного из самых опасных противников в жизни Питера.",
+      "ratingAgeLimits": null
+    },
+    {
+      "kinopoiskId": 7378605,
+      "imdbId": "tt35538033",
+      "nameRu": "Обитель зла",
+      "nameEn": null,
+      "nameOriginal": "Resident Evil",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Франция"
+        },
+        {
+          "country": "Германия"
+        },
+        {
+          "country": "Австралия"
+        },
+        {
+          "country": "Канада"
+        },
+        {
+          "country": "Чехия"
+        },
+        {
+          "country": "Новая Зеландия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "ужасы"
+        }
+      ],
+      "ratingKinopoisk": 7.3,
+      "ratingImdb": 7.6,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7378605.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7378605.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "Незадачливому курьеру поручено доставить посылку в отдалённую больницу. Там парень оказывается в эпицентре вспышки неизвестного вируса и теперь вынужден сражаться с ордами мутировавших существ.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 8431006,
+      "imdbId": null,
+      "nameRu": "Искусственный интеллект",
+      "nameEn": null,
+      "nameOriginal": "Artificial",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Италия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8431006.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8431006.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "Ноябрь 2023 года. По решению совета директоров главу OpenAI Сэма Альтмана увольняют из компании. После открытого письма сотрудников против этого решения он вновь возвращается на свою должность спустя всего несколько дней.",
+      "ratingAgeLimits": null
+    },
+    {
+      "kinopoiskId": 5505674,
+      "imdbId": "tt34770550",
+      "nameRu": "Битва моторов",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "приключения"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5505674.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5505674.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a000001a014453f0d045ecd699961dccc3a/orig",
+      "logoUrl": null,
+      "description": "1908 год. Автолюбитель Андрей Нагель находит поддержку у инженера Дмитрия Бондарева. Вместе они собирают команду единомышленников и приступают к разработке автомобиля «Руссо-Балт». Когда проект оказывается под угрозой, Нагель принимает рискованное решение — доказать жизнеспособность их машины в легендарном Ралли Монако. Это шаг, который может поставить крест на проекте «Руссо-Балт».",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 5426247,
+      "imdbId": null,
+      "nameRu": "Девятая планета",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5426247.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5426247.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/17702706/2a0000019ff1118bf5fb7755d293eac8e22f/orig",
+      "logoUrl": null,
+      "description": "После несчастного случая в сознании автомеханика Димы Хруста вспыхивают воспоминания о службе на Девятой планете: удивительные пейзажи, база землян, сражения с чудовищами, друзья и любимая девушка Полина, которую он однажды спас. Сослуживцы Хруста крутят пальцем у виска, ведь у них совершенно другие — обычные армейские — воспоминания. Но когда Дима в реальной жизни встречает Полину, он уже не сомневается: кто-то скорректировал им всем память. Правду можно узнать, только вернувшись на опасную планету.",
+      "ratingAgeLimits": "age16"
+    },
+    {
+      "kinopoiskId": 7036356,
+      "imdbId": null,
+      "nameRu": "Холод",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 7.7,
+      "ratingImdb": 6.6,
+      "year": 2026,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7036356.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7036356.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/17687051/2a0000019f65d353ac7eabb7952ce56e407a/orig",
+      "logoUrl": null,
+      "description": "Женя попадает в тюрьму за аварию, в которой погибли её муж и шестилетняя дочь. Реальные виновники аварии — мажоры, чьи родители повлияли на исход дела. В колонии Женя случайно спасает зечку Яну, отбывающую срок за убийство. В благодарность та обучает Женю, как стать сильнее, чтобы отомстить, и помогает бежать. На свободе Женя обретает богатство по наводке Яны и начинает мстить своим врагам.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 8307381,
+      "imdbId": null,
+      "nameRu": "Вор в загоне",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8307381.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8307381.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2385704/7d218af5-43d7-47df-b2af-f7e8e5a63398/orig",
+      "logoUrl": null,
+      "description": "Московский психолог Антон — человек чуткий, мягкий и открытый. Он приезжает в Усть-Байкальск познакомиться с семьей своей беременной девушки и быстро понимает: будущий тесть Михаил Петрович — это не просто суровый предприниматель, а мужчина с тревожным расстройством. Антон решает помочь ему, но внезапно узнаёт: МихПет — один из главарей местной ОПГ, который так глубоко зашёл в маскировку, что даже семья ни о чём не подозревает. Дальше вместо романтической поездки — криминальные разборки и погружение в мир, где психологу становится опасно быть слишком добрым. Но парадокс в том, что именно психологическая тонкость становится тем инструментом, без которого мафиозный патриарх не справится — ни со своей тревожностью, ни с врагами, ни с собственной семьей.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 12928878,
+      "imdbId": null,
+      "nameRu": "Чудо",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 7.5,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/12928878.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/12928878.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/17735790/2a000001a0331b10e0be2032997a270a6236/orig",
+      "logoUrl": null,
+      "description": "Самая популярная блогер-коуч страны Мия знает о людях главное — чего они хотят на самом деле. То, о чём не говорят вслух даже самому себе. Миллионы людей идут к ней за переменами, за смыслом, за чудом. И их жизни действительно меняются. Но у чуда есть цена — и каждому предстоит решить, на что он готов пойти ради него.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 6385370,
+      "imdbId": "tt33764258",
+      "nameRu": "Одиссея",
+      "nameEn": null,
+      "nameOriginal": "The Odyssey",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8.4,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/6385370.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/6385370.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "После Троянской войны Одиссей, царь Итаки, во главе небольшого войска возвращается домой к своей жене Пенелопе. На своём пути Одиссей сталкивается со множеством испытаний, встречает циклопов, сирен и великанов-людоедов.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 8744383,
+      "imdbId": null,
+      "nameRu": "Трудный ребёнок",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8744383.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8744383.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a000001a0672a446f82e72b00cb09e40f34/orig",
+      "logoUrl": null,
+      "description": "Фил — профессиональный футболист, которому из-за травмы приходится работать по профессии — учителем. Но и здесь все идёт не так гладко, как хотелось молодому человеку. Фила увольняют из школы за слишком радикальные методы преподавания. Чтобы заработать на операцию и вернуться в большой футбол, герою приходится перебиваться репетиторством и случайными подработками.\nНо одна нелепая случайность меняет всё: в его руки попадает Макар — 13-летний сын криминального авторитета Лемура. Теперь Филу предстоит не только воспитать маленького социопата, мечтающего о мафиозной карьере, но и помочь дочери участкового Даше поступить в МГИМО, несмотря на сопротивление отца. Фил вынужден научиться быть взрослым, воспитывая трудного подростка, и впервые по-настоящему рискует за других, ломая свою философию вечного бездельника.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5512084,
+      "imdbId": "tt31510819",
+      "nameRu": "Гангстерленд",
+      "nameEn": null,
+      "nameOriginal": "MobLand",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8.3,
+      "year": 2025,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5512084.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5512084.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/12808873/693d13be-aaab-4c18-8014-98231de3e35c/orig",
+      "logoUrl": null,
+      "description": "Лондон. Две могущественных криминальных семьи, Харриганы и Стивенсоны, ведут войну за власть, избегая прямой конфронтации. Но шаткое перемирие может нарушить исчезновение Томми, сына главы клана Стивенсонов, которого в последний раз видели в ночном клубе с Эдди Харриганом. Глава клана Харриганов поручает Гарри Де Сузе, опытному специалисту по «решению проблем», разобраться в ситуации.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 8545317,
+      "imdbId": null,
+      "nameRu": "Полдень",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8545317.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8545317.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/12808873/a686f1a1-ac12-417a-abaa-bd3a6c38b0f4/orig",
+      "logoUrl": null,
+      "description": "Земля превратилась в воплощение гуманистической утопии. Глава Комиссии по контактам с внеземными цивилизациями Рудольф Сикорски поручает Максиму Каммереру найти Льва Абалкина — прогрессора, таинственно исчезнувшего после контакта со сверхцивилизацией Странников. Группа Абалкина исследовала планету Надежда, которая погибла вследствие чудовищного эксперимента, проводимого там Странниками. После контакта с ними Абалкин убивает напарника и летит на Землю, чтобы запустить процесс, подобный тому, что уничтожил Надежду. Каммереру удается выйти на след Абалкина, но тот всегда опережает его на шаг.",
+      "ratingAgeLimits": null
+    },
+    {
+      "kinopoiskId": 5304403,
+      "imdbId": "tt28429213",
+      "nameRu": "Слово пацана. Кровь на асфальте",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.6,
+      "year": 2023,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5304403.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5304403.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a00000194034f0771ca4e7e8761fc86831b/orig",
+      "logoUrl": null,
+      "description": "Казань, начало 1989 года. Пока родители борются за выживание, подростки сбиваются в уличные банды и бьются за асфальт. Буквально, чтобы контролировать всё, что стоит на «их» земле или передвигается по ней. Среди всеобщей нищеты — чёткие правила жизни, поддержка и слово пацана, которое сильнее клятвы.\n14-летний Андрей из интеллигентной семьи, он учится в музыкальной школе и живёт с мамой и маленькой сестрёнкой. Однажды парня назначают подтянуть по английскому сверстника Марата — гопника из местной группировки. Пообщавшись с нормальным пацаном и решив, что ему надоело быть чушпаном, Андрей вступает в банду.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 843389,
+      "imdbId": null,
+      "nameRu": "Невский",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 7.6,
+      "ratingImdb": 6.3,
+      "year": 2015,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/843389.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/843389.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/18164279/2a000001a0143c16a68767d2ba33fc04f677/orig",
+      "logoUrl": null,
+      "description": "Капитан полиции Павел Семёнов служит в спальном районе Санкт-Петербурга. Павел привык разнимать пьяные драки, в одиночку входить в наркопритоны и предпочитает сначала действовать, а потом разбираться. Рискуя жизнью, он спасает дочь бизнесмена. В благодарность отец девочки содействует переводу Павла в центр, где служить престижно и выгодно. Но отношения в новом коллективе не складываются. Большинство коллег заняты вопросами личного обогащения, борьба с преступностью их интересует в последнюю очередь. Вскоре Павел начинает подозревать, что его перевод в Центральный район был осуществлен Латышевым с какими-то далёко идущими планами.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5610132,
+      "imdbId": "tt31192372",
+      "nameRu": "Вышка 2",
+      "nameEn": null,
+      "nameOriginal": "Fall 2: Deadpoint",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Таиланд"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 6,
+      "ratingImdb": 5.6,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5610132.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5610132.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/18164279/0bb0e800-5089-4a0e-86bb-938a9f9a9cb3/orig",
+      "logoUrl": null,
+      "description": "После трагической гибели на вышке B67 видео Шайло разлетелись по сети, а сама она стала легендой среди экстремалов. Однако ее сестра Джакс так и не смогла смириться с утратой. Она находит список самых экстремальных мест на планете, которые Шайло мечтала покорить, и решает пройти его до конца. Следующая цель — смертельно опасный маршрут на горе Кван в Таиланде высотой 2070 метров над уровнем моря. Джакс вместе с подругой и местным гидом отправляется наверх, где ей предстоит столкнуться со своим главным страхом — повторить судьбу сестры.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 7954692,
+      "imdbId": null,
+      "nameRu": "Трудно быть богом",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        }
+      ],
+      "ratingKinopoisk": 6.7,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7954692.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7954692.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "В далёком будущем земляне помогают менее развитым цивилизациям преодолеть тяжёлые этапы становления. Сотрудник Института истории Антон отправляется в средневековый Арканар, чтобы спасти учёных, способных продвинуть эволюцию. Ему предстоит стать доном Руматой Эсторским — богатым аристократом, который любит драки, выпивку и женщин. Главное правило — не нарушать естественный ход истории. Но у Антона есть и личный интерес, который он скрыл от института. Где-то здесь, в Арканаре, без вести пропал его отец.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 7865896,
+      "imdbId": "tt21097264",
+      "nameRu": "К востоку от Эдема",
+      "nameEn": null,
+      "nameOriginal": "East of Eden",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": null,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "MINI_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7865896.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7865896.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": null,
+      "ratingAgeLimits": null
+    },
+    {
+      "kinopoiskId": 8484833,
+      "imdbId": "tt37601032",
+      "nameRu": "Последний богатырь. Колобок",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 3,
+      "ratingImdb": 1.1,
+      "year": 2026,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8484833.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8484833.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/12808873/2a0000019f89764b7a2b77f5af644689c6b9/orig",
+      "logoUrl": null,
+      "description": "История Колобка: с какой коварной целью его испекли, как ему удалось сбежать, как он скитался и попал в банду разбойников, а потом поневоле стал напарником неудачливого пекаря Тихона и необычной девушки Лады.",
+      "ratingAgeLimits": "age6"
+    },
+    {
+      "kinopoiskId": 5253825,
+      "imdbId": "tt26545992",
+      "nameRu": "Фонари",
+      "nameEn": null,
+      "nameOriginal": "Lanterns",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.7,
+      "ratingImdb": null,
+      "year": 2026,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5253825.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5253825.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/18701600/d3190401-42e8-4b3d-96b8-2042495e6cf9/orig",
+      "logoUrl": null,
+      "description": "Начинающий Джон Стюарт и опытный страж Хэл Джордан, межгалактические полицейские из Корпуса Зелёных Фонарей, оказываются втянуты в расследование убийства в американской глубинке.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1435343,
+      "imdbId": "tt13210838",
+      "nameRu": "Джентльмены",
+      "nameEn": null,
+      "nameOriginal": "The Gentlemen",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 8,
+      "year": 2024,
+      "type": "TV_SERIES",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1435343.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1435343.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "Молодой человек по имени Эдди Холстед узнаёт, что полученное им большое наследство связано с наркоимперией Бобби Гласса.",
+      "ratingAgeLimits": null
+    }
+  ]
+}

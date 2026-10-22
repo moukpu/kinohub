@@ -1,0 +1,65 @@
+{
+  "total": 12,
+  "items": [
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/213359?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Финальный трейлер (дублированный)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/213360?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Финальный трейлер (казахский язык)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/213350?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Финальный трейлер",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/212669?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер №2 (узбекский язык)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/212640?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер №2 (казахский язык)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/212639?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер №2 (дублированный)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/212638?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер №2",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/210924?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (казахский язык)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/210923?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (дублированный)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/210922?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/206660?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "О съёмках",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/206409?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Превью",
+      "site": "KINOPOISK_WIDGET"
+    }
+  ]
+}

@@ -1,0 +1,699 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 61237,
+      "imdbId": "tt0371746",
+      "nameRu": "Железный человек",
+      "nameEn": null,
+      "nameOriginal": "Iron Man",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.9,
+      "year": 2008,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/61237.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/61237.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017c07272423c2b76eec04c6428649/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a0000016e4acdd81a988eaa0b5b63668d37/orig",
+      "description": "Миллиардер-изобретатель Тони Старк попадает в плен к Афганским террористам, которые пытаются заставить его создать оружие массового поражения. В тайне от своих захватчиков Старк конструирует высокотехнологичную киберброню, которая помогает  ему сбежать. Однако по возвращении в США он узнаёт, что в совете директоров его фирмы плетётся заговор, чреватый страшными последствиями. Используя своё последнее изобретение, Старк пытается решить проблемы своей компании радикально...",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 386,
+      "imdbId": "tt0078748",
+      "nameRu": "Чужой",
+      "nameEn": null,
+      "nameOriginal": "Alien",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "ужасы"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.5,
+      "year": 1979,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/386.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/386.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c0768bdbd4bb13d0b98927e2c6a/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a000001725500f29fccaba71c4d1cd58730/orig",
+      "description": "В далеком будущем возвращающийся на Землю грузовой космический корабль перехватывает исходящий с неизвестной планеты сигнал. Экипаж, в соответствии с основными инструкциями, обязан найти и исследовать источник сигнала. Оказавшись на планете, астронавты повсюду обнаруживают предметы, по виду напоминающие гигантские коконы.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 12198,
+      "imdbId": "tt0119174",
+      "nameRu": "Игра",
+      "nameEn": null,
+      "nameOriginal": "The Game",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "приключения"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.7,
+      "year": 1997,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/12198.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/12198.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c0746be0fa876e5bf12c068d81f/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000016eadcf8af4208c34c2bd1f13c758/orig",
+      "description": "Николас Ван Ортон - само воплощение успеха. Он преуспевает, он невозмутим и спокоен, привык держать любую ситуацию под контролем. На день рождения Николас получает необычный подарок - билет для участия в «Игре».\n\nЕму обещают, что игра вернет яркие чувства, позволит ощутить вкус и остроту жизни. Вступив в игру, Николас начинает осознавать, что это игра всерьез, игра не на жизнь, а на смерть.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5457899,
+      "imdbId": "tt29623480",
+      "nameRu": "Дикий робот",
+      "nameEn": null,
+      "nameOriginal": "The Wild Robot",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.2,
+      "year": 2024,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5457899.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5457899.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "Посылка с роботом-помощником ROZZUM 7134 падает на необитаемый остров. Тщетно пытаясь найти задания, которые можно выполнить, робот выучивает язык животных и по наставлению опытной мамы-опоссума начинает заботиться о крохотном гусёнке, чью семью он случайно раздавил. В консультанты к нему набивается «специалист по гусям» хитрый лис Финк, с которым никто не хочет дружить.",
+      "ratingAgeLimits": null
+    },
+    {
+      "kinopoiskId": 437410,
+      "imdbId": "tt1345836",
+      "nameRu": "Темный рыцарь: Возрождение легенды",
+      "nameEn": null,
+      "nameOriginal": "The Dark Knight Rises",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8.4,
+      "year": 2012,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/437410.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/437410.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a00000186acd20310cbfc14b79597f38962/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a00000170ed77ee88e59cf1f863c0e20cf9/orig",
+      "description": "Восемь лет назад Бэтмен растворился в ночи, превратившись из героя в беглеца. Приняв на себя вину за смерть прокурора Харви Дента, он пожертвовал всем. Вместе с комиссаром Гордоном они решили, что так будет лучше для всех. Пока преступность была раздавлена антикриминальным актом Дента, ложь действовала.\n\nТем не менее, еще опаснее становится появление нового врага Бэйна, чье лицо закрыто маской.  Он разворачивает в Готэме чудовищную деятельность, и это вынуждает Брюса Уэйна выйти из импровизированного изгнания. Однако даже надев свой костюм, Бэтмен может проиграть Бэйну. Но с появлением хитрой воровки по прозвищу Женщина — Кошка с загадочным прошлым всё меняется.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 45314,
+      "imdbId": "tt0090368",
+      "nameRu": "Жестокий романс",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.9,
+      "year": 1984,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/45314.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/45314.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c0766a8cffe9519c3d791889021/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a000001720d051a15b868b18122c0c12358/orig",
+      "description": "1877 год, городок Бряхимов на берегу Волги. Дворянка уважаемой фамилии обеднела после смерти мужа, поэтому делает всё, чтобы выдать красавицу-дочь Ларису за богатого.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 1191022,
+      "imdbId": "tt12216986",
+      "nameRu": "Подольские курсанты",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 6.5,
+      "year": 2020,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1191022.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1191022.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a00000180750da3e209413877f70f130039/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a00000180750d8764cac31a4718928df099/orig",
+      "description": "Октябрь 1941 года, Подмосковье. Около трёх с половиной тысяч курсантов подольских артиллерийского и пехотного училищ получают приказ занять оборону на Ильинском рубеже и совместно с регулярными частями 43-й армии сдерживать наступление фашистских захватчиков, пока не подойдёт подкрепление. Погибая, вчерашние мальчишки держат оборону от многократно превышающих сил немцев и на двенадцать дней становятся преградой на пути врага к Москве.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 518037,
+      "imdbId": "tt1649419",
+      "nameRu": "Невозможное",
+      "nameEn": null,
+      "nameOriginal": "Lo imposible",
+      "countries": [
+        {
+          "country": "Испания"
+        },
+        {
+          "country": "Таиланд"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.5,
+      "year": 2012,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/518037.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/518037.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017c284f4ae633add5956719022cbf/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000016faf14e5dcd34fa678e504d9cd0c/orig",
+      "description": "2004 год. Семья курортников в Таиланде попадает под мощное цунами.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 45694,
+      "imdbId": "tt0057637",
+      "nameRu": "Вечера на хуторе близ Диканьки",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.4,
+      "year": 1961,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/45694.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/45694.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c0736a5847f456913f625ee1b82/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a000001725a8dd407257337a25abc46f43e/orig",
+      "description": "Веселая история про то, как в рождественскую ночь в украинском селе всех попутал бес и как могучему кузнецу Вакуле удалось одолеть нечистую силу и добыть для своей невесты царские черевички. Экранизация повести Н. В. Гоголя «Ночь перед Рождеством».",
+      "ratingAgeLimits": "age6"
+    },
+    {
+      "kinopoiskId": 469,
+      "imdbId": null,
+      "nameRu": "Однажды в Америке",
+      "nameEn": null,
+      "nameOriginal": "Once Upon a Time in America",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Италия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.3,
+      "year": 1983,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/469.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/469.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000019cc44559757b708aa58590bf227e/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000172930f86a4c31189378c91f764ec/orig",
+      "description": "В бурные двадцатые годы, когда Америка веселилась под звуки джаза, и каждый бродяга мечтал стать миллионером, в трущобах Нью-Йорка встретились несколько отчаянных парней. Убирая с дороги конкурентов, безжалостно карая предателей и нагло проворачивая хитроумные аферы, они стали королями преступного мира золотой эры «сухого закона». Они поклялись отдать жизнь друг за друга, зная, что самое главное для них — это дружба, долг и справедливость — не утопить в реках крови и бездонном океане денег. Спустя много лет судьба жестоко обошлась с легендарными гангстерами, заставив их исполнить свою клятву. Это случилось однажды в Америке…",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 102124,
+      "imdbId": "tt0449088",
+      "nameRu": "Пираты Карибского моря: На краю света",
+      "nameEn": null,
+      "nameOriginal": "Pirates of the Caribbean: At World's End",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.2,
+      "year": 2007,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/102124.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/102124.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c2d793aff1dda4eae27378afee9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000016eadcdee3b8cde3bb3f07b8ba183/orig",
+      "description": "Новые приключения Джека Воробья и его друзей Уилла Тернера и Элизабет Суонн. На этот раз Уиллу и Элизабет придется объединиться с самим Капитаном Барбоссой для того, чтобы отправиться на край света и спасти своего друга — Джека. Ситуация осложняется тем, что Элизабет попадает к сингапурским пиратам…",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 104938,
+      "imdbId": "tt0454921",
+      "nameRu": "В погоне за счастьем",
+      "nameEn": null,
+      "nameOriginal": "The Pursuit of Happyness",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8,
+      "year": 2006,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/104938.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/104938.jpg",
+      "coverUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-ott/212840/2a0000017c073ef49312e457b6fe7540a6ed/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a000001721738b248c4a24e590097861c91/orig",
+      "description": "Крис Гарднер – отец-одиночка. Воспитывая пятилетнего сына, Крис изо всех сил старается сделать так, чтобы ребенок рос счастливым. Работая продавцом, он не может оплатить квартиру, и их выселяют.\nОказавшись на улице, но не желая сдаваться, отец устраивается стажером в брокерскую компанию, рассчитывая получить должность специалиста. Только на протяжении стажировки он не будет получать никаких денег, а стажировка длится 6 месяцев...",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 5501397,
+      "imdbId": "tt30425537",
+      "nameRu": "Первый на Олимпе",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "спорт"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 6.2,
+      "year": 2025,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5501397.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5501397.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a00000199b9e71541dfb96057c513db3cf0/orig",
+      "logoUrl": null,
+      "description": "Юный блокадник Юра Тюкалов пришел в спорт после войны, когда у него, казалось бы, не было сил жить, не то что вести изнурительные тренировки по академической гребле. Но после встречи с тренерами Михаилом и Верой Савримович у Юры открывается второе дыхание, и он начинает жизнь заново. Победы даются нелегко, но у парня есть любовь, талант и родная команда. Их цель — Олимпиада в Хельсинки.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 522892,
+      "imdbId": "tt1670345",
+      "nameRu": "Иллюзия обмана",
+      "nameEn": null,
+      "nameOriginal": "Now You See Me",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 7.2,
+      "year": 2013,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/522892.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/522892.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a000001989ee1d9824f03661cb9b3083821/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017a5c2c31264e0df936d733bcbc83/orig",
+      "description": "Команда лучших иллюзионистов мира проворачивает дерзкие ограбления прямо во время своих шоу, играя в кошки-мышки с агентами ФБР.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 278522,
+      "imdbId": "tt0903624",
+      "nameRu": "Хоббит: Нежданное путешествие",
+      "nameEn": null,
+      "nameOriginal": "The Hobbit: An Unexpected Journey",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Новая Зеландия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.8,
+      "year": 2012,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/278522.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/278522.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017c283cc9276a0ec61cb6ff703a5a/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000016e043b586890565729640d431cfc/orig",
+      "description": "Хоббит Бильбо Бэггинс пускается в грандиозный поход, целью которого является отвоевание утраченного королевства гномов Эребор у дракона Смауга. Совершенно неожиданно с хоббитом налаживает контакт волшебник Гэндальф Серый. Так Бильбо находит себя и присоединяется к компании тринадцати гномов, возглавляемых легендарным воином Торином Дубощитом. Их путешествие пройдёт через Дикий Край, предательские земли, населенные гоблинами и орками, смертоносными варгами, гигантскими пауками, меняющим шкуры народом и волшебниками.\n\nИ хотя их цель находится на Востоке, среди пустошей Одинокой Горы, сначала им придется выбраться из туннелей гоблинов, где Бильбо встретит существо, которое изменит его жизнь навсегда - Голлума.",
+      "ratingAgeLimits": "age6"
+    },
+    {
+      "kinopoiskId": 5167,
+      "imdbId": null,
+      "nameRu": "Эффект бабочки",
+      "nameEn": null,
+      "nameOriginal": "The Butterfly Effect",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.6,
+      "year": 2003,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5167.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5167.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c2808ce15c3afb7979c16ef2aa9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017d237d0f292f00823f8c924b0ad4/orig",
+      "description": "Эван перенял от своего отца-психопата, ныне запертого в доме для умалишённых, странную болезнь — он не помнит некоторых эпизодов своей жизни, причем в эти моменты происходили довольно странные, а то и ужасные события. Поступив в колледж, Эван делает удивительное открытие. Читая дневники, которые писал в детстве по совету врача, он может возвращаться в детство и менять будущее.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 723,
+      "imdbId": "tt0272152",
+      "nameRu": "Планета Ка-Пэкс",
+      "nameEn": null,
+      "nameOriginal": "K-PAX",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Германия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.4,
+      "year": 2001,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/723.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/723.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000018dac30445052532b57b954f8e6f6/orig",
+      "logoUrl": null,
+      "description": "В Манхэттенский психиатрический институт привозят странного человека в черных очках. Он зовет себя Протом и утверждает, что его родина — далекая планета Ка-Пэкс, откуда он мгновенно перенесся на Землю в луче света. Несмотря на все усилия, опытному доктору Пауэллу не удается разгадать загадку таинственного пациента, который охотно и весьма убедительно доказывает всем свое внеземное происхождение и заранее назначает дату своего возвращения на Ка-Пэкс.",
+      "ratingAgeLimits": "age16"
+    },
+    {
+      "kinopoiskId": 5430477,
+      "imdbId": "tt30472557",
+      "nameRu": "Человек-бензопила. Фильм: История Резе",
+      "nameEn": null,
+      "nameOriginal": "Chainsaw Man Movie: Reze-hen",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "аниме"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.3,
+      "year": 2025,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5430477.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5430477.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/18164279/2a0000019b69c103d866f0197d6d4eb0a1e1/orig",
+      "logoUrl": null,
+      "description": "Сходив на свидание с Макимой, Дэндзи решает, что отныне его сердце будет принадлежать только ей. Но парень попадает под дождь и прячется в телефонной будке, где укрывается и милая девушка Резе. Она улыбается и приглашает Дэндзи в кафе, где сама работает, а тот, не в силах сопротивляться, начинает заходить туда каждый день и всё больше влюбляется в новую знакомую.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1965,
+      "imdbId": "tt0117913",
+      "nameRu": "Время убивать",
+      "nameEn": null,
+      "nameOriginal": "A Time to Kill",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7.5,
+      "year": 1996,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1965.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1965.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a0000019dde32932ea43b5af7129b13950a/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000173a40f68b40b66d257d25d115b3b/orig",
+      "description": "Зверски изнасилована десятилетняя девочка. Отец девочки расстреливает подонков.\n\nЕму грозит газовая камера. Сможет ли блестящий адвокат, не проигравший ни одного дела, добиться признания невиновности своего клиента?",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 89515,
+      "imdbId": "tt0417741",
+      "nameRu": "Гарри Поттер и Принц-полукровка",
+      "nameEn": null,
+      "nameOriginal": "Harry Potter and the Half-Blood Prince",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7.6,
+      "year": 2009,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/89515.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/89515.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000019ac9c8c36fa1ea9f34c08b6996de/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017e12789c2c65dfa241ea22350fb2/orig",
+      "description": "Теперь не только мир волшебников, но и мир маглов ощущает на себе всевозрастающую силу Волан-де-Морта, а Хогвартс уже никак не назовешь надежным убежищем. Гарри подозревает, что в самом замке затаилась некая опасность, но Дамблдор больше сосредоточен на том, чтобы подготовить его к финальной схватке, которая, как он знает, уже не за горами. Вместе они пытаются разгадать секрет бессмертия Волан-де-Морта, а для этого Дамблдор приглашает на должность преподавателя по зельеварению своего старинного друга и коллегу — профессора Горация Слизнорта.",
+      "ratingAgeLimits": "age12"
+    }
+  ]
+}

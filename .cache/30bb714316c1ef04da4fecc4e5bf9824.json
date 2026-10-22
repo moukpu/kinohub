@@ -1,0 +1,339 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 276762,
+      "imdbId": "tt0926084",
+      "nameRu": "Гарри Поттер и Дары Смерти: Часть I",
+      "nameEn": null,
+      "nameOriginal": "Harry Potter and the Deathly Hallows - Part 1",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7.7,
+      "year": 2010,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/276762.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/276762.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a0000019ac9c204b8b3daebb1e0bb5e6f89/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017e12760bc2f67e1335d9c2068fc0/orig",
+      "description": "Гарри Поттера ждёт самое страшное испытание в жизни — смертельная схватка с Волан-де-Мортом. Друзья и враги Гарри предстают в совершенно неожиданном свете. Граница между добром и злом становится всё призрачнее.",
+      "ratingAgeLimits": "age16"
+    },
+    {
+      "kinopoiskId": 910353,
+      "imdbId": null,
+      "nameRu": "Выстрел в пустоту",
+      "nameEn": null,
+      "nameOriginal": "Shot Caller",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 7.3,
+      "year": 2015,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/910353.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/910353.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a00000198a3bee5ab727b2d583c791b143e/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000016e043c56cd5c58e1b45c1e14b305/orig",
+      "description": "Будучи нетрезвым, успешный биржевой маклер Джейкоб Харлон попадает в автомобильную аварию, в которой погибает его коллега по работе. Оказавшись за решёткой, мужчина быстро принимает жестокие правила игры и вскоре завоёвывает авторитет. Всё глубже погружаясь в мир тюремного криминала, Джейкоб вскоре понимает, что в прежней жизни ему уже нет места.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 44156,
+      "imdbId": "tt0092879",
+      "nameRu": "Десять негритят",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.7,
+      "year": 1987,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/44156.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/44156.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017c0728180d62805387abaffe6695/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017bac614e808353a3b10a480e8084/orig",
+      "description": "Десять человек приглашены на Негритянский остров под разными предлогами. Оказавшись в замке, каждый слышит записанный на пластинку смертный приговор. На столе - черные фигурки негритят, в каждой спальне - стишок на стене. «Десять негритят решили пообедать, один из них вдруг поперхнулся, и их осталось девять». Умирает человек - исчезает фигурка негритенка...",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 46063,
+      "imdbId": null,
+      "nameRu": "Белорусский вокзал",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 7.7,
+      "year": 1970,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/46063.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/46063.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017c074b1766c169f87786ddbbe9f7/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017b1a372fe7324aa4db2d2df484f1/orig",
+      "description": "Герои фильма расстались на Белорусском вокзале летом 1945-го. Спустя четверть века они встречаются на похоронах боевого товарища. В их душах с новой силой оживает пережитое. Время не властно над их памятью: ветераны сохранили верность фронтовой дружбе, способность жертвовать собой, неистребимую любовь к жизни.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 7103,
+      "imdbId": "tt0099088",
+      "nameRu": "Назад в будущее 3",
+      "nameEn": null,
+      "nameOriginal": "Back to the Future Part III",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "вестерн"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.5,
+      "year": 1990,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7103.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7103.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c075a35657b4c943f20eabf5f6d/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a0000016fc34a91d277cecdd2b8f7283488/orig",
+      "description": "Несмотря на просьбы Дока не навещать его в XIX веке, Марти вновь хочет вмешаться в ход событий и на машине времени уносится в 1885 год, навстречу Дикому Западу. \n\nЭто путешествие, как и все прежние, не обходится без опасных приключений, но смелый Марти, рискуя жизнью, предотвращает трагедию в жизни Эммета Брауна. Тот, в свою очередь, без памяти влюбляется в очаровательную незнакомку, которую спасает от гибели, и поездка домой — в будущее — теряет для него всякий смысл.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 959365,
+      "imdbId": "tt4857264",
+      "nameRu": "Невидимый гость",
+      "nameEn": null,
+      "nameOriginal": "Contratiempo",
+      "countries": [
+        {
+          "country": "Испания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 8,
+      "year": 2016,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/959365.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/959365.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017c0778c6f9f4c0b2270d261ea846/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000016e043c9f5cae22bebd8ec2b4e883/orig",
+      "description": "Молодого бизнесмена Адриана Дориа обвиняют в убийстве любовницы, и он решает воспользоваться услугами Вирджинии Гудман, лучшего в стране специалиста по выходу из самых сложных ситуаций. Адриан содержится под домашним арестом, а завтра состоится судебное заседание, поэтому вечером к нему приходит Вирджиния, чтобы придумать наилучшую стратегию защиты. Для неё это последнее дело, и она не собирается его проигрывать.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1309570,
+      "imdbId": "tt10872600",
+      "nameRu": "Человек-паук: Нет пути домой",
+      "nameEn": null,
+      "nameOriginal": "Spider-Man: No Way Home",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.1,
+      "year": 2021,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1309570.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1309570.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017f2b68cb4d1b9404d1da8c6f8447/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017f2b64f82f9dfbef3a3cee0ed892/orig",
+      "description": "Жизнь и репутация Питера Паркера оказываются под угрозой, поскольку Мистерио раскрыл всему миру тайну личности Человека-паука. Пытаясь исправить ситуацию, Питер обращается за помощью к Стивену Стрэнджу, но вскоре всё становится намного опаснее.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 45028,
+      "imdbId": "tt0091364",
+      "nameRu": "Курьер",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.7,
+      "year": 1986,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/45028.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/45028.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000017c0727dd75bb8a0a395405051db8/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a000001771af9e58ab7f9a400a7d31929aa/orig",
+      "description": "Выпускник школы Иван, дожидаясь призыва в армию, работает курьером в редакции. Окружающие его солидные взрослые люди с трудом приспосабливаются к удивительной способности этого парня любое событие превратить в невероятное происшествие - порой уморительно веселое, а, подчас, и непоправимо грустное…",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 196604,
+      "imdbId": "tt0469494",
+      "nameRu": "Нефть",
+      "nameEn": null,
+      "nameOriginal": "There Will Be Blood",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 8.2,
+      "year": 2007,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/196604.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/196604.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a000001966239de07676640437f2577a81a/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a00000171a61ec049021af4581147c83dee/orig",
+      "description": "Начало XX века. Предприниматель Дэниэл Плэйнвью ищет золото и серебро, а находит нефть. За несколько лет он становится преуспевающим нефтяником, разработавшим уже несколько скважин. Однажды он узнает про новое месторождение. Уцепившись за этот шанс разбогатеть, Дэниэл делает всё, чтобы добиться своего.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 43970,
+      "imdbId": "tt0079944",
+      "nameRu": "Сталкер",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "приключения"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8,
+      "year": 1979,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/43970.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/43970.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13051577/2a00000198e598b76fef89c4d0cf65744dbf/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a0000016fae8822eec2fc33e538f8a266d4/orig",
+      "description": "В некой запретной Зоне, по слухам, существует комната, где исполняются самые заветные желания. К этой комнате отправляются модный Писатель и авторитетный Профессор — каждый по своим причинам, о которых предпочитают не говорить. А ведет их туда Сталкер — проводник по Зоне — то ли юродивый, то ли апостол новой веры.",
+      "ratingAgeLimits": "age12"
+    }
+  ]
+}

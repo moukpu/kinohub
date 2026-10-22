@@ -1,0 +1,575 @@
+{
+  "keyword": "500",
+  "pagesCount": 9,
+  "films": [
+    {
+      "filmId": 409372,
+      "nameRu": "500 дней лета",
+      "nameEn": "(500) Days of Summer",
+      "type": "FILM",
+      "year": "2009",
+      "description": "Главный герой работает в агентстве, выпускающем поздравительные открытки. Он придумывает все те забавные подписи, которые мы с Вами читаем на них. Молодой человек влюбляется в свою коллегу и решает, что она - «та, единственная». Но 500 дней их отношений показывают герою, что путь к счастью непредсказуем, неконтролируем и - невероятно забавен!",
+      "filmLength": "01:35",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "rating": "7.6",
+      "ratingVoteCount": 313845,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/409372.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/409372.jpg"
+    },
+    {
+      "filmId": 12063066,
+      "nameRu": "500 миль",
+      "nameEn": "500 Miles",
+      "type": "FILM",
+      "year": "2026",
+      "filmLength": "01:42",
+      "countries": [
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "Ирландия"
+        },
+        {
+          "country": "Кипр"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "rating": "6.9",
+      "ratingVoteCount": 213,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/no-poster.png",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp/no-poster.png"
+    },
+    {
+      "filmId": 402935,
+      "nameRu": "500 наций",
+      "nameEn": "500 Nations",
+      "type": "MINI_SERIES",
+      "year": "1995",
+      "description": "История коренных народов Северной и Центральной Америк, от времен до Колумба, через период европейской колонизации, и до конца 19-го века – времени покорения индейских племен, населявших Северную Америку.",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "история"
+        }
+      ],
+      "rating": "7.7",
+      "ratingVoteCount": 281,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/402935.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/402935.jpg"
+    },
+    {
+      "filmId": 736784,
+      "nameRu": "500 миль",
+      "nameEn": "500 Miles",
+      "type": "FILM",
+      "year": "2012",
+      "filmLength": "00:09",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "короткометражка"
+        },
+        {
+          "genre": "музыка"
+        }
+      ],
+      "rating": "null",
+      "ratingVoteCount": 11,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/no-poster.png",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp/no-poster.png"
+    },
+    {
+      "filmId": 4919022,
+      "nameRu": "Корея. 5000 лет выживания",
+      "nameEn": "5000 Years of Survival",
+      "type": "MINI_SERIES",
+      "year": "2018",
+      "description": "За последние 5000 лет окруженные великими державами корейцы переживали одно испытание за другим. Они пытались сохранить чувство идентичности и автономии как единой нации. Исследование элементов, лежащих в основе взлетов и падений королевств Корейского полуострова, дипломатических стратегий и принципов выживания в окружении иностранных держав.",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "документальный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "rating": "7.3",
+      "ratingVoteCount": 993,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4919022.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4919022.jpg"
+    },
+    {
+      "filmId": 522,
+      "nameRu": "Карты, деньги, два ствола",
+      "nameEn": "Lock, Stock and Two Smoking Barrels",
+      "type": "FILM",
+      "year": "1998",
+      "description": "Четверо приятелей накопили по 25 тысяч фунтов, чтобы один из них мог сыграть в карты с опытным шулером и матерым преступником, известным по кличке Гарри Топор. Парень проиграл 500 тысяч, на выплату долга ему дали неделю, а в противном случае и ему и его друзьям каждый день будут отрубать по пальцу. Ребята решают ограбить бандитов, решивших ограбить трех ботаников, выращивающих марихуану для местного наркобарона.",
+      "filmLength": "01:47",
+      "countries": [
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "rating": "8.6",
+      "ratingVoteCount": 584114,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/522.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/522.jpg"
+    },
+    {
+      "filmId": 481397,
+      "nameRu": "Человек-паук 5000",
+      "nameEn": "Spider-Man",
+      "type": "TV_SERIES",
+      "year": "1981",
+      "description": "Питер Паркер, став в один прекрасный день супер-героем в результате мутации, начавшейся из-за укуса радиоактивного паука, облучённого в процессе эксперимента, проводимого в научной школе, снова борется за справедливость со своими давними врагами, такими, как доктор Октопус или Зелёный Гоблин… Но у него появляются и новые соперники.. Например – доктор Дум, Хамелеон...",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "семейный"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "rating": "5.8",
+      "ratingVoteCount": 995,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/481397.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/481397.jpg"
+    },
+    {
+      "filmId": 7231241,
+      "nameRu": "13 дней, 13 ночей",
+      "nameEn": "13 jours, 13 nuits",
+      "type": "FILM",
+      "year": "2025",
+      "description": "2021 год, Кабул. Войска США уходят из Афганистана, а талибы готовятся захватить город. 500 человек оказываются в ловушке в окружённом французском посольстве, которое защищает лишь одна группа спецназа под командованием Мохаммеда Биды. Вопреки соображениям собственной безопасности, Мохаммед принимает решение любой ценой эвакуировать отчаявшихся людей в аэропорт, пройдя через охваченный хаосом Кабул.",
+      "filmLength": "01:52",
+      "countries": [
+        {
+          "country": "Бельгия"
+        },
+        {
+          "country": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "триллер"
+        }
+      ],
+      "rating": "7.3",
+      "ratingVoteCount": 67783,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7231241.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7231241.jpg"
+    },
+    {
+      "filmId": 1009017,
+      "nameRu": "Чёрный Адам",
+      "nameEn": "Black Adam",
+      "type": "FILM",
+      "year": "2022",
+      "description": "5000 лет назад Чёрный Адам был наделен силами египетских богов и заключён в тюрьму. Теперь он освобождается из своей усыпальницы и готовится явить миру уникальный подход к борьбе за справедливость.",
+      "filmLength": "02:05",
+      "countries": [
+        {
+          "country": "Венгрия"
+        },
+        {
+          "country": "Канада"
+        },
+        {
+          "country": "Новая Зеландия"
+        },
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "rating": "6.1",
+      "ratingVoteCount": 101797,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1009017.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1009017.jpg"
+    },
+    {
+      "filmId": 4647015,
+      "nameRu": "500 эскимо",
+      "type": "FILM",
+      "year": "2021",
+      "description": "Андрею 35 лет. У него все как положено и даже лучше. Жизнь проходит размеренно и незаметно, пока не появляется волшебник из детства. Тот самый, что задолжал всем детям Советского Союза 500 эскимо и бесплатное кино. Волшебник пришёл, чтобы вручить Андрею все, о чем тот так сильно мечтал тридцать лет назад. Только, что теперь с этим делать? Когда уже есть и семья, и машина, и ипотека, и даже стабильная должность.",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "короткометражка"
+        }
+      ],
+      "rating": "null",
+      "ratingVoteCount": 40,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4647015.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4647015.jpg"
+    },
+    {
+      "filmId": 14382,
+      "nameRu": "Трансильвания 6-5000",
+      "nameEn": "Transylvania 6-5000",
+      "type": "FILM",
+      "year": "1985",
+      "description": "Два журналиста по заданию редактора жёлтой газеты отправляются в Трансильванию на поиски доктора Франкенштейна. Естественно, они не воспринимают всерьез эту командировку, но, тем не менее, добросовестно пытаются опросить жителей городка. По мере продвижения расследования они проникают в тайны обитателей Трансильвании, и становится очевидно, что здесь не всё так просто.",
+      "filmLength": "01:33",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Югославия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "ужасы"
+        }
+      ],
+      "rating": "5.6",
+      "ratingVoteCount": 631,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/14382.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/14382.jpg"
+    },
+    {
+      "filmId": 4773445,
+      "nameRu": "5000 одеял",
+      "nameEn": "5000 Blankets",
+      "type": "FILM",
+      "year": "2022",
+      "filmLength": "01:45",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "rating": "null",
+      "ratingVoteCount": 293,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4773445.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4773445.jpg"
+    },
+    {
+      "filmId": 27581,
+      "nameRu": "5000 пальцев доктора Т.",
+      "nameEn": "The 5,000 Fingers of Dr. T.",
+      "type": "FILM",
+      "year": "1953",
+      "description": "Мама Барта хочет, чтобы ее сын стал великим музыкантом. Его обучает игре на фортепьяно тщеславный доктор Тельвилекер, который хочет, чтобы его ученики стали великими пианистами и тем самым прославили его имя. Барт ненавидит и Доктора Т., и фортепьяно, и занятия музыкой, он хочет, чтобы его оставили в покое и позволили стать обычным мальчишкой.",
+      "filmLength": "01:29",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "музыка"
+        },
+        {
+          "genre": "семейный"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "rating": "6.1",
+      "ratingVoteCount": 137,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/27581.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/27581.jpg"
+    },
+    {
+      "filmId": 596364,
+      "nameRu": "500 миль на север",
+      "nameEn": "500 Miles North",
+      "type": "FILM",
+      "year": "2014",
+      "countries": [
+        {
+          "country": "Великобритания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "rating": "null",
+      "ratingVoteCount": 50,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/596364.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/596364.jpg"
+    },
+    {
+      "filmId": 5504,
+      "nameRu": "Идеальное убийство",
+      "nameEn": "A Perfect Murder",
+      "type": "FILM",
+      "year": "1998",
+      "description": "Преуспевающий бизнесмен Стивен Тэйлор, испытывающий серьезные трудности на работе, грозящие ему разорением, узнает, что жена Эмили, женщина очень богатая, изменяет ему с художником Дэвидом. \nНаведя справки, он узнает, что Дэвид вовсе не художник, а брачный аферист с солидным «послужным» списком и рядом отсидок в тюрьме. Встретившись с Дэвидом, Стивен предлагает ему 500 тысяч долларов за убийство собственной жены...",
+      "filmLength": "01:47",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "триллер"
+        }
+      ],
+      "rating": "7.3",
+      "ratingVoteCount": 51726,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5504.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5504.jpg"
+    },
+    {
+      "filmId": 798648,
+      "nameRu": "5000 дней вперед",
+      "type": "FILM",
+      "year": "2013",
+      "filmLength": "00:01",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "короткометражка"
+        }
+      ],
+      "rating": "5.3",
+      "ratingVoteCount": 185,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/798648.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/798648.jpg"
+    },
+    {
+      "filmId": 442,
+      "nameRu": "Простая история",
+      "nameEn": "The Straight Story",
+      "type": "FILM",
+      "year": "1999",
+      "description": "73-летний Элвин Стрэйт, испытывающий проблемы со здоровьем, живёт с дочерью Роуз в тихом провинциальном городке Лоренс, штат Айова. Однажды он узнаёт, что у его брата Лайла, живущего в штате Висконсин, с которым после ссоры он не общался 10 лет, случился инфаркт. Элвин решает навестить брата, но поскольку водительских прав у него нет, а ехать на автобусе упрямый старик не желает, он покупает подержанную газонокосилку и отправляется в путь протяжённостью почти 500 километров.",
+      "filmLength": "01:52",
+      "countries": [
+        {
+          "country": "Великобритания"
+        },
+        {
+          "country": "США"
+        },
+        {
+          "country": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "приключения"
+        }
+      ],
+      "rating": "7.8",
+      "ratingVoteCount": 36439,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/442.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/442.jpg"
+    },
+    {
+      "filmId": 326,
+      "nameRu": "Побег из Шоушенка",
+      "nameEn": "The Shawshank Redemption",
+      "type": "FILM",
+      "year": "1994",
+      "description": "Бухгалтер Энди Дюфрейн обвинён в убийстве собственной жены и её любовника. Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решётки. Каждый, кто попадает в эти стены, становится их рабом до конца жизни. Но Энди, обладающий живым умом и доброй душой, находит подход как к заключённым, так и к охранникам, добиваясь их особого к себе расположения.",
+      "filmLength": "02:22",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "rating": "9.1",
+      "ratingVoteCount": 1144902,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/326.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/326.jpg"
+    },
+    {
+      "filmId": 427198,
+      "nameRu": "Социальная сеть",
+      "nameEn": "The Social Network",
+      "type": "FILM",
+      "year": "2010",
+      "description": "Октябрьский вечер 2003 года. Студента Гарварда Марка Цукерберга бросает его девушка. Раздосадованный Марк, подогретый алкоголем, решает отомстить и публикует злобный и оскорбительный пост в адрес бывшей подруги. Но этого парню показалось мало. Он решает создать сайт, позволяющий сформировать рейтинг студенток по степени привлекательности. Марк взламывает базы данных различных общежитий, скачивает фотографии и всю необходимую информацию, используя алгоритм, предложенный его другом Эдуардо. После сбора данных Марк создаёт страницу facemash.com, где студенты могут проголосовать за одну из двух девушек, которая по их мнению является более привлекательной. Так начинается история создания одной из крупнейшей социальных сетей мира, которая впоследствии получит название Facebook.",
+      "filmLength": "02:00",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "драма"
+        }
+      ],
+      "rating": "7.7",
+      "ratingVoteCount": 395206,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/427198.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/427198.jpg"
+    },
+    {
+      "filmId": 86621,
+      "nameRu": "Бесподобный мистер Фокс",
+      "nameEn": "Fantastic Mr. Fox",
+      "type": "FILM",
+      "year": "2009",
+      "description": "Разъяренные фермеры, уставшие от постоянных нападок хитрого лиса на их курятники, готовятся уничтожить своего врага и его «хитрое» семейство.",
+      "filmLength": "01:27",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "rating": "8.0",
+      "ratingVoteCount": 139032,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/86621.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/86621.jpg"
+    }
+  ],
+  "searchFilmsCountResult": 457
+}

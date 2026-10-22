@@ -1,0 +1,702 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 3561,
+      "imdbId": "tt0332280",
+      "nameRu": "Дневник памяти",
+      "nameEn": null,
+      "nameOriginal": "The Notebook",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.8,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/3561.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/3561.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c07a732dae8fe6272c75a4785bd/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000170ed5ad3245990f979fe6e1bec2d/orig",
+      "description": "Это история отношений юноши и девушки из разных социальных слоев, живших в Южной Каролине. Ной и Элли провели вместе незабываемое лето, пока их не разделили вначале родители, а затем Вторая мировая война.\nПосле войны все изменилось: Элли обручилась с удачливым бизнесменом, а Ной жил наедине со своими воспоминаниями в старинном доме, который ему удалось отреставрировать. Когда Элли прочла об этом в местной газете, она поняла: ей нужно найти его и решить наконец судьбу их любви...",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 4996,
+      "imdbId": "tt0097165",
+      "nameRu": "Общество мертвых поэтов",
+      "nameEn": null,
+      "nameOriginal": "Dead Poets Society",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8.1,
+      "year": 1989,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4996.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4996.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c0769666f234c4d0ecdba797eba/orig",
+      "logoUrl": null,
+      "description": "Джон Китинг — новый преподаватель английской словесности в консервативном американском колледже. От чопорной массы учителей его выгодно отличают легкость общения, эксцентричное поведение и пренебрежение к программе обучения. \n\nОднажды он посвящает своих подопечных в тайну Общества мёртвых поэтов. С этого момента каждый из учеников старается обрести свой собственный голос в безликом хоре, взглянуть на окружающий мир, высоко подпрыгнув над серой школьной оградой.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 7660,
+      "imdbId": null,
+      "nameRu": "Холодное лето пятьдесят третьего...",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.8,
+      "year": 1987,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7660.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7660.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c0794f8f90e47391d747aa6fd31/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000173c310a75ceb8d5f37e7183dca7f/orig",
+      "description": "1953 год. Двое политических ссыльных вступают в схватку с бандой амнистированных уголовников.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 46066,
+      "imdbId": "tt0066565",
+      "nameRu": "Белое солнце пустыни",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "военный"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.6,
+      "year": 1969,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/46066.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/46066.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1648503/2a000001a0620e69c1722cc1b769855933e1/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a000001769c417656c85353d3a16121108e/orig",
+      "description": "Бесконечная пустыня. Боец Сухов, прикуривающий от динамитной шашки, нескладный Петруха с вечно заклинивающей трехлинейкой, обаятельный Верещагин с надоевшей черной икрой и знаменитыми песнями-балладами, ловкий Саид , злодей Абдулла со своей бандой, любознательная Гульчатай, играющая с черепахой.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 775276,
+      "imdbId": "tt2948356",
+      "nameRu": "Зверополис",
+      "nameEn": null,
+      "nameOriginal": "Zootopia",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 8,
+      "year": 2016,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/775276.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/775276.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000017c07377a3c45324d2c913d36ef81/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000178cab3087920b10e48325211c178/orig",
+      "description": "Добро пожаловать в Зверополис – современный город, населенный самыми разными животными, от огромных слонов до крошечных мышек. Зверополис разделен на районы, полностью повторяющие естественную среду обитания разных жителей – здесь есть и элитный район Площадь Сахары и неприветливый Тундратаун. В этом городе появляется новый офицер полиции, жизнерадостная зайчиха Джуди Хоппс, которая с первых дней работы понимает, как сложно быть маленькой и пушистой среди больших и сильных полицейских. Джуди хватается за первую же возможность проявить себя, несмотря на то, что ее партнером будет болтливый хитрый лис Ник Уайлд. Вдвоем им предстоит раскрыть сложное дело, от которого будет зависеть судьба всех обитателей Зверополиса.",
+      "ratingAgeLimits": "age6"
+    },
+    {
+      "kinopoiskId": 43423,
+      "imdbId": "tt0072613",
+      "nameRu": "Афоня",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.7,
+      "year": 1975,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/43423.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/43423.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c078a1e492138a9e5e3983f3d4a/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a00000177fe225e755176b60e4653342387/orig",
+      "description": "Слесарь-сантехник ЖЭКа Афанасий Борщев, которого жильцы запросто зовут Афоня, — человек открытой и доброй души. Живет он, правда, бездумно и легко, но, может быть, именно потому бывает ему порой тоскливо. Тогда он наведывается в местную пивную, где есть у него друг Федул. Однажды на танцах он знакомится с милой и трогательной девушкой Катей, полюбившей Афоню. Но он избегает ее, так как сердце его пленила хозяйка квартиры 58, красавица Елена. Однако вскоре выясняется, что она замужем. Почувствовав себя одиноким и никому не нужным, он едет в деревню к тетке.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 14349,
+      "imdbId": "tt0152930",
+      "nameRu": "Такси",
+      "nameEn": null,
+      "nameOriginal": "Taxi",
+      "countries": [
+        {
+          "country": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7,
+      "year": 1998,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/14349.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/14349.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a0000018d69d6ee6ea1e805317ec07e5e04/orig",
+      "logoUrl": null,
+      "description": "Таксист Даниэль помешан на быстрой езде. Как ураган проносится он по извилистым улицам Марселя на мощном ревущем «Пежо», пугая прохожих и приводя в ужас пассажиров. Начинающий следователь Эмильен вынуждает его помогать в поимке банды грабителей банков, каждый раз ускользающих от полиции на неуловимых «Мерседесах».",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 44027,
+      "imdbId": "tt0053317",
+      "nameRu": "Судьба человека",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "военный"
+        }
+      ],
+      "ratingKinopoisk": 8.5,
+      "ratingImdb": 7.9,
+      "year": 1959,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/44027.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/44027.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c0726392ee317a952aaa838b968/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a000001720db884d351408c798bcc7ded7a/orig",
+      "description": "Фильм рассказывает о русском солдате, которого война подвергла страшным испытаниям, лишила дома и семьи, бросила в концлагерь. Но судьба не сломила его дух - он выжил, отстоял своё право быть человеком, сохранил способность любить...",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 81041,
+      "imdbId": "tt0415481",
+      "nameRu": "Алеша Попович и Тугарин Змей",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        },
+        {
+          "genre": "мюзикл"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.1,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/81041.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/81041.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017c281248a839f75cfe954a7dad80/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000016ef5806e4c011e98833861b1a745/orig",
+      "description": "Когда подступила к Ростову вражеская орда во главе с Тугариным Змеем, Алеша Попович не сумел уберечь жителей от выплаты дани. Теперь богатырь должен восстановить доброе имя, вернуть золото и прогнать неприятеля с земли русской. Он отправляется в путешествие, а помогут ему в этом дядька Тихон, девушка Любава, ее бабушка и говорящий конь Юлий.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 1043758,
+      "imdbId": "tt6751668",
+      "nameRu": "Паразиты",
+      "nameEn": null,
+      "nameOriginal": "Gisaengchung",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.5,
+      "year": 2019,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1043758.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1043758.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a0000018d6559804d3c25f0f77893826cea/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017bd4883ea891e79c2637db870c65/orig",
+      "description": "Обычное корейское семейство Кимов жизнь не балует. Приходится жить в сыром грязном полуподвале, воровать интернет у соседей и перебиваться случайными подработками. Однажды друг сына семейства, уезжая на стажировку за границу, предлагает тому заменить его и поработать репетитором у старшеклассницы в богатой семье Пак. Подделав диплом о высшем образовании, парень отправляется в шикарный дизайнерский особняк и производит на хозяйку дома хорошее впечатление. Тут же ему в голову приходит необычный план по трудоустройству сестры.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 958519,
+      "imdbId": "tt5461944",
+      "nameRu": "Отель Мумбаи: Противостояние",
+      "nameEn": null,
+      "nameOriginal": "Hotel Mumbai",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Австралия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.6,
+      "year": 2018,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/958519.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/958519.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c0739d9d99d34ab1c727152a4db/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000171a6219a27d9e91b913a8c5acda0/orig",
+      "description": "Мумбаи, 2008 год. Роскошный отель «Тадж-Махал Палас» — гарантия безопасности. К каждому гостю здесь относятся как к богу и требования к персоналу предъявляют самые высокие, но в тот день сотрудникам отеля пришлось особенно тяжело. Город подвергается многочисленным террористическим атакам, и когда вооруженные люди захватывают «Тадж-Махал», расстреливая всех встречных, оказавшимся в ловушке гостям и персоналу придётся пережить настоящий кошмар.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 970882,
+      "imdbId": "tt5074352",
+      "nameRu": "Дангал",
+      "nameEn": null,
+      "nameOriginal": "Dangal",
+      "countries": [
+        {
+          "country": "Индия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "спорт"
+        }
+      ],
+      "ratingKinopoisk": 8.7,
+      "ratingImdb": 8.3,
+      "year": 2016,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/970882.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/970882.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1648503/2a000001934e50aa87a895136ea1435629cc/orig",
+      "logoUrl": null,
+      "description": "Когда-то Махавир Сингх Пхогат был чемпионом Индии по борьбе. По причине бедности он был вынужден бросить спорт, но поклялся воспитать сына, который станет в будущем олимпийским чемпионом. Но вот досада — у них с женой родились четыре дочки. Отец сначала отчаялся, но потом, увидев, что подросшие девчонки поколачивают одноклассников, решил всё же сделать из них спортсменок.",
+      "ratingAgeLimits": "age16"
+    },
+    {
+      "kinopoiskId": 425400,
+      "imdbId": "tt1255953",
+      "nameRu": "Пожары",
+      "nameEn": null,
+      "nameOriginal": "Incendies",
+      "countries": [
+        {
+          "country": "Франция"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "военный"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.3,
+      "year": 2010,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/425400.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/425400.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017fff585e2e56abd3fcf796e27f5d/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017fff5825e4b649ef2f143c71eb37/orig",
+      "description": "Когда брат и сестра Марван ознакомились с завещанием матери, их удивлению не было предела. Её последней волей было разыскать отца, которого близнецы считали умершим, и брата, о существовании которого они даже не подозревали. Жанна и Симон узнают, что мать тщательно скрывала от них многие обстоятельства своей трагической судьбы.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 45822,
+      "imdbId": null,
+      "nameRu": "Вокзал для двоих",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.8,
+      "year": 1982,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/45822.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/45822.jpg",
+      "coverUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-ott/2419418/2a0000017c0745619577c5e96ba52444fd2f/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a00000176868d177db07dac1169602b57fe/orig",
+      "description": "Город Заступинск, где-то между Москвой и Алма-Атой, ближе к Воронежу. Вокзальная буфетчица Вера и пианист Платон Рябинин из Москвы познакомились при весьма непривлекательных обстоятельствах. В результате Вера потеряла жениха с дынями, но нашла любимого, который вскоре должен отбыть в отдаленные места, чтобы нести наказание за несовершенное преступление...",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 43602,
+      "imdbId": "tt0089957",
+      "nameRu": "Самая обаятельная и привлекательная",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.4,
+      "year": 1985,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/43602.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/43602.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017c07540f06f4e3d1a4e798fe26e9/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017801db98ebf5d2d7823eaef62843/orig",
+      "description": "У инженера Нади Клюевой максимум общественной и минимум личной жизни. Всё меняется, когда она случайно встречает в автобусе свою старую знакомую, бывшую одноклассницу Сусанну, ныне работающую социологом на заводе бытовых кондиционеров. Сусанна решает наладить личную жизнь своей подруги, используя научный метод.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 81555,
+      "imdbId": "tt0421715",
+      "nameRu": "Загадочная история Бенджамина Баттона",
+      "nameEn": null,
+      "nameOriginal": "The Curious Case of Benjamin Button",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.8,
+      "year": 2008,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/81555.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/81555.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017c2812a8ad15a7c92c1b059a6cf3/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a00000170ed64c7e96655c7f6e054202fc7/orig",
+      "description": "Фильм о мужчине, который родился в возрасте 80 лет, а затем… начал молодеть. Этот человек, как и каждый из нас, не мог остановить время. Его путь в ХХI век, берущий свое начало в Новом Орлеане в 1918 году в самом конце Первой Мировой войны, будет столь необычен, что вряд ли мог иметь место в жизни кого-либо другого. Фильм повествует о судьбе уникального человека, о людях и событиях, что ждут его впереди, о любви, которую он обретет и потеряет, о радостях жизни и грусти потерь и о том, что остается с нами вне времени.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 195434,
+      "imdbId": "tt0477348",
+      "nameRu": "Старикам тут не место",
+      "nameEn": null,
+      "nameOriginal": "No Country for Old Men",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "вестерн"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 8.2,
+      "year": 2007,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/195434.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/195434.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/12808873/2a0000019662462b3c9d6a145984a9319a1c/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017329d5e1760ee94e78e37f09882a/orig",
+      "description": "Обычный работяга обнаруживает в пустыне гору трупов, набитый героином грузовик и соблазнительную сумму в два миллиона долларов наличными. Он решает взять деньги себе, и результатом становится волна насилия, которую не может остановить вся полиция Западного Техаса.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 841081,
+      "imdbId": "tt3783958",
+      "nameRu": "Ла-Ла Ленд",
+      "nameEn": null,
+      "nameOriginal": "La La Land",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Гонконг"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "музыка"
+        },
+        {
+          "genre": "мюзикл"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8,
+      "year": 2016,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/841081.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/841081.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017c07375e896598262749933969c3/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017ae7b37ade35f66d7eb5425793e3/orig",
+      "description": "Однажды старлетка, которая между прослушиваниями подаёт кофе состоявшимся кинозвёздам, и фанатичный джазовый музыкант, вынужденный подрабатывать в заштатных барах, встречаются и влюбляются. Но пришедший к влюблённым успех начинает подтачивать их отношения.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 86621,
+      "imdbId": "tt0432283",
+      "nameRu": "Бесподобный мистер Фокс",
+      "nameEn": null,
+      "nameOriginal": "Fantastic Mr. Fox",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.9,
+      "year": 2009,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/86621.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/86621.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a00000199ce5046458e5cdfdcfaf9ebf314/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a000001720d0a092ce6e2632fb4013df19f/orig",
+      "description": "Разъяренные фермеры, уставшие от постоянных нападок хитрого лиса на их курятники, готовятся уничтожить своего врага и его «хитрое» семейство.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5003510,
+      "imdbId": "tt16311594",
+      "nameRu": "F1",
+      "nameEn": null,
+      "nameOriginal": "F1",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "спорт"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.6,
+      "year": 2025,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5003510.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5003510.jpg",
+      "coverUrl": null,
+      "logoUrl": null,
+      "description": "В 1990-х Сонни Хейс был восходящей звездой «Формулы-1», но после серьёзной аварии ушёл из большого спорта. 30 лет спустя Сонни живёт в трейлере и зарабатывает участием в различных гонках и чемпионатах. Однажды к нему обращается старый друг Рубен Сервантес, тоже в прошлом гонщик, а ныне владелец гоночной команды-аутсайдера, с просьбой присоединиться к ним в качестве второго пилота и наставника для молодого многообещающего новичка.",
+      "ratingAgeLimits": "age18"
+    }
+  ]
+}

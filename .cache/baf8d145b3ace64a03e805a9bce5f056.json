@@ -1,0 +1,675 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 75871,
+      "imdbId": "tt0364569",
+      "nameRu": "Олдбой",
+      "nameEn": null,
+      "nameOriginal": "Oldeuboi",
+      "countries": [
+        {
+          "country": "Корея Южная"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.3,
+      "year": 2003,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/75871.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/75871.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13074011/2a000001993864e7c79673450d05339f6060/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a000001701b3e802ebb62b80c0ba2568552/orig",
+      "description": "1988 год. Обыкновенный и ничем непримечательный бизнесмен О Дэ-cу в день трёхлетия дочери по пути домой напивается, начинает хулиганить и закономерно попадает в полицейский участок. Из участка его под своё поручительство забирает друг детства. Пока тот звонит жене незадачливого пьяницы, О Дэ-су пропадает. Неизвестные похищают его и помещают в комнату без окон на 15 лет.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 7144323,
+      "imdbId": "tt28613536",
+      "nameRu": "Боб Тревино поставил лайк",
+      "nameEn": null,
+      "nameOriginal": "Bob Trevino Likes It",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.4,
+      "year": 2024,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7144323.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7144323.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a000001989eca6d9eb1d3e2b9867949eebc/orig",
+      "logoUrl": null,
+      "description": "После того как эгоистичный отец перестал с ней общаться, 25-летняя Лили Тревино находит в соцсетях его полного тёзку — добродушного строителя средних лет по имени Боб Тревино. Они начинают переписываться, и вскоре виртуальное знакомство перерастает в большую дружбу, помогающую обоим по-новому взглянуть на жизнь.",
+      "ratingAgeLimits": "age16"
+    },
+    {
+      "kinopoiskId": 627,
+      "imdbId": "tt0162222",
+      "nameRu": "Изгой",
+      "nameEn": null,
+      "nameOriginal": "Cast Away",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "приключения"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.8,
+      "year": 2000,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/627.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/627.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13074011/2a000001966747291c29fbfd4a64c6f6f7a5/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a000001720d0074aa7928e80773ae1817cd/orig",
+      "description": "Инспектор логистической компании FedEx Чак Ноланд — трудоголик, у которого нет времени даже на собственную невесту. Во время очередной командировки самолет с Ноландом падает в Тихий океан. Чак, единственный, кому посчастливилось спастись, оказывается на необитаемом острове, где ему придется бороться за выживание.",
+      "ratingAgeLimits": "age16"
+    },
+    {
+      "kinopoiskId": 683999,
+      "imdbId": "tt2278388",
+      "nameRu": "Отель «Гранд Будапешт»",
+      "nameEn": null,
+      "nameOriginal": "The Grand Budapest Hotel",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Германия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.1,
+      "year": 2014,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/683999.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/683999.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c073a8abbc043bab9564a7a1794/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a00000170ed7dcfe9293406a1b4695d1d83/orig",
+      "description": "Фильм рассказывает об увлекательных приключениях легендарного консьержа Густава и его юного друга, портье Зеро Мустафы. Сотрудники гостиницы становятся свидетелями кражи и поисков бесценных картин эпохи Возрождения, борьбы за огромное состояние богатой семьи и… драматических изменений в Европе между двумя кровопролитными войнами XX века.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 371,
+      "imdbId": "tt0120815",
+      "nameRu": "Спасти рядового Райана",
+      "nameEn": null,
+      "nameOriginal": "Saving Private Ryan",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8.6,
+      "year": 1998,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/371.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/371.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13051577/2a000001964495c79e8b10b0fab09a35a026/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000016ff9c645e7ab78cc06f481030afe/orig",
+      "description": "Вторая мировая. Капитан Джон Миллер получает тяжелое задание. Вместе с отрядом из восьми человек он должен отправиться в тыл врага на поиски рядового Джеймса Райана, три родных брата которого почти одновременно погибли на полях сражений.\n\nКомандование приняло решение демобилизовать Райана и отправить его на родину к безутешной матери. Но чтобы найти и спасти солдата, крошечному отряду придется пройти через все круги ада.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 522876,
+      "imdbId": "tt1655441",
+      "nameRu": "Век Адалин",
+      "nameEn": null,
+      "nameOriginal": "The Age of Adaline",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7.2,
+      "year": 2015,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/522876.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/522876.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000017c082006af37eeae4682a72a2e10/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a000001701fb79b5a07cd37185c580d944c/orig",
+      "description": "Адалин Боуман — столетняя молодая женщина 1908 года рождения. После автокатастрофы и поражения молнией в 1937 году она перестала стареть. Каждые десять лет она меняет личность, документы, работу и окружение. Неизменными спутниками для неё остаются только стареющая дочь, подруга — слепая пианистка, не знающая возраста Адалин, и десятая по счёту собака одной и той же породы. Однажды на праздновании Нового года Адалин встречает симпатичного молодого человека по имени Эллис, ради которого ей хочется перестать убегать.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 470553,
+      "imdbId": "tt1454029",
+      "nameRu": "Прислуга",
+      "nameEn": null,
+      "nameOriginal": "The Help",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Индия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8.1,
+      "year": 2011,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/470553.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/470553.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c073f992d0db2693323e167fb09/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/239697/2a0000016ef3b3b517716326ef57a955f063/orig",
+      "description": "Американский Юг, на дворе 1960-е годы. Скитер только-только закончила университет и возвращается домой, в сонный городок Джексон, где никогда ничего не происходит. Она мечтает стать писательницей, вырваться в большой мир. Но для приличной девушки с Юга не пристало тешиться столь глупыми иллюзиями, приличной девушке следует выйти замуж и хлопотать по дому.\n\nМудрая Эйбилин на тридцать лет старше Скитер, она прислуживает в домах белых всю свою жизнь, вынянчила семнадцать детей и давно уже ничего не ждет от жизни, ибо сердце ее разбито после смерти единственного сына.\n\nМинни - самая лучшая стряпуха во всем Джексоне, а еще она самая дерзкая служанка в городе. И острый язык не раз уже сослужил ей плохую службу. На одном месте Минни никогда подолгу не задерживается. Но с Минни лучше не связываться даже самым высокомерным белым дамочкам. Двух черных служанок и белую неопытную девушку объединяет одно - обостренное чувство справедливости и желание хоть как-то изменить порядок вещей. Смогут ли эти трое противостоять целому миру? Сумеют ли они выжить в этой борьбе?",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 7525290,
+      "imdbId": "tt38504885",
+      "nameRu": "Двое в одной жизни, не считая собаки",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": null,
+      "year": 2025,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/7525290.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/7525290.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000019ae3fc71e0a2b453b06f6d7e8a1f/orig",
+      "logoUrl": null,
+      "description": "Двое питерских стариков-интеллигентов, муж и жена, детьми пережили Великую Отечественную войну. Сейчас они живут одни, их дети уехали. Они обладают мудростью, спокойствием, оптимизмом, терпением и прощением — тем, чего так не хватает современным людям сегодня. Поэтому к ним, к их теплу и дому, как к огню, тянутся те, кому холодно и кому нужна помощь и поддержка.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 5089032,
+      "imdbId": "tt29519507",
+      "nameRu": "Ненормальный",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 6.5,
+      "year": 2024,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5089032.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5089032.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a0000019d2ee67c9bef7c5e2aecc3390cac/orig",
+      "logoUrl": null,
+      "description": "8-летний Коля не такой как все. Мама мальчика Татьяна уже не верит, что врожденная болезнь отступит, и ребенок когда-нибудь станет «нормальным». Но ее новый знакомый Юрий твердо намерен поставить Колю на ноги с помощью своей уникальной системы гимнастики. А когда во время занятий случайно выясняется, что у мальчика талант к музыке, обучение игре на фортепиано становится еще одним этапом на пути к выздоровлению.\nВпереди у Коли — престижный конкурс пианистов в Китае, первое свидание и масса препятствий, преодолеть которые ему помогут целительная сила музыки и отцовской любви.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 81512,
+      "imdbId": "tt0412080",
+      "nameRu": "Самый быстрый Indian",
+      "nameEn": null,
+      "nameOriginal": "The World's Fastest Indian",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Япония"
+        },
+        {
+          "country": "Новая Зеландия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "спорт"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 7.8,
+      "year": 2005,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/81512.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/81512.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000017c075b54836addceef6488eefe4f/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a00000171a61c84727116ecd121cc9e71be/orig",
+      "description": "История жизни знаменитого новозеландца Берта Монро, который потратил десятилетия жизни на переоснащение своего любимого мотоцикла марки «Индиан» 1920 года выпуска с максимальной скоростью в 58 миль/ч в гоночный болид для установления рекорда скорости.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 4695,
+      "imdbId": "tt0086250",
+      "nameRu": "Лицо со шрамом",
+      "nameEn": null,
+      "nameOriginal": "Scarface",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8.3,
+      "year": 1983,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4695.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4695.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a0000017c0789fa8ca1e905426d1644d130/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a0000017298274919acd5a9697a3bc1274c/orig",
+      "description": "Весной 1980 года был открыт порт Мэйриэл Харбор, и тысячи кубинских беженцев ринулись в Соединенные Штаты на поиски Американской Мечты. Один из них нашел ее на залитых солнцем улицах Майами. Богатство, власть и страсть превзошли даже самые невероятные его мечты. Его звали Тони Монтана. Мир запомнил его под другим именем — Лицо со шрамом.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 395,
+      "imdbId": "tt0167404",
+      "nameRu": "Шестое чувство",
+      "nameEn": null,
+      "nameOriginal": "The Sixth Sense",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8.2,
+      "year": 1999,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/395.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/395.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017c076cb48a1988ea34594f7c9b13/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a00000170aa45c7918a35ab5dfb77421d5d/orig",
+      "description": "Детский психиатр Малкольм Кроу сталкивается со странным случаем: девятилетнего Коула посещают страшные видения — призраки умерших. Как врач Малкольм бессилен помочь, но как человек он пытается найти ключ к ужасному миру Коула.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 5492,
+      "imdbId": "tt0338013",
+      "nameRu": "Вечное сияние чистого разума",
+      "nameEn": null,
+      "nameOriginal": "Eternal Sunshine of the Spotless Mind",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.3,
+      "year": 2004,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5492.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5492.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017c07256e40c80140dc254e245cf0/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a00000172c6b6930a8bfda76a0aea0a87e9/orig",
+      "description": "Застенчивый и меланхоличный Джоэл живёт ничем не примечательной серой и унылой жизнью. Но однажды вместо привычного рабочего маршрута молодой человек вдруг садится на электричку в другом направлении и устремляется к морю. На песчаном берегу Джоэл замечает девушку с ярко-синими волосами. На обратном пути они знакомятся в вагоне электрички и парень понимает, что у них с Клементиной очень много общего, как будто он уже знает эту девушку. Совсем скоро Джоэл поймёт, что действительно был знаком с ней, более того - они были парой.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 350,
+      "imdbId": "tt0099685",
+      "nameRu": "Славные парни",
+      "nameEn": null,
+      "nameOriginal": "Goodfellas",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "биография"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 8.7,
+      "year": 1990,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/350.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/350.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c074964290c0dc58f0a067cc3d4/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2385704/2a00000172982952767450f233dc96c5e3a9/orig",
+      "description": "История о Генри Хилле — начинающем гангстере, занимающемся грабежами вместе с подельниками Джими Конвеем и Томми Де Вито, которые с легкостью убивают любого, кто встаёт у них на пути.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 601564,
+      "imdbId": null,
+      "nameRu": "Легенда №17",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "спорт"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.4,
+      "year": 2012,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/601564.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/601564.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017c0734d8b06d351b787f2cb2d4a1/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000016eadd2e664456829d2bd6de206ed/orig",
+      "description": "История жизни хоккеиста Валерия Харламова.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 647671,
+      "imdbId": "tt2106476",
+      "nameRu": "Охота",
+      "nameEn": null,
+      "nameOriginal": "Jagten",
+      "countries": [
+        {
+          "country": "Швеция"
+        },
+        {
+          "country": "Дания"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.3,
+      "year": 2012,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/647671.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/647671.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c0730e305bdf2b33a8f7fddc080/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000016fb2bc73feb0e95919cf3203aa74/orig",
+      "description": "42-летний Лукас живет в небольшой датской деревушке, работает воспитателем в детском саду и пытается оправиться после тяжелого развода. Жизнь постепенно налаживается: он встречает любимую женщину и восстанавливает отношения с сыном-подростком Маркусом. Но детская обида дочери его лучшего друга провоцирует ложь, которая распространяется по небольшому сообществу как вирус. Мир Лукаса трещит по швам.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 1179501,
+      "imdbId": "tt8739752",
+      "nameRu": "Дело Коллини",
+      "nameEn": null,
+      "nameOriginal": "Der Fall Collini",
+      "countries": [
+        {
+          "country": "Германия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.3,
+      "year": 2019,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1179501.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1179501.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c2893569eb8bc4a2827b9513596/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a00000173a040c97c6563dc8c911a9bbe55/orig",
+      "description": "Берлин, 2001 год. Молодой адвокат Каспар Лайнен берётся защищать пожилого итальянца Фабрицио Коллини, который по непонятным причинам убил известного немецкого бизнесмена Ханса Майера, после чего сам сдался полиции. Ситуация осложняется не только молчанием Коллини и участием в процессе знаменитого и опытного прокурора, но и моральными аспектами. Внучка жертвы Йоханна была юношеской любовью Каспара, а сам Ханс Майер относился к нему как к сыну после ухода его родного отца из семьи. Вскоре Каспар обращает внимание на одну деталь и начинает своё расследование, которое может привести его к не самым приятным тайнам прошлого.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 455194,
+      "imdbId": "tt1392214",
+      "nameRu": "Пленницы",
+      "nameEn": null,
+      "nameOriginal": "Prisoners",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 8.2,
+      "year": 2013,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/455194.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/455194.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c07877c4d0dbbba05c4b7c74704/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a00000171a61be85cdd4067daa5009bef7e/orig",
+      "description": "Келлер Довер сталкивается с самым большим кошмаром каждого родителя: его шестилетняя дочь пропала вместе с подругой. Время бежит, девочки не возвращаются, и паника достигает своего предела. Единственная зацепка - обветшалый фургончик, который был припаркован на их улице, когда девочки играли во дворе. Детектив Локки, возглавляющий расследование, арестовывает его водителя, Алекса Джонса, но вскоре полиция вынуждена его отпустить из-за нехватки улик. Полиция медлит, а обезумевший от горя отец берет дело в свои руки. Но как далеко готов зайти Келлер в поисках девочек?",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 835086,
+      "imdbId": "tt1950186",
+      "nameRu": "Ford против Ferrari",
+      "nameEn": null,
+      "nameOriginal": "Ford v Ferrari",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "спорт"
+        }
+      ],
+      "ratingKinopoisk": 8.2,
+      "ratingImdb": 8.1,
+      "year": 2019,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/835086.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/835086.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a0000017c0747b46bbf01686e0ae6c93484/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a000001701068309f9ea919c912ea2c9f41/orig",
+      "description": "В начале 1960-х Генри Форд II принимает решение улучшить имидж компании и сменить курс на производство более модных автомобилей. После неудавшейся попытки купить практически банкрота Ferrari американцы решают бросить вызов итальянским конкурентам на трассе и выиграть престижную гонку 24 часа Ле-Мана. Чтобы создать подходящую машину, компания нанимает автоконструктора Кэррола Шэлби, а тот отказывается работать без выдающегося, но, как считается, трудного в общении гонщика Кена Майлза. Вместе они принимаются за разработку впоследствии знаменитого спорткара Ford GT40.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 8366,
+      "imdbId": "tt0084787",
+      "nameRu": "Нечто",
+      "nameEn": null,
+      "nameOriginal": "The Thing",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "фантастика"
+        },
+        {
+          "genre": "ужасы"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 8.2,
+      "year": 1982,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8366.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8366.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a00000181aaef279c6f938928bd12084aa1/orig",
+      "logoUrl": null,
+      "description": "Команде ученых американской исследовательской станции в Антарктике предстоит столкнуться с необъяснимым кошмаром. Отрезанные от остального мира полярники вступают в схватку с инопланетной тварью, способной принимать обличье земных существ.",
+      "ratingAgeLimits": "age18"
+    }
+  ]
+}

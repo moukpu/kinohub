@@ -1,0 +1,705 @@
+{
+  "total": 250,
+  "totalPages": 13,
+  "items": [
+    {
+      "kinopoiskId": 1048334,
+      "imdbId": "tt7286456",
+      "nameRu": "Джокер",
+      "nameEn": null,
+      "nameOriginal": "Joker",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Австралия"
+        },
+        {
+          "country": "Канада"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 8.3,
+      "year": 2019,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1048334.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1048334.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c2d81d0e0232cb0c6d6735c7202/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a00000176f15a40fc3ec20b6a61c0b19850/orig",
+      "description": "Готэм, начало 1980-х годов. Комик Артур Флек живет с больной матерью, которая с детства учит его «ходить с улыбкой». Пытаясь нести в мир хорошее и дарить людям радость, Артур сталкивается с человеческой жестокостью и постепенно приходит к выводу, что этот мир получит от него не добрую улыбку, а ухмылку злодея Джокера.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 4384109,
+      "imdbId": "tt11068094",
+      "nameRu": "Белая птица: Новое чудо",
+      "nameEn": null,
+      "nameOriginal": "White Bird",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 7.4,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4384109.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4384109.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000018e66a7d48c30bb3aebd03720c772/orig",
+      "logoUrl": null,
+      "description": "Джулиана Олбанса исключили из школы за жестокое обращение с Огги Пуллманом. К Джулиану приезжает бабушка, которая делится с внуком историей ее юности в оккупированной нацистами Франции. Тогда ее жизнь спасли только доброта и мужество почти незнакомого ей юноши, которого также донимали в школе одноклассники.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 959606,
+      "imdbId": "tt5311542",
+      "nameRu": "Работа без авторства",
+      "nameEn": null,
+      "nameOriginal": "Werk ohne Autor",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Германия"
+        },
+        {
+          "country": "Италия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "военный"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.7,
+      "year": 2018,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/959606.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/959606.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c287719bbba9959ef08113e626d/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1648503/2a00000171a628357b5a6c7fc5abcd250757/orig",
+      "description": "Молодой художник Курт Барнерт сбегает из Восточной Германии в Западную, чтобы учиться живописи и свободно работать. Однако болезненное прошлое дает о себе знать.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 279850,
+      "imdbId": "tt0822832",
+      "nameRu": "Марли и я",
+      "nameEn": null,
+      "nameOriginal": "Marley & Me",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "семейный"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7,
+      "year": 2008,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/279850.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/279850.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13074011/2a00000198607097ca651b1c3943397281aa/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a000001722769050f10ac35492cb7b99a26/orig",
+      "description": "Молодой журналист со своей женой переезжает в другой город на новое место работы. У них грандиозные планы: покупка дома, дети... Но сначала они заводят собаку. Кто бы мог подумать, что именно она станет главным испытанием в их жизни.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 958722,
+      "imdbId": "tt5311514",
+      "nameRu": "Твоё имя",
+      "nameEn": null,
+      "nameOriginal": "Kimi no na wa.",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "аниме"
+        }
+      ],
+      "ratingKinopoisk": 8.4,
+      "ratingImdb": 8.4,
+      "year": 2016,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/958722.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/958722.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c2876c1b99ba3fe82b2ab5b6b0f/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a000001722748afd22b6cd005ea5059c8a4/orig",
+      "description": "Токийский парень Таки и провинциальная девушка Мицуха обнаруживают, что между ними существует странная связь. Во сне они меняются телами и проживают жизни друг друга. Но однажды эта способность исчезает так же внезапно, как появилась. Таки решает во что бы то ни стало отыскать Мицуху.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 335,
+      "imdbId": "tt0209144",
+      "nameRu": "Мементо",
+      "nameEn": null,
+      "nameOriginal": "Memento",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 8.4,
+      "year": 2000,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/335.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/335.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a000001843e1bb6d9104345dd77685072df/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1648503/2a0000016fc7d8bc0be31ee37cf20f7a0ced/orig",
+      "description": "Леонард Шелби изысканно и дорого одет, ездит на новеньком «Ягуаре», но останавливается в дешевых мотелях. Он всеми силами пытается найти убийцу жены. Его проблема — редкая форма амнезии, потеря короткой памяти — помня все до убийства, он не помнит, что было 15 минут назад.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 635772,
+      "imdbId": "tt2084970",
+      "nameRu": "Игра в имитацию",
+      "nameEn": null,
+      "nameOriginal": "The Imitation Game",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "военный"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 8,
+      "year": 2014,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/635772.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/635772.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a000001900c6d85254d75f8bbeb7c3e137d/orig",
+      "logoUrl": null,
+      "description": "Английский математик и логик Алан Тьюринг пытается взломать код немецкой шифровальной машины Enigma во время Второй мировой войны.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 880,
+      "imdbId": "tt0207201",
+      "nameRu": "Чего хотят женщины",
+      "nameEn": null,
+      "nameOriginal": "What Women Want",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фэнтези"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 6.5,
+      "year": 2000,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/880.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/880.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a000001847c201941e59cc74a4ecb3b67c7/orig",
+      "logoUrl": null,
+      "description": "Сексапильный Ник Маршал находится на пике карьеры в рекламном агентстве и рассчитывает на повышение, но его место занимает Дарси Макгуайр. Однажды с Ником происходит несчастный случай, после которого он начинает читать женские мысли. С помощью этого дара плейбой хочет вернуть утраченные позиции на работе, но вместо этого находит свою любовь.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 44691,
+      "imdbId": null,
+      "nameRu": "Калина красная",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.6,
+      "year": 1973,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/44691.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/44691.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a0000017c075bda9379c326995d4b13aed1/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1534341/2a00000176870b61567e66cd344f30009706/orig",
+      "description": "Вор-рецидивист Егор Прокудин по прозвищу Горе выходит на свободу после очередной отсидки. Он едет в деревню Ясное к Любе Байкаловой, с которой переписывался, отбывая наказание. Егор намерен отойти от дел — теперь у него есть друзья, работа и любимая женщина. Однако бывшие подельники не готовы его отпустить.",
+      "ratingAgeLimits": "age0"
+    },
+    {
+      "kinopoiskId": 694633,
+      "imdbId": "tt2310332",
+      "nameRu": "Хоббит: Битва пяти воинств",
+      "nameEn": null,
+      "nameOriginal": "The Hobbit: The Battle of the Five Armies",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Новая Зеландия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7.4,
+      "year": 2014,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/694633.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/694633.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a0000017c285ff3ed6426e5eec00f161bc0/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/223007/2a0000016e4b009c7563ea05663d61e2e095/orig",
+      "description": "Когда отряд из тринадцати гномов нанимал хоббита Бильбо Бэгинса в качестве взломщика и четырнадцатого, «счастливого», участника похода к Одинокой горе, Бильбо полагал, что его приключения закончатся, когда он выполнит свою задачу - найдет сокровище, которое так необходимо предводителю гномов Торину. Путешествие в Эребор, захваченное драконом Смаугом королевство гномов, оказалось еще более опасным, чем предполагали гномы и даже Гэндальф - мудрый волшебник, протянувший Торину и его отряду руку помощи.\nВ погоню за гномами устремилась армия орков, ведомых пробудившимся в руинах древним злом, а эльфы и люди, с которыми Бильбо и его товарищам пришлось иметь дело во время путешествия и которые пострадали от последствий желания гномов вернуть свой дом, предъявили права на щедрое вознаграждение - часть сокровищ Одинокой горы. Скоро неподалеку от Одинокой горы встретятся пять армий, и лишь кровопролитная битва определит результаты смелого гномьего похода.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 408876,
+      "imdbId": "tt1170358",
+      "nameRu": "Хоббит: Пустошь Смауга",
+      "nameEn": null,
+      "nameOriginal": "The Hobbit: The Desolation of Smaug",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Новая Зеландия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8,
+      "ratingImdb": 7.8,
+      "year": 2013,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/408876.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/408876.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a0000017c2841c23554dab694aa060f8c9c/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000016fc7c4471a0ea47d92c868c2818f/orig",
+      "description": "Продолжение путешествия хоббита Бильбо Бэггинса, волшебника Гэндальфа и 13 отважных гномов. Их компания должна добраться до Одинокой горы. А там они встретятся с величайшей опасностью из всех — созданием куда более ужасающим, чем все их прошлые противники, чудовищем, которое проверит на прочность не только их мужество, но крепость их дружбы и правильность выбранного пути, — драконом Смаугом.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 104992,
+      "imdbId": "tt0458352",
+      "nameRu": "Дьявол носит Prada",
+      "nameEn": null,
+      "nameOriginal": "The Devil Wears Prada",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.7,
+      "ratingImdb": 7,
+      "year": 2006,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/104992.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/104992.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/1652588/2a00000187e7f7952eece2c7cefbadc00ecb/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/200035/2a000001725515009edce05c53e3ccf94a56/orig",
+      "description": "Мечтающая стать журналисткой провинциальная девушка Энди по окончании университета получает должность помощницы всесильной Миранды Пристли, деспотичного редактора одного из крупнейших нью-йоркских журналов мод. Энди всегда мечтала о такой работе, не зная, с каким нервным напряжением это будет связано…",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5069690,
+      "imdbId": "tt20672356",
+      "nameRu": "Земмельвейс",
+      "nameEn": null,
+      "nameOriginal": "Semmelweis",
+      "countries": [
+        {
+          "country": "Венгрия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "биография"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 6.8,
+      "year": 2023,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5069690.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5069690.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a000001999a5a2b0720cb3f8cb543aa68e3/orig",
+      "logoUrl": null,
+      "description": "Вена, 1847 год. Врач Игнац Земмельвейс сталкивается с загадочной эпидемией детородной лихорадки, уносящей жизни многих пациентов в больнице. Ежедневно проводя роды и выполняя вскрытия, он настойчиво ищет причину этого смертельного недуга. Но его попытки разобраться в тайне сталкиваются с сопротивлением со стороны консервативной медицинской общественности, и он вынужден бороться не только с болезнью, но и с системой, которая препятствует его усилиям спасти жизни своих пациентов.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 5059,
+      "imdbId": "tt0119643",
+      "nameRu": "Знакомьтесь, Джо Блэк",
+      "nameEn": null,
+      "nameOriginal": "Meet Joe Black",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.2,
+      "year": 1998,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5059.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5059.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a00000187bd50949da0a4a996ade1e5e0b2/orig",
+      "logoUrl": null,
+      "description": "В жизни газетного магната Уильяма Пэрриша появляется сама Смерть, принявшая обличье молодого человека по имени Джо Блэк. Смерть, уставшая от своих привычных обязанностей, предлагает Пэрришу необычное соглашение: магнат станет проводником Джо в мире живых, а по окончании каникул Смерть заберет Пэрриша с собой.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 77203,
+      "imdbId": null,
+      "nameRu": "Покровские ворота",
+      "nameEn": null,
+      "nameOriginal": null,
+      "countries": [
+        {
+          "country": "СССР"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мюзикл"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.9,
+      "year": 1982,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/77203.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/77203.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/224348/2a0000017c07586221098849ed73842c5eaf/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a00000172284e7bbb9f73c6e50acc21ff98/orig",
+      "description": "Если вы развелись, и ваша бывшая жена снова вышла замуж — это еще не значит, что вы свободны. Если вы пригласили девушку на свидание, и она пришла, это еще не значит, что она будет вашей. Но если при этом ваш сосед по коммуналке — аспирант Костик, то можете быть уверены — все будет хорошо.",
+      "ratingAgeLimits": "age6"
+    },
+    {
+      "kinopoiskId": 363,
+      "imdbId": "tt0119488",
+      "nameRu": "Секреты Лос-Анджелеса",
+      "nameEn": null,
+      "nameOriginal": "L.A. Confidential",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "боевик"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 8.2,
+      "year": 1997,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/363.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/363.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/2419418/2a0000019a34969c6103a30b4a151a66d19a/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/2439731/2a000001771abae715101d3da0e0f20e61b4/orig",
+      "description": "Бад Уайт и Эд Эксли работают в полиции Лос-Анджелеса. Они настолько разные, что порой ненавидят друг друга. Но их объединяет общее дело — расследование массового убийства. Оба пришли в полицию, чтобы бороться со злом, и оба — по личным причинам.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 645276,
+      "imdbId": "tt2101473",
+      "nameRu": "Лекарь: Ученик Авиценны",
+      "nameEn": null,
+      "nameOriginal": "The Physician",
+      "countries": [
+        {
+          "country": "Германия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "история"
+        }
+      ],
+      "ratingKinopoisk": 8.1,
+      "ratingImdb": 7.2,
+      "year": 2013,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/645276.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/645276.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13051577/2a00000198a8f9206ffa596e16c77082d648/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/374297/2a00000170d6c5d6bea8c5ba6942d0ea3295/orig",
+      "description": "Англия, XI век. Мать десятилетнего Роба Коула умирает в страшных мучениях: никто не знает ни природы её болезни, ни лекарства против неё. Маленький Роб, потрясенный до глубины души, во что бы то ни стало стремится разгадать эту тайну.\n Ему суждено пройти долгий путь, от Англии до Персии, его учителями становятся сначала обыкновенный шарлатан Барбер, а потом - великий лекарь Авиценна. Мудрый учитель видит в Робе необыкновенный талант к медицине, но советует ему не спешить делать вещи, которые не соответствуют веку. Но Роб ни перед чем не останавливается в своем желании научиться спасать людей от смерти, и над его собственной жизнью нависает угроза, ведь он дважды пошел против предрассудков: использовал для научных исследований тело человека и полюбил женщину, отданную в жены другому.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 854,
+      "imdbId": "tt0183869",
+      "nameRu": "Такси 2",
+      "nameEn": null,
+      "nameOriginal": "Taxi 2",
+      "countries": [
+        {
+          "country": "Франция"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 7.8,
+      "ratingImdb": 6.5,
+      "year": 2000,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/854.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/854.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/236744/2a0000017c0817e383a8b1d34ccfeddce675/orig",
+      "logoUrl": null,
+      "description": "Во Францию прибывает министр обороны Японии. Цель его визита - ознакомиться с французским опытом борьбы с терроризмом и подписать «контракт века» о взаимном сотрудничестве.\n\nНеожиданно во время показательных выступлений французской полиции министра обороны похищают якудза, желающая сорвать заключение наиважнейшего контракта. Даниэль и Эмильен отправляются на поиски высокого гостя. В дело вступает уже хорошо знакомое нам такси.",
+      "ratingAgeLimits": "age12"
+    },
+    {
+      "kinopoiskId": 939411,
+      "imdbId": "tt5093026",
+      "nameRu": "Мотылёк",
+      "nameEn": null,
+      "nameOriginal": "Papillon",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Испания"
+        },
+        {
+          "country": "Чехия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "криминал"
+        },
+        {
+          "genre": "биография"
+        }
+      ],
+      "ratingKinopoisk": 7.9,
+      "ratingImdb": 7.2,
+      "year": 2017,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/939411.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/939411.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/212840/2a0000017c074605531f3618c87267acf37c/orig",
+      "logoUrl": "https://avatars.mds.yandex.net/get-ott/1531675/2a00000175bc23a38e3985bceee34319b4bb/orig",
+      "description": "Взломщик сейфов по прозвищу Мотылёк получает пожизненный срок и отправляется на каторгу за убийство, которого он не совершал. Когда вокруг враги, а надежда угасает с каждым днём заключения, лишь сила духа может помочь Мотыльку обрести свободу.",
+      "ratingAgeLimits": "age18"
+    },
+    {
+      "kinopoiskId": 4542189,
+      "imdbId": "tt14586118",
+      "nameRu": "Великолепная поездка",
+      "nameEn": null,
+      "nameOriginal": "Une belle course",
+      "countries": [
+        {
+          "country": "Франция"
+        },
+        {
+          "country": "Бельгия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "ratingKinopoisk": 8.3,
+      "ratingImdb": 7.2,
+      "year": 2022,
+      "type": "FILM",
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4542189.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4542189.jpg",
+      "coverUrl": "https://avatars.mds.yandex.net/get-ott/13051577/2a0000019514269c487b3b12a467c3fc4f81/orig",
+      "logoUrl": null,
+      "description": "По дороге в дом престарелых Мадлен просит водителя такси провезти ее по памятным местам Парижа.",
+      "ratingAgeLimits": "age18"
+    }
+  ]
+}
