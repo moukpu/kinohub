@@ -280,6 +280,11 @@ app.get('/api/torrents/download/:torrentId', (req, res) => {
   });
 });
 
+// Dedicated Movie Page route
+app.get('/movie/:id', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'movie.html'));
+});
+
 // SPA fallback
 app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));

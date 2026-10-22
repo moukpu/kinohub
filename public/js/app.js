@@ -26,25 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchInput = document.getElementById('searchInput');
   const searchDropdown = document.getElementById('searchDropdown');
 
-  // Modal Elements
-  const movieModal = document.getElementById('movieModal');
-  const modalClose = document.getElementById('modalClose');
-  const playerIframe = document.getElementById('playerIframe');
-  const voiceoverSelect = document.getElementById('voiceoverSelect');
-  const qualitySelect = document.getElementById('qualitySelect');
-  const balancerSelect = document.getElementById('balancerSelect');
-  const downloadMp4Btn = document.getElementById('downloadMp4Btn');
-  const bookmarkBtn = document.getElementById('bookmarkBtn');
-  const modalTitle = document.getElementById('modalTitle');
-  const modalRatings = document.getElementById('modalRatings');
-  const modalMeta = document.getElementById('modalMeta');
-  const modalDesc = document.getElementById('modalDesc');
-
-  const downloadModal = document.getElementById('downloadModal');
-  const downloadModalClose = document.getElementById('downloadModalClose');
-  const dlModalTitle = document.getElementById('dlModalTitle');
-  const dlReleasesList = document.getElementById('dlReleasesList');
-
   // LocalStorage Bookmarks
   function getBookmarks() {
     return JSON.parse(localStorage.getItem('kinohub_bookmarks') || '[]');
@@ -104,7 +85,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const genre = movie.genres?.[0]?.genre || '';
     const topRank = rank || movie.topRank;
 
-    const card = document.createElement('div');
+    const card = document.createElement('a');
+    card.href = `/movie.html?id=${id}`;
     card.className = 'movie-card';
     card.innerHTML = `
       <div class="card-poster-wrapper">
@@ -121,7 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
     `;
 
-    card.addEventListener('click', () => openMovieModal(id));
     return card;
   }
 
@@ -181,11 +162,8 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     spotlightCard.style.display = 'flex';
 
-    document.getElementById('spotlightWatchBtn').onclick = () => openMovieModal(id);
-    document.getElementById('spotlightDownloadBtn').onclick = () => {
-      openMovieModal(id);
-      setTimeout(() => downloadMp4Btn.click(), 400);
-    };
+    document.getElementById('spotlightWatchBtn').onclick = () => window.location.href = `/movie.html?id=${id}`;
+    document.getElementById('spotlightDownloadBtn').onclick = () => window.location.href = `/movie.html?id=${id}#downloadBlock`;
   }
 
   async function loadTop250View() {
@@ -327,7 +305,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         row.onclick = () => {
           searchDropdown.style.display = 'none';
-          openMovieModal(id);
+          window.location.href = `/movie.html?id=${id}`;
         };
         searchDropdown.appendChild(row);
       });
@@ -341,188 +319,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Modal Cinema & Controls
-  async function openMovieModal(filmId) {
-    movieModal.style.display = 'flex';
-    document.body.style.overflow = 'hidden';
-
-    modalTitle.textContent = 'Загрузка...';
-    playerIframe.src = '';
-    voiceoverSelect.innerHTML = '<option>Загрузка озвучек...</option>';
-    balancerSelect.innerHTML = '<option>Загрузка серверов...</option>';
-    magnetLinkBtn.style.display = 'none';
-
-    // Parallel fetch
-    const [details, players] = await Promise.all([
-      API.getDetails(filmId),
-      API.getPlayers(filmId)
-    ]);
-
-    currentMovie = details;
-    currentPlayersData = players;
-
-    const titleRu = details.nameRu || details.nameOriginal || 'Фильм';
-    const year = details.year || '';
-    const genres = (details.genres || []).map(g => g.genre).join(', ');
-    const countries = (details.countries || []).map(c => c.country).join(', ');
-    const directors = (details.staff || []).filter(s => s.professionKey === 'DIRECTOR').map(s => s.nameRu).slice(0, 2).join(', ');
-
-    modalTitle.textContent = `${titleRu} (${year})`;
-    modalMeta.textContent = `${year} • ${genres} • ${countries}${directors ? ' • Реж: ' + directors : ''}`;
-    modalDesc.textContent = details.description || '';
-
-    modalRatings.innerHTML = `
-      ${details.ratingKinopoisk ? `<span class="rating-pill">Кинопоиск ${details.ratingKinopoisk}</span>` : ''}
-      ${details.ratingImdb ? `<span class="rating-pill" style="background:#f59e0b; color:#000;">IMDb ${details.ratingImdb}</span>` : ''}
-    `;
-
-    updateBookmarkBtn(filmId);
-    bookmarkBtn.onclick = () => toggleBookmark(details);
-
-    // Setup Balancers & Voiceovers dropdowns
-    setupControls(players);
-
-    // Fetch torrent releases in background
-    API.getTorrents(filmId, titleRu, details.nameOriginal, year).then(torrents => {
-      currentTorrentsData = torrents;
-    });
+  // Open dedicated movie page
+  function openMovieModal(filmId) {
+    window.location.href = `/movie.html?id=${filmId}`;
   }
-
-  function setupControls(playersData) {
-    const balancers = playersData.balancers || [];
-    balancerSelect.innerHTML = '';
-    voiceoverSelect.innerHTML = '';
-
-    if (balancers.length === 0) {
-      voiceoverSelect.innerHTML = '<option>Нет доступных плееров</option>';
-      return;
-    }
-
-    balancers.forEach((b, idx) => {
-      const opt = document.createElement('option');
-      opt.value = idx;
-      opt.textContent = `${b.name} (Сервер ${idx + 1})`;
-      balancerSelect.appendChild(opt);
-    });
-
-    balancerSelect.onchange = () => {
-      const idx = parseInt(balancerSelect.value, 10);
-      switchBalancer(balancers[idx]);
-    };
-
-    switchBalancer(balancers[0]);
-  }
-
-  function switchBalancer(balancer) {
-    selectedBalancer = balancer;
-    voiceoverSelect.innerHTML = '';
-    const translations = balancer.translations || [];
-
-    if (translations.length > 0) {
-      translations.forEach((t, idx) => {
-        const opt = document.createElement('option');
-        opt.value = idx;
-        opt.textContent = `${t.name} (${t.quality || 'Auto'})`;
-        voiceoverSelect.appendChild(opt);
-      });
-
-      voiceoverSelect.onchange = () => {
-        const idx = parseInt(voiceoverSelect.value, 10);
-        switchTranslation(translations[idx]);
-      };
-
-      switchTranslation(translations[0]);
-    } else {
-      voiceoverSelect.innerHTML = '<option>Стандартная дорожка</option>';
-      playerIframe.src = balancer.defaultIframe;
-    }
-  }
-
-  function switchTranslation(translation) {
-    selectedTranslation = translation;
-    playerIframe.src = translation.iframeUrl;
-  }
-
-  // DOWNLOAD BUTTON & MODAL LOGIC
-  async function openDownloadModal() {
-    if (!currentMovie) return;
-    const filmId = currentMovie.kinopoiskId || currentMovie.filmId;
-    const titleRu = currentMovie.nameRu || '';
-    const titleEn = currentMovie.nameOriginal || currentMovie.nameEn || '';
-    const year = currentMovie.year || '';
-
-    dlModalTitle.textContent = `Скачать: ${titleRu || titleEn} (${year})`;
-    downloadModal.style.display = 'flex';
-    document.body.style.overflow = 'hidden';
-    dlReleasesList.innerHTML = '<div style="text-align: center; padding: 30px; color: var(--text-muted);">Поиск доступных раздач...</div>';
-
-    let torrents = currentTorrentsData;
-    if (!torrents || !torrents.items || torrents.items.length === 0) {
-      torrents = await API.getTorrents(filmId, titleRu, titleEn, year);
-      currentTorrentsData = torrents;
-    }
-
-    if (!torrents || !torrents.items || torrents.items.length === 0) {
-      dlReleasesList.innerHTML = `
-        <div style="text-align: center; padding: 30px; color: var(--text-muted);">
-          Прямых раздач для этого релиза не найдено. Вы можете смотреть фильм онлайн прямо в плеере выше.
-        </div>
-      `;
-      return;
-    }
-
-    dlReleasesList.innerHTML = torrents.items.slice(0, 30).map(t => {
-      const downloadFileUrl = `/api/torrents/download/${t.id}?name=${encodeURIComponent(t.title)}`;
-      return `
-        <div class="dl-release-card">
-          <div class="dl-card-info">
-            <div class="dl-card-title">${t.title}</div>
-            <div class="dl-card-meta">
-              <span class="dl-badge">${t.quality}</span>
-              <span class="dl-badge">${t.voice}</span>
-              <span>📁 ${t.size}</span>
-              <span style="color: #16a34a; font-weight: 600;">🟢 ${t.seeds}</span>
-            </div>
-          </div>
-          <div class="dl-card-actions">
-            <a href="${downloadFileUrl}" class="dl-btn dl-btn-file" title="Скачать файл">
-              ⬇ Скачать файл
-            </a>
-            <a href="${t.magnet}" class="dl-btn dl-btn-magnet" title="Открыть в торрент-клиенте">
-              🧲 Magnet
-            </a>
-          </div>
-        </div>
-      `;
-    }).join('');
-  }
-
-  downloadMp4Btn.onclick = () => {
-    openDownloadModal();
-  };
-
-  downloadModalClose.onclick = () => {
-    downloadModal.style.display = 'none';
-    if (movieModal.style.display === 'flex') {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'auto';
-    }
-  };
-
-  downloadModal.onclick = (e) => {
-    if (e.target === downloadModal) downloadModalClose.click();
-  };
-
-  modalClose.onclick = () => {
-    movieModal.style.display = 'none';
-    document.body.style.overflow = 'auto';
-    playerIframe.src = '';
-  };
-
-  movieModal.onclick = (e) => {
-    if (e.target === movieModal) modalClose.click();
-  };
 
   // Nav Links
   document.querySelectorAll('.nav-link').forEach(link => {
@@ -555,6 +355,20 @@ document.addEventListener('DOMContentLoaded', () => {
     };
   }
 
-  // Init
-  loadHome();
+  // Init with URL params and hash check
+  const initParams = new URLSearchParams(window.location.search);
+  const searchParam = initParams.get('search') || initParams.get('q');
+  if (searchParam) {
+    searchInput.value = searchParam;
+    loadCatalog('ALL', `Результаты поиска: «${searchParam}»`);
+    API.search(searchParam).then(res => renderCatalogGrid(res.items || []));
+  } else if (window.location.hash === '#top250') {
+    const topLink = document.querySelector('[data-nav="top250"]');
+    if (topLink) topLink.click();
+  } else if (window.location.hash === '#series') {
+    const seriesLink = document.querySelector('[data-nav="series"]');
+    if (seriesLink) seriesLink.click();
+  } else {
+    loadHome();
+  }
 });

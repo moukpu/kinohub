@@ -2,6 +2,10 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
+      "source": "/movie/:id",
+      "destination": "/movie.html?id=:id"
+    },
+    {
       "source": "/api/(.*)",
       "destination": "/api/index.js"
     }
