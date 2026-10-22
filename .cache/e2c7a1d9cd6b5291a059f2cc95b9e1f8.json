@@ -1,0 +1,64 @@
+{
+  "kinopoiskId": 685246,
+  "kinopoiskHDId": "46c5df252dc1a790b82d1a00fcf44812",
+  "imdbId": "tt2861424",
+  "nameRu": "Рик и Морти",
+  "nameEn": null,
+  "nameOriginal": "Rick and Morty",
+  "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/685246.jpg",
+  "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/685246.jpg",
+  "coverUrl": "https://cdnrrviubnyuntopbez5.svc.cdn.yandex.net/get-ott/12808873/2a0000019ac9d32c9a0540a937badf2758db/orig",
+  "logoUrl": "https://avatars.mds.yandex.net/get-ott/1672343/2a0000017e4094aa8e5de73d2e865255c24d/orig",
+  "reviewsCount": 64,
+  "ratingGoodReview": 93,
+  "ratingGoodReviewVoteCount": 57,
+  "ratingKinopoisk": 8.8,
+  "ratingKinopoiskVoteCount": 1135941,
+  "ratingImdb": 9,
+  "ratingImdbVoteCount": 690000,
+  "ratingFilmCritics": null,
+  "ratingFilmCriticsVoteCount": 0,
+  "ratingAwait": null,
+  "ratingAwaitCount": 0,
+  "ratingRfCritics": 90,
+  "ratingRfCriticsVoteCount": 10,
+  "webUrl": "https://www.kinopoisk.ru/film/685246/",
+  "year": 2013,
+  "filmLength": null,
+  "slogan": "Science makes sense, family doesn't.",
+  "description": "В центре сюжета - школьник по имени Морти и его дедушка Рик. Морти - самый обычный мальчик, который ничем не отличается от своих сверстников. А вот его дедуля занимается необычными научными исследованиями и зачастую полностью неадекватен. Он может в любое время дня и ночи схватить внука и отправиться вместе с ним в безумные приключения с помощью построенной из разного хлама летающей тарелки, которая способна перемещаться сквозь межпространственный тоннель. Каждый раз эта парочка оказывается в самых неожиданных местах и самых нелепых ситуациях.",
+  "shortDescription": "Гениальный ученый втягивает внука в безумные авантюры. Выдающийся анимационный сериал Дэна Хармона",
+  "editorAnnotation": "",
+  "isTicketsAvailable": false,
+  "productionStatus": null,
+  "type": "TV_SERIES",
+  "ratingMpaa": null,
+  "ratingAgeLimits": "age18",
+  "countries": [
+    {
+      "country": "США"
+    }
+  ],
+  "genres": [
+    {
+      "genre": "фантастика"
+    },
+    {
+      "genre": "приключения"
+    },
+    {
+      "genre": "комедия"
+    },
+    {
+      "genre": "мультфильм"
+    }
+  ],
+  "startYear": 2013,
+  "endYear": null,
+  "serial": true,
+  "shortFilm": false,
+  "completed": false,
+  "hasImax": false,
+  "has3D": false,
+  "lastSync": "2026-10-19T09:18:43.789182"
+}

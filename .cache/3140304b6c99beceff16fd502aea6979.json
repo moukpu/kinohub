@@ -1,0 +1,639 @@
+{
+  "keyword": "аниме",
+  "pagesCount": 16,
+  "films": [
+    {
+      "filmId": 661091,
+      "nameRu": "Аниме для взрослых",
+      "nameEn": "Otona Joshi no Anime Time",
+      "type": "TV_SERIES",
+      "year": "2011",
+      "description": "«Ветер с реки». Норико – молодая успешная женщина – возвращается на родину в Канадзаву. Ей захотелось навестить родителей и показать им сына. Мотоки родился в Америке, где теперь работают родители, и никогда не видел ни Японии, ни бабушки с дедом.\n\n«Ужин». Замужняя 20-летняя женщина оставляет семью, чтобы жить с молодым человеком.\n\nВ преддверии 40-летия деловая женщина решает встретиться со своей школьной любовью.\n\n43-летняя домохозяйка испытывает сложности в общении с дочерью.",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "мультфильм"
+        }
+      ],
+      "rating": "7.2",
+      "ratingVoteCount": 1334,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/661091.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/661091.jpg"
+    },
+    {
+      "filmId": 630256,
+      "nameRu": "Аниме Marvel",
+      "nameEn": "Marvel Anime",
+      "type": "TV_SERIES",
+      "year": "2010",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "rating": "null",
+      "ratingVoteCount": 625,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/no-poster.png",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp/no-poster.png"
+    },
+    {
+      "filmId": 5360442,
+      "nameRu": "Рик и Морти: Аниме",
+      "nameEn": "Rick and Morty: The Anime",
+      "type": "MINI_SERIES",
+      "year": "2024",
+      "description": "Гениальный учёный Рик Санчес и его внук Морти путешествуют по вселенным. Другие члены семьи Смитов попеременно им, то помогают, то мешают.",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "rating": "5.6",
+      "ratingVoteCount": 1775,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5360442.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5360442.jpg"
+    },
+    {
+      "filmId": 1199855,
+      "nameRu": "Анимекнутые",
+      "nameEn": "Animegataris",
+      "type": "TV_SERIES",
+      "year": "2017",
+      "description": "В детстве Миноа увидела аниме, которое поразило ее до глубины души. Однако, несмотря на все ее усилия, она не может вспомнить название мультфильма. И даже ее одноклассница Арису, настоящая фанатка аниме, не знает, о чем идет речь. Девочки создают клуб исследований аниме, чтобы найти единомышленников и узнать, как же назывался мультфильм, который Миноа смотрела в детстве.",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        }
+      ],
+      "rating": "null",
+      "ratingVoteCount": 401,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1199855.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1199855.jpg"
+    },
+    {
+      "filmId": 5231963,
+      "nameRu": "Кинопоиск: Гид по аниме",
+      "type": "TV_SERIES",
+      "year": "2018",
+      "description": "От Миядзаки до «Евангелиона». Разбор самого важного, что надо знать о японской анимации.",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "документальный"
+        }
+      ],
+      "rating": "8.6",
+      "ratingVoteCount": 10445,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/5231963.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/5231963.jpg"
+    },
+    {
+      "filmId": 13434778,
+      "nameRu": "Вечер аниме",
+      "type": "FILM",
+      "year": "2026",
+      "description": "Вечер японской анимации в летнем кинотеатре «Кинопорт»: презентация книги «Манга, моэ, исекай. Большой гид по аниме» и показ сериала «Призрак в доспехах».\nАвторы путеводителя по миру аниме обсудят, с чего начиналась культура японской анимации в России и почему она не теряет популярности по сей день. После открытого разговора — показ первых двух серий главной аниме-новинки лета: новой экранизации культовой манги «Призрак в доспехах».",
+      "filmLength": "02:00",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        }
+      ],
+      "rating": "null",
+      "ratingVoteCount": 9,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/13434778.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/13434778.jpg"
+    },
+    {
+      "filmId": 1007606,
+      "nameRu": "Камень. Ножницы. Бумага. Зомби. Сиськи. Аниме.",
+      "type": "FILM",
+      "year": "2016",
+      "description": "Волей случая, оказавшись рядом с амбициозным другом-фотографом, герой вынужден отправится с ним в путешествие, целью которого должен стать «идеальный кадр» – мифический артефакт, дающий владельцу безграничное уважение всех фотографов Вселенной. Отрезанные от цивилизации, герои оказываются в центре конфликта древних могущественных сил, исходом которого может стать полное уничтожение человечества.",
+      "filmLength": "01:27",
+      "countries": [
+        {
+          "country": "Россия"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "комедия"
+        }
+      ],
+      "rating": "null",
+      "ratingVoteCount": 140,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/no-poster.png",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp/no-poster.png"
+    },
+    {
+      "filmId": 258621,
+      "nameRu": "Блич",
+      "nameEn": "Bleach",
+      "type": "TV_SERIES",
+      "year": "2004",
+      "description": "Старшеклассник Итиго Куросаки видит другую сторону этого мира, в том числе и духов. Однажды он встречает девушку, которая умеет отправлять души умерших туда, где им положено быть. Случайно он получает её способности и начинает истреблять злых духов.",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "rating": "8.0",
+      "ratingVoteCount": 53655,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/258621.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/258621.jpg"
+    },
+    {
+      "filmId": 259892,
+      "nameRu": "Паприка",
+      "nameEn": "Paprika",
+      "type": "FILM",
+      "year": "2006",
+      "description": "Устройство DC Mini позволяет терапевтам проникать в сны пациентов, а также записывать их на пленку. Три таких устройства были украдены, что дает их владельцу возможность проникать не только в фантазии людей, но и в сознание и открывать им путь в собственные фантазии. Учёная пытается найти устройства, и ей на помощь приходит загадочная девушка Паприка.",
+      "filmLength": "01:30",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "rating": "7.7",
+      "ratingVoteCount": 60427,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/259892.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/259892.jpg"
+    },
+    {
+      "filmId": 4815443,
+      "nameRu": "Лучшее аниме!",
+      "nameEn": "Haken Anime!",
+      "type": "FILM",
+      "year": "2022",
+      "filmLength": "02:09",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "драма"
+        }
+      ],
+      "rating": "null",
+      "ratingVoteCount": 128,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/4815443.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/4815443.jpg"
+    },
+    {
+      "filmId": 8224,
+      "nameRu": "Акира",
+      "nameEn": "Akira",
+      "type": "FILM",
+      "year": "1987",
+      "description": "Спустя 31 год после Третьей мировой войны и ядерной бомбардировки столицы Японии, воссоздан новый город - Нью-Токио. Внешне все под контролем, однако страна теперь напоминает профашистское государство, жесточайшим образом подавляющее попытки мятежа. В исследовательских центрах проводятся парапсихологические опыты над людьми для разработки совершенного вида оружия.\n\nВоенные в лице полковника Сикисимы, руководителя проекта биологических военных экспериментов, входят в конфликт с правительством. А в стране возникает религиозный культ сверхчеловека по имени Акира, приход которого, якобы, сможет решить все проблемы Японии.",
+      "filmLength": "02:04",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "триллер"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "rating": "7.9",
+      "ratingVoteCount": 105632,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/8224.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/8224.jpg"
+    },
+    {
+      "filmId": 370,
+      "nameRu": "Унесённые призраками",
+      "nameEn": "Sen to Chihiro no kamikakushi",
+      "type": "FILM",
+      "year": "2001",
+      "description": "Тихиро с мамой и папой переезжает в новый дом. Заблудившись по дороге, они оказываются в странном пустынном городе, где их ждет великолепный пир. Родители с жадностью набрасываются на еду и к ужасу девочки превращаются в свиней, став пленниками злой колдуньи Юбабы. Теперь, оказавшись одна среди волшебных существ и загадочных видений, Тихиро должна придумать, как избавить своих родителей от чар коварной старухи.",
+      "filmLength": "02:04",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "семейный"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "rating": "8.6",
+      "ratingVoteCount": 743176,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/370.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/370.jpg"
+    },
+    {
+      "filmId": 566513,
+      "nameRu": "Сверхъестественное: Анимация",
+      "nameEn": "Supernatural: The Anime",
+      "type": "TV_SERIES",
+      "year": "2011",
+      "description": "В оригинальном сериале рассказывается о приключениях братьев Винчестеров - Сэма и Дина, которые разъезжают по Соединенным Штатам на черном «Шевроле» 1967 года и расследуют разнообразные паранормальные явления, лихо сражаясь с зловещими демоническими сущностями.\nВ аниме-проекте не только будут воссозданы лучшие эпизоды оригинального сериала, но также появятся моменты, не вошедшие в американскую версию. Мы увидим новые эпизоды, повествующие о детстве Винчестеров; у главных героев возникнут особые анимешные враги, а также полнее будут раскрыты образы некоторых второстепенных персонажей.",
+      "countries": [
+        {
+          "country": "США"
+        },
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "ужасы"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "rating": "7.2",
+      "ratingVoteCount": 10024,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/566513.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/566513.jpg"
+    },
+    {
+      "filmId": 49684,
+      "nameRu": "Ходячий замок",
+      "nameEn": "Howl no Ugoku Shiro",
+      "type": "FILM",
+      "year": "2004",
+      "description": "Злая ведьма заточила 18-летнюю Софи в тело старухи. Девушка-бабушка бежит из города куда глаза глядят и встречает удивительный дом на ножках, где знакомится с могущественным волшебником Хаулом и демоном Кальцифером. Кальцифер должен служить Хаулу по договору, условия которого он не может разглашать. Девушка и демон решают помочь друг другу избавиться от злых чар.",
+      "filmLength": "01:59",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "rating": "8.3",
+      "ratingVoteCount": 548416,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/49684.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/49684.jpg"
+    },
+    {
+      "filmId": 1397749,
+      "nameRu": "Пантеон",
+      "nameEn": "Pantheon",
+      "type": "TV_SERIES",
+      "year": "2022",
+      "description": "Мэдди не пользуется большим успехом в школе и ведет затворнический образ жизни. Однажды с ней в чате списывается таинственный незнакомец, который слишком много о ней знает. Вскоре она начинает замечать в нем черты своего умершего отца. Оказывается, что его сознание было оцифровано научной корпорацией, и теперь его интеллект и знания используются в коммерческих целях. Мэдди решает спасти отца, не понимая, каким могущественным силам ей придется противостоять.",
+      "countries": [
+        {
+          "country": "США"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "детектив"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "rating": "8.5",
+      "ratingVoteCount": 35604,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/1397749.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/1397749.jpg"
+    },
+    {
+      "filmId": 95323,
+      "nameRu": "Евангелион",
+      "nameEn": "Shin Seiki Evangelion",
+      "type": "TV_SERIES",
+      "year": "1995",
+      "description": "2015 год, Токио-3. 15 лет назад произошёл Второй удар, в результате чего Антарктида растаяла, Землю накрыла глобальная катастрофа, и большая часть человечества погибла. Теперь планету атакуют Ангелы — загадочные существа, противостоять которым могут только созданные с помощью биотехнологий гигантские роботы серии «Евангелион». \n\n14-летний Синдзи Икари направлялся на встречу с отцом, руководителем влиятельной организации NERV, когда Токио-3 подвергся нападению Ангела. С помощью капитана Мисато Кацураги парень добирается до подземной штаб-квартиры NERV и единственное, что он хочет сказать отцу — как сильно его ненавидит. Но на месте выясняется, что Синдзи должен прямо сейчас залезть в робота и сражаться с Ангелом.",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "rating": "8.1",
+      "ratingVoteCount": 97901,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/95323.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/95323.jpg"
+    },
+    {
+      "filmId": 280961,
+      "nameRu": "5 сантиметров в секунду",
+      "nameEn": "Byousoku 5 Centimeter",
+      "type": "FILM",
+      "year": "2007",
+      "description": "Три истории из жизни Такаки Тоно, которые начинаются в Японии в середине 1990-х годов.",
+      "filmLength": "01:03",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мелодрама"
+        },
+        {
+          "genre": "мультфильм"
+        }
+      ],
+      "rating": "7.8",
+      "ratingVoteCount": 192353,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/280961.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/280961.jpg"
+    },
+    {
+      "filmId": 79517,
+      "nameRu": "Покемон",
+      "nameEn": "Poketto monsutâ",
+      "type": "TV_SERIES",
+      "year": "1997",
+      "description": "Мальчик Сатоси со своим первым покемоном Пикачу отправляется в путешествие, чтобы стать величайшим мастером покемонов. По пути к нему присоединяются Брок, повернутый на девочках тренер каменных покемонов, и девчонка-сорванец Мисти, тренер водяных покемонов. Друзья путешествуют по всей стране, участвуя в различных соревнованиях покемонов.",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "комедия"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "приключения"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "rating": "6.8",
+      "ratingVoteCount": 37223,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/79517.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/79517.jpg"
+    },
+    {
+      "filmId": 11195100,
+      "nameRu": "Призрак в доспехах",
+      "nameEn": "Koukaku Kidoutai",
+      "type": "TV_SERIES",
+      "year": "2026",
+      "description": "2029 год. Благодаря значительным достижениям в кибернетике люди могут заменять свои конечности роботизированными частями. Майор Мотоко Кусанаги из 9-го отдела службы безопасности ведёт расследование, связанное с таинственным хакером, который называет себя Кукловод.",
+      "countries": [
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "фантастика"
+        }
+      ],
+      "rating": "7.7",
+      "ratingVoteCount": 48765,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/11195100.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/11195100.jpg"
+    },
+    {
+      "filmId": 257376,
+      "nameRu": "Берсерк",
+      "nameEn": "Kenpu denki baruseruku",
+      "type": "TV_SERIES",
+      "year": "1997",
+      "description": "Через предательство и кровь к власти пришел новый король. Его демоны-подручные чинят несправедливости до тех пор, пока в город однажды ночью не приходит тяжело вооруженный воин. Весь покрытый оружием, броней и шрамами он называет себя Чёрным Мечником. Размеры его меча могут сравниться только с его ненавистью к королю и его демонам.",
+      "countries": [
+        {
+          "country": "Польша"
+        },
+        {
+          "country": "Япония"
+        }
+      ],
+      "genres": [
+        {
+          "genre": "аниме"
+        },
+        {
+          "genre": "боевик"
+        },
+        {
+          "genre": "драма"
+        },
+        {
+          "genre": "мультфильм"
+        },
+        {
+          "genre": "фэнтези"
+        }
+      ],
+      "rating": "8.6",
+      "ratingVoteCount": 86847,
+      "posterUrl": "https://kinopoiskapiunofficial.tech/images/posters/kp/257376.jpg",
+      "posterUrlPreview": "https://kinopoiskapiunofficial.tech/images/posters/kp_small/257376.jpg"
+    }
+  ],
+  "searchFilmsCountResult": 848
+}

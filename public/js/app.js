@@ -34,12 +34,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const qualitySelect = document.getElementById('qualitySelect');
   const balancerSelect = document.getElementById('balancerSelect');
   const downloadMp4Btn = document.getElementById('downloadMp4Btn');
-  const magnetLinkBtn = document.getElementById('magnetLinkBtn');
   const bookmarkBtn = document.getElementById('bookmarkBtn');
   const modalTitle = document.getElementById('modalTitle');
   const modalRatings = document.getElementById('modalRatings');
   const modalMeta = document.getElementById('modalMeta');
   const modalDesc = document.getElementById('modalDesc');
+
+  const downloadModal = document.getElementById('downloadModal');
+  const downloadModalClose = document.getElementById('downloadModalClose');
+  const dlModalTitle = document.getElementById('dlModalTitle');
+  const dlReleasesList = document.getElementById('dlReleasesList');
 
   // LocalStorage Bookmarks
   function getBookmarks() {
@@ -171,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <p class="spotlight-desc">${desc}</p>
         <div class="spotlight-actions">
           <button class="btn btn-primary" id="spotlightWatchBtn">Смотреть</button>
-          <button class="btn btn-secondary" id="spotlightDownloadBtn">Скачать MP4</button>
+          <button class="btn btn-secondary" id="spotlightDownloadBtn">Скачать</button>
         </div>
       </div>
     `;
@@ -378,14 +382,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Setup Balancers & Voiceovers dropdowns
     setupControls(players);
 
-    // Fetch torrents for the magnet button
+    // Fetch torrent releases in background
     API.getTorrents(filmId, titleRu, details.nameOriginal, year).then(torrents => {
       currentTorrentsData = torrents;
-      if (torrents.items && torrents.items.length > 0) {
-        magnetLinkBtn.href = torrents.items[0].magnet;
-        magnetLinkBtn.style.display = 'inline-flex';
-        magnetLinkBtn.title = `Скачать через торрент (${torrents.items[0].quality}, ${torrents.items[0].size})`;
-      }
     });
   }
 
@@ -444,24 +443,75 @@ document.addEventListener('DOMContentLoaded', () => {
     playerIframe.src = translation.iframeUrl;
   }
 
-  // DOWNLOAD MP4 BUTTON CLICK
-  downloadMp4Btn.onclick = () => {
+  // DOWNLOAD BUTTON & MODAL LOGIC
+  async function openDownloadModal() {
     if (!currentMovie) return;
     const filmId = currentMovie.kinopoiskId || currentMovie.filmId;
-    const title = currentMovie.nameRu || currentMovie.nameOriginal || 'movie';
-    const quality = qualitySelect.value || '1080p';
+    const titleRu = currentMovie.nameRu || '';
+    const titleEn = currentMovie.nameOriginal || currentMovie.nameEn || '';
+    const year = currentMovie.year || '';
 
-    showToast('Началась загрузка видеофайла (MP4)...');
+    dlModalTitle.textContent = `Скачать: ${titleRu || titleEn} (${year})`;
+    downloadModal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+    dlReleasesList.innerHTML = '<div style="text-align: center; padding: 30px; color: var(--text-muted);">Поиск доступных раздач...</div>';
 
-    // Trigger native browser download directly!
-    const downloadUrl = `/api/movies/${filmId}/download-mp4?quality=${quality}&title=${encodeURIComponent(title)}`;
-    
-    // Create hidden iframe or window.location to trigger native download prompt without navigating away
-    const dlIframe = document.createElement('iframe');
-    dlIframe.style.display = 'none';
-    dlIframe.src = downloadUrl;
-    document.body.appendChild(dlIframe);
-    setTimeout(() => dlIframe.remove(), 60000);
+    let torrents = currentTorrentsData;
+    if (!torrents || !torrents.items || torrents.items.length === 0) {
+      torrents = await API.getTorrents(filmId, titleRu, titleEn, year);
+      currentTorrentsData = torrents;
+    }
+
+    if (!torrents || !torrents.items || torrents.items.length === 0) {
+      dlReleasesList.innerHTML = `
+        <div style="text-align: center; padding: 30px; color: var(--text-muted);">
+          Прямых раздач для этого релиза не найдено. Вы можете смотреть фильм онлайн прямо в плеере выше.
+        </div>
+      `;
+      return;
+    }
+
+    dlReleasesList.innerHTML = torrents.items.slice(0, 30).map(t => {
+      const downloadFileUrl = `/api/torrents/download/${t.id}?name=${encodeURIComponent(t.title)}`;
+      return `
+        <div class="dl-release-card">
+          <div class="dl-card-info">
+            <div class="dl-card-title">${t.title}</div>
+            <div class="dl-card-meta">
+              <span class="dl-badge">${t.quality}</span>
+              <span class="dl-badge">${t.voice}</span>
+              <span>📁 ${t.size}</span>
+              <span style="color: #16a34a; font-weight: 600;">🟢 ${t.seeds}</span>
+            </div>
+          </div>
+          <div class="dl-card-actions">
+            <a href="${downloadFileUrl}" class="dl-btn dl-btn-file" title="Скачать файл">
+              ⬇ Скачать файл
+            </a>
+            <a href="${t.magnet}" class="dl-btn dl-btn-magnet" title="Открыть в торрент-клиенте">
+              🧲 Magnet
+            </a>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  downloadMp4Btn.onclick = () => {
+    openDownloadModal();
+  };
+
+  downloadModalClose.onclick = () => {
+    downloadModal.style.display = 'none';
+    if (movieModal.style.display === 'flex') {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+  };
+
+  downloadModal.onclick = (e) => {
+    if (e.target === downloadModal) downloadModalClose.click();
   };
 
   modalClose.onclick = () => {

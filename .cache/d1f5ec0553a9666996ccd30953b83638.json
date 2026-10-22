@@ -1,0 +1,353 @@
+[
+  {
+    "staffId": 6038285,
+    "nameRu": "Такаси Сано",
+    "nameEn": "Takashi Sano",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6038285.jpg",
+    "professionText": "Режиссеры",
+    "professionKey": "DIRECTOR"
+  },
+  {
+    "staffId": 10245556,
+    "nameRu": "Масахико Ёда",
+    "nameEn": "Masahiko Yoda",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10245556.jpg",
+    "professionText": "Режиссеры",
+    "professionKey": "DIRECTOR"
+  },
+  {
+    "staffId": 1414934,
+    "nameRu": "Ёхэй Тадано",
+    "nameEn": "Yohei Tadano",
+    "description": "Rick, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1414934.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 6227141,
+    "nameRu": "Кэисукэ Тиба",
+    "nameEn": "Keisuke Chiba",
+    "description": "Morty, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6227141.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 4347436,
+    "nameRu": "Акиха Мацуи",
+    "nameEn": "Akiha Matsui",
+    "description": "Summer, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_4347436.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 2386269,
+    "nameRu": "Фуминори Комацу",
+    "nameEn": "Fuminori Komatsu",
+    "description": "Vice Commander, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2386269.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 2212903,
+    "nameRu": "Манабу Мурадзи",
+    "nameEn": "Manabu Muraji",
+    "description": "Jerry, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2212903.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 454008,
+    "nameRu": "Такако Фудзи",
+    "nameEn": "Takako Fuji",
+    "description": "Beth, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_454008.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 4716406,
+    "nameRu": "Хитоми Сасаки",
+    "nameEn": "Hitomi Sasaki",
+    "description": "Elle, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_4716406.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 4046850,
+    "nameRu": "Тосинари Фукамати",
+    "nameEn": "Toshinari Fukamachi",
+    "description": "Frank, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_4046850.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 6731354,
+    "nameRu": "Юсукэ Хосино",
+    "nameEn": "Yusuke Hoshino",
+    "description": "Emperor, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6731354.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 5970550,
+    "nameRu": "Такэси Хаякава",
+    "nameEn": "Takeshi Hayakawa",
+    "description": "Federation Commander, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_5970550.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 4539420,
+    "nameRu": "Тацухиро Кикути",
+    "nameEn": "Tatsuhiro Kikuchi",
+    "description": "Interrogator, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_4539420.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 4345939,
+    "nameRu": "Масаси Хасимото",
+    "nameEn": "Masashi Hashimoto",
+    "description": "Birdperson, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_4345939.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 10227047,
+    "nameRu": "Рэн Ядзава",
+    "nameEn": "Ren Yazawa",
+    "description": "Federation Soldier 1, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10227047.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 6328663,
+    "nameRu": "Ю Окано",
+    "nameEn": "Yu Okano",
+    "description": "Federation Soldier 2, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6328663.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 10241889,
+    "nameRu": "Масаки Кобори",
+    "nameEn": "Masaki Kobori",
+    "description": "Amphibious Villain, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10241889.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 10228906,
+    "nameRu": "Хироки Итиномия",
+    "nameEn": "Hiroki Ichinomiya",
+    "description": "Toby, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10228906.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 10227048,
+    "nameRu": "Нацуми Вакаса",
+    "nameEn": "Natsumi Wakasa",
+    "description": "Baby, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10227048.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 5042273,
+    "nameRu": "Ариса Сакураба",
+    "nameEn": "Arisa Sakuraba",
+    "description": "Tammy, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_5042273.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 6961280,
+    "nameRu": "Каната Танака",
+    "nameEn": "Kanata Tanaka",
+    "description": "Bar Hostess, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6961280.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 10224628,
+    "nameRu": "Кацуки Монма",
+    "nameEn": "Katsuki Monma",
+    "description": "Vice Commander, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10224628.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 1827231,
+    "nameRu": "Тика Андзаи",
+    "nameEn": "Chika Anzai",
+    "description": "Boy, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1827231.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 10246306,
+    "nameRu": "Каори Накамура",
+    "nameEn": "Kaori Nakamura",
+    "description": "Dr. Wong, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10246306.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 6381698,
+    "nameRu": "Саки Кобари",
+    "nameEn": "Saki Kobari",
+    "description": "Maria, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6381698.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 539249,
+    "nameRu": "Люси Кристиан",
+    "nameEn": "Luci Christian",
+    "description": "Elle, озвучка",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_539249.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 4478968,
+    "nameRu": "",
+    "nameEn": "Gabriel Regojo",
+    "description": "Morty",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_4478968.jpg",
+    "professionText": "Актеры",
+    "professionKey": "ACTOR"
+  },
+  {
+    "staffId": 1441613,
+    "nameRu": "Джозеф Чоу",
+    "nameEn": "Joseph Chou",
+    "description": "исполнительный продюсер (2 эпизода, 2024)",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1441613.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 1571561,
+    "nameRu": "Джейсон ДеМарко",
+    "nameEn": "Jason DeMarco",
+    "description": "исполнительный продюсер (2 эпизода, 2024)",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1571561.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 1426099,
+    "nameRu": "Коуди Эм.",
+    "nameEn": "Cody DeMatteis",
+    "description": "продюсер: Williams Street (1 эпизод, 2024)",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1426099.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 10227240,
+    "nameRu": "Юки Какидзоэ",
+    "nameEn": "Yuuki Kakizoe",
+    "description": "ассистент продюсера (1 эпизод, 2024)",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10227240.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 3307920,
+    "nameRu": "Ю Киёдзоно",
+    "nameEn": "Yu Kiyozono",
+    "description": "анимационный продюсер (1 эпизод, 2024)",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3307920.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 904784,
+    "nameRu": "Такэнари Маэда",
+    "nameEn": "Takenari Maeda",
+    "description": "1 эпизод, 2024",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_904784.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 6609901,
+    "nameRu": "Маки Нагано",
+    "nameEn": "Maki Nagano",
+    "description": "1 эпизод, 2024",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6609901.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 3704062,
+    "nameRu": "Макс Ниси",
+    "nameEn": "Max Nishi",
+    "description": "1 эпизод, 2024",
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_3704062.jpg",
+    "professionText": "Продюсеры",
+    "professionKey": "PRODUCER"
+  },
+  {
+    "staffId": 6038285,
+    "nameRu": "Такаси Сано",
+    "nameEn": "Takashi Sano",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_6038285.jpg",
+    "professionText": "Сценаристы",
+    "professionKey": "WRITER"
+  },
+  {
+    "staffId": 1593035,
+    "nameRu": "Тэцуя Такахаси",
+    "nameEn": "Tetsuya Takahashi",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1593035.jpg",
+    "professionText": "Композиторы",
+    "professionKey": "COMPOSER"
+  },
+  {
+    "staffId": 10227241,
+    "nameRu": "Ариса Мацудзава",
+    "nameEn": "Arisa Matsuzawa",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_10227241.jpg",
+    "professionText": "Художники",
+    "professionKey": "DESIGN"
+  },
+  {
+    "staffId": 2009438,
+    "nameRu": "Ёсихиро Касахара",
+    "nameEn": "Yoshihiro Kasahara",
+    "description": null,
+    "posterUrl": "https://st.kp.yandex.net/images/actor_iphone/iphone360_2009438.jpg",
+    "professionText": "Монтажеры",
+    "professionKey": "EDITOR"
+  }
+]

@@ -255,6 +255,31 @@ app.get('/api/movies/:id/torrents', async (req, res) => {
   }
 });
 
+// 11. Прямая загрузка торрент-файла (.torrent) через сервер без блокировок провайдера
+app.get('/api/torrents/download/:torrentId', (req, res) => {
+  const torrentId = req.params.torrentId;
+  const rawName = req.query.name || `movie_${torrentId}`;
+  const cleanName = rawName.replace(/[\\/:*?"<>|]/g, '_').slice(0, 100);
+  const rutorUrl = `http://d.rutor.info/download/${torrentId}`;
+
+  const httpLib = require('http');
+  const request = httpLib.get(rutorUrl, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (remoteRes) => {
+    if (remoteRes.statusCode === 200) {
+      res.writeHead(200, {
+        'Content-Type': 'application/x-bittorrent',
+        'Content-Disposition': `attachment; filename="${encodeURIComponent(cleanName)}.torrent"; filename*=UTF-8''${encodeURIComponent(cleanName)}.torrent`
+      });
+      remoteRes.pipe(res);
+    } else {
+      res.status(remoteRes.statusCode).send('Не удалось загрузить торрент-файл');
+    }
+  });
+
+  request.on('error', (err) => {
+    res.status(500).send('Ошибка загрузки: ' + err.message);
+  });
+});
+
 // SPA fallback
 app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));

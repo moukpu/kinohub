@@ -1,0 +1,80 @@
+{
+  "total": 15,
+  "items": [
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/175053?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (сезон 5; русский язык)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/211293?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (сезон 9)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/211080?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (сезон 8; русский язык)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/193217?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (сезон 7)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/183953?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (сезон 6)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/176186?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Проморолик (сезон 5, эпизод 10)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/173614?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (сезон 5)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/167560?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер №2 (сезон 4; русский язык)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/166653?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер №2 (сезон 4)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/163438?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (сезон 4; русский язык)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/162927?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (сезон 4)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/156505?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Трейлер (русский язык)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/148351?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Альтернативная версия Рика и Морти",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/127222?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Проморолик (сезон 2)",
+      "site": "KINOPOISK_WIDGET"
+    },
+    {
+      "url": "https://widgets.kinopoisk.ru/discovery/trailer/106571?onlyPlayer=1&autoplay=1&cover=1",
+      "name": "Русский трейлер",
+      "site": "KINOPOISK_WIDGET"
+    }
+  ]
+}
