@@ -204,18 +204,39 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
         for (const line of lines) {
           if (line.includes('#EXT-X-MEDIA:TYPE=AUDIO') && line.includes('URI=')) {
             const uriMatch = line.match(/URI="([^"]+)"/);
+            const nameMatch = line.match(/NAME="([^"]+)"/);
             if (uriMatch) {
               const uri = uriMatch[1];
               const isXbc = uri.includes('x-bc.interkh.com');
-              audioTracks.push({ uri, isXbc, line });
+              const name = nameMatch ? nameMatch[1] : '';
+              audioTracks.push({ uri, isXbc, name, line });
             }
           }
         }
 
-        // Pick preferred audio track (prefer x-bc)
+        // Pick matching or preferred audio track
         if (audioTracks.length > 0) {
-          const xbcTracks = audioTracks.filter(a => a.isXbc);
-          targetAudioM3u8 = xbcTracks.length > 0 ? xbcTracks[0].uri : audioTracks[0].uri;
+          let chosenAudio = null;
+          if (requestedVoice && playerData.directStream.audios && Array.isArray(playerData.directStream.audios)) {
+            const voiceIndex = playerData.directStream.audios.findIndex(a => 
+              a.toLowerCase() === requestedVoice.toLowerCase() || 
+              requestedVoice.toLowerCase().includes(a.toLowerCase()) ||
+              a.toLowerCase().includes(requestedVoice.toLowerCase())
+            );
+            if (voiceIndex >= 0) {
+              const needle = `index-a${voiceIndex + 1}.m3u8`;
+              chosenAudio = audioTracks.find(a => a.uri.includes(needle) && a.isXbc) ||
+                            audioTracks.find(a => a.uri.includes(needle));
+            }
+          }
+
+          if (!chosenAudio) {
+            chosenAudio = audioTracks.find(a => a.uri.includes('index-a1.m3u8') && a.isXbc) ||
+                          audioTracks.find(a => a.isXbc) ||
+                          audioTracks[0];
+          }
+
+          targetAudioM3u8 = chosenAudio ? chosenAudio.uri : '';
         }
 
         // Parse video streams
@@ -277,12 +298,19 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
     if (targetAudioM3u8) {
       args.push('-headers', headers, '-i', targetAudioM3u8);
       args.push('-map', '0:v:0', '-map', '1:a:0');
+    } else {
+      args.push('-map', '0:v:0', '-map', '0:a:0?');
     }
 
     args.push(
-      '-c', 'copy',
-      '-bsf:a', 'aac_adtstoasc',
-      '-movflags', 'frag_keyframe+empty_moov',
+      '-c:v', 'copy',
+      '-c:a', 'aac',
+      '-b:a', '128k',
+      '-ar', '44100',
+      '-ac', '2',
+      '-af', 'aresample=async=1',
+      '-avoid_negative_ts', 'make_zero',
+      '-movflags', '+frag_keyframe+empty_moov+default_base_moof',
       '-f', 'mp4',
       'pipe:1'
     );
