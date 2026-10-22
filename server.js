@@ -260,6 +260,10 @@ app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-app.listen(PORT, () => {
-  console.log(`🎬 КиноХаб сервер запущен на http://localhost:${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`🎬 КиноХаб сервер запущен на http://localhost:${PORT}`);
+  });
+}
+
+module.exports = app;

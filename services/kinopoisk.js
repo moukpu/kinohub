@@ -7,8 +7,12 @@ const API_KEY = process.env.KINOPOISK_API_KEY || '90212a7f-e7ea-4e21-9a3f-4166d2
 const BASE_HOST = 'kinopoiskapiunofficial.tech';
 const CACHE_DIR = path.join(__dirname, '..', '.cache');
 
-if (!fs.existsSync(CACHE_DIR)) {
-  fs.mkdirSync(CACHE_DIR, { recursive: true });
+try {
+  if (!fs.existsSync(CACHE_DIR)) {
+    fs.mkdirSync(CACHE_DIR, { recursive: true });
+  }
+} catch (e) {
+  // Read-only filesystem in serverless environments
 }
 
 const memCache = new Map();
