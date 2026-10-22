@@ -101,7 +101,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   const cinemaIframe = document.getElementById('cinemaIframe');
 
   // Direct Download Elements
-  const openPlayerNewTabBtn = document.getElementById('openPlayerNewTabBtn');
+  const dlQualitySelect = document.getElementById('dlQualitySelect');
+  const dlVoiceSelect = document.getElementById('dlVoiceSelect');
+  const startDownloadBtn = document.getElementById('startDownloadBtn');
+  const dlStatusBox = document.getElementById('dlStatusBox');
+  const dlStatusMsg = document.getElementById('dlStatusMsg');
 
   // Similar Movies Elements
   const similarBlock = document.getElementById('similarBlock');
@@ -357,22 +361,65 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
   }
 
-  // Setup Direct Video Download / Fullscreen
+  // Setup Direct Video Download
   function setupDownloadSection(id, details, balancers, directStream) {
-    if (!openPlayerNewTabBtn) return;
+    if (!startDownloadBtn || !dlQualitySelect || !dlVoiceSelect) return;
 
-    openPlayerNewTabBtn.onclick = () => {
-      let playerUrl = '';
-      if (cinemaIframe && cinemaIframe.src) {
-        playerUrl = cinemaIframe.src;
-      } else if (currentActiveBalancer && currentActiveBalancer.defaultIframe) {
-        playerUrl = currentActiveBalancer.defaultIframe;
-      } else {
-        const collaps = balancers.find(b => b.name && b.name.toLowerCase().includes('collaps'));
-        playerUrl = collaps ? collaps.defaultIframe : `https://api.nextembed.ws/embed/movie/${id}`;
+    const voiceList = [];
+    if (directStream && Array.isArray(directStream.audios) && directStream.audios.length > 0) {
+      directStream.audios.forEach(v => {
+        if (v && !voiceList.includes(v)) voiceList.push(v);
+      });
+    }
+
+    balancers.forEach(b => {
+      (b.translations || []).forEach(t => {
+        if (t && t.name && !voiceList.includes(t.name)) {
+          voiceList.push(t.name);
+        }
+      });
+    });
+
+    if (voiceList.length > 0) {
+      dlVoiceSelect.innerHTML = voiceList.map((v, idx) => 
+        `<option value="${encodeURIComponent(v)}" ${idx === 0 ? 'selected' : ''}>${v}</option>`
+      ).join('');
+    } else {
+      dlVoiceSelect.innerHTML = '<option value="default" selected>Основная озвучка (Дубляж / Проф.)</option>';
+    }
+
+    startDownloadBtn.onclick = () => {
+      const quality = dlQualitySelect.value;
+      const voiceRaw = dlVoiceSelect.value;
+      const voiceName = voiceRaw === 'default' ? 'Дубляж' : decodeURIComponent(voiceRaw);
+      const title = details.nameRu || details.nameOriginal || 'movie';
+
+      if (dlStatusBox && dlStatusMsg) {
+        dlStatusBox.style.display = 'flex';
+        dlStatusMsg.textContent = `Загрузка видеофайла «${title}» (${quality}, ${voiceName})...`;
       }
-      window.open(playerUrl, '_blank');
-      showToast('Плеер открыт на весь экран');
+
+      const downloadUrl = `/api/movies/${id}/download-mp4?quality=${quality}&voice=${encodeURIComponent(voiceName)}&title=${encodeURIComponent(title)}`;
+
+      // Hidden iframe initiates native download without opening a new tab or playing
+      let dlIframe = document.getElementById('dlHiddenIframe');
+      if (!dlIframe) {
+        dlIframe = document.createElement('iframe');
+        dlIframe.id = 'dlHiddenIframe';
+        dlIframe.style.display = 'none';
+        document.body.appendChild(dlIframe);
+      }
+      dlIframe.src = downloadUrl;
+
+      showToast(`Началась загрузка MP4: ${title} (${quality})`);
+
+      setTimeout(() => {
+        if (dlStatusMsg) dlStatusMsg.textContent = `Загрузка передана в браузер. Проверьте шторку загрузок.`;
+      }, 2000);
+
+      setTimeout(() => {
+        if (dlStatusBox) dlStatusBox.style.display = 'none';
+      }, 9000);
     };
   }
 

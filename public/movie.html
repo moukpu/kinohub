@@ -149,16 +149,38 @@
       <!-- Download Section -->
       <section class="download-section" id="downloadBlock">
         <div class="section-title-row">
-          <h2 class="block-title">⬇ Просмотр и скачивание</h2>
-          <span class="player-tip">Качество до 1080p Full HD</span>
+          <h2 class="block-title">⬇ Скачать фильм</h2>
+          <span class="player-tip">Прямое скачивание видеофайла (MP4)</span>
         </div>
 
         <div class="direct-dl-card">
-          <p class="dl-hint-text">Фильм транслируется в высоком качестве (до 1080p) с поддержкой всех популярных озвучек. Вы можете смотреть его прямо здесь или открыть плеер в полноэкранном окне для удобного просмотра и кэширования на устройстве.</p>
+          <div class="dl-options-grid">
+            <div class="dl-option-box">
+              <label for="dlQualitySelect" class="dl-field-label">Качество видео:</label>
+              <select id="dlQualitySelect" class="dl-field-select">
+                <option value="1080p">1080p (Full HD — высокое качество)</option>
+                <option value="720p" selected>720p (HD — оптимальный размер)</option>
+                <option value="480p">480p (SD — легкий размер)</option>
+              </select>
+            </div>
+
+            <div class="dl-option-box">
+              <label for="dlVoiceSelect" class="dl-field-label">Озвучка / Перевод:</label>
+              <select id="dlVoiceSelect" class="dl-field-select">
+                <option value="default">Основная озвучка (Дубляж / Проф.)</option>
+              </select>
+            </div>
+          </div>
+
           <div class="dl-button-wrapper">
-            <button id="openPlayerNewTabBtn" class="btn btn-primary btn-dl-cta">
-              ↗ Открыть плеер на весь экран
+            <button id="startDownloadBtn" class="btn btn-primary btn-dl-cta">
+              ⬇ Скачать MP4 видеофайл
             </button>
+          </div>
+
+          <div id="dlStatusBox" class="dl-status-box" style="display: none;">
+            <div class="dl-status-spinner"></div>
+            <span id="dlStatusMsg">Подготовка к скачиванию...</span>
           </div>
         </div>
       </section>
