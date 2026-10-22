@@ -47,6 +47,15 @@ function fetchTextWithHeaders(url) {
   });
 }
 
+// Health check
+app.get('/api/health', (req, res) => {
+  res.json({
+    status: 'ok',
+    ffmpeg: !!ffmpegPath,
+    uptime: process.uptime()
+  });
+});
+
 // 1. Популярные
 app.get('/api/movies/popular', async (req, res) => {
   try {
@@ -175,44 +184,79 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
   try {
     const filmId = req.params.id;
     const requestedQuality = req.query.quality || '720p';
+    const requestedVoice = req.query.voice || '';
     const rawTitle = req.query.title || `movie_${filmId}`;
     const cleanTitle = rawTitle.replace(/[\\/:*?"<>|]/g, '_').slice(0, 80);
     const filename = `${cleanTitle}_${requestedQuality}.mp4`;
 
     const playerData = await PlayersService.getPlayers(filmId);
-    let targetM3u8 = '';
+    let targetVideoM3u8 = '';
+    let targetAudioM3u8 = '';
 
     if (playerData.directStream && playerData.directStream.m3u8Url) {
       const masterUrl = playerData.directStream.m3u8Url;
       try {
         const masterPlaylist = await fetchTextWithHeaders(masterUrl);
         const lines = masterPlaylist.split('\n');
-        
-        let foundSubUrl = '';
+
+        // Parse audio tracks
+        const audioTracks = [];
+        for (const line of lines) {
+          if (line.includes('#EXT-X-MEDIA:TYPE=AUDIO') && line.includes('URI=')) {
+            const uriMatch = line.match(/URI="([^"]+)"/);
+            if (uriMatch) {
+              const uri = uriMatch[1];
+              const isXbc = uri.includes('x-bc.interkh.com');
+              audioTracks.push({ uri, isXbc, line });
+            }
+          }
+        }
+
+        // Pick preferred audio track (prefer x-bc)
+        if (audioTracks.length > 0) {
+          const xbcTracks = audioTracks.filter(a => a.isXbc);
+          targetAudioM3u8 = xbcTracks.length > 0 ? xbcTracks[0].uri : audioTracks[0].uri;
+        }
+
+        // Parse video streams
+        const videoStreams = [];
         for (let i = 0; i < lines.length; i++) {
           const line = lines[i];
           if (line.includes('#EXT-X-STREAM-INF')) {
             const nextLine = lines[i + 1] ? lines[i + 1].trim() : '';
             if (nextLine.startsWith('http')) {
-              if (requestedQuality === '720p' && (line.includes('648x') || line.includes('720'))) {
-                foundSubUrl = nextLine;
-                break;
-              } else if (requestedQuality === '480p' && (line.includes('480') || line.includes('270'))) {
-                foundSubUrl = nextLine;
-                break;
-              } else if (!foundSubUrl) {
-                foundSubUrl = nextLine;
-              }
+              videoStreams.push({
+                info: line,
+                url: nextLine,
+                isXbc: nextLine.includes('x-bc.interkh.com')
+              });
             }
           }
         }
-        targetM3u8 = foundSubUrl || masterUrl;
+
+        // Filter video streams according to requested quality
+        if (videoStreams.length > 0) {
+          let matched = [];
+          if (requestedQuality === '1080p') {
+            matched = videoStreams.filter(v => v.info.includes('1920x') || v.info.includes('1080'));
+          } else if (requestedQuality === '720p') {
+            matched = videoStreams.filter(v => v.info.includes('1280x') || v.info.includes('720') || v.info.includes('648x'));
+          } else if (requestedQuality === '480p') {
+            matched = videoStreams.filter(v => v.info.includes('854x') || v.info.includes('480') || v.info.includes('640x360'));
+          }
+
+          if (matched.length === 0) matched = videoStreams;
+          const xbcMatched = matched.filter(v => v.isXbc);
+          targetVideoM3u8 = xbcMatched.length > 0 ? xbcMatched[0].url : matched[0].url;
+        } else {
+          targetVideoM3u8 = masterUrl;
+        }
       } catch (e) {
-        targetM3u8 = masterUrl;
+        targetVideoM3u8 = masterUrl;
       }
     }
 
-    if (!targetM3u8) {
+    if (!targetVideoM3u8) {
       return res.status(404).send('Прямой видеопоток для этого фильма временно недоступен.');
     }
 
@@ -228,15 +272,20 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
     }
 
     const headers = "Referer: https://api.nextembed.ws/\r\nOrigin: https://api.nextembed.ws\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n";
-    const args = [
-      '-headers', headers,
-      '-i', targetM3u8,
+    const args = ['-headers', headers, '-i', targetVideoM3u8];
+
+    if (targetAudioM3u8) {
+      args.push('-headers', headers, '-i', targetAudioM3u8);
+      args.push('-map', '0:v:0', '-map', '1:a:0');
+    }
+
+    args.push(
       '-c', 'copy',
       '-bsf:a', 'aac_adtstoasc',
       '-movflags', 'frag_keyframe+empty_moov',
       '-f', 'mp4',
       'pipe:1'
-    ];
+    );
 
     const bin = ffmpegPath || 'ffmpeg';
     const proc = spawn(bin, args);

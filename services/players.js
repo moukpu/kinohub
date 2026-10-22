@@ -1,21 +1,37 @@
 const https = require('https');
 const http = require('http');
 
-function fetchText(url, options = {}) {
-  const lib = url.startsWith('https') ? https : http;
+function fetchText(url, options = {}, maxRedirects = 3) {
   return new Promise((resolve) => {
-    const req = lib.get(url, options, (res) => {
-      const chunks = [];
-      res.on('data', chunk => chunks.push(chunk));
-      res.on('end', () => {
-        resolve(Buffer.concat(chunks).toString('utf-8'));
+    if (maxRedirects < 0) return resolve('');
+    try {
+      const parsed = new URL(url);
+      const lib = parsed.protocol === 'https:' ? https : http;
+      const req = lib.get(url, options, (res) => {
+        if ([301, 302, 303, 307, 308].includes(res.statusCode) && res.headers.location) {
+          let redirectUrl = res.headers.location;
+          if (!redirectUrl.startsWith('http')) {
+            redirectUrl = new URL(redirectUrl, url).toString();
+          }
+          return resolve(fetchText(redirectUrl, options, maxRedirects - 1));
+        }
+        const chunks = [];
+        res.on('data', chunk => chunks.push(chunk));
+        res.on('end', () => {
+          resolve(Buffer.concat(chunks).toString('utf-8'));
+        });
       });
-    });
-    req.on('error', () => resolve(''));
-    req.setTimeout(6000, () => {
-      req.destroy();
+      req.on('error', (err) => {
+        console.error('fetchText error:', err.message);
+        resolve('');
+      });
+      req.setTimeout(8000, () => {
+        req.destroy();
+        resolve('');
+      });
+    } catch (e) {
       resolve('');
-    });
+    }
   });
 }
 

@@ -393,15 +393,31 @@ document.addEventListener('DOMContentLoaded', async () => {
       const voiceRaw = dlVoiceSelect.value;
       const voiceName = voiceRaw === 'default' ? 'Дубляж' : decodeURIComponent(voiceRaw);
       const title = details.nameRu || details.nameOriginal || 'movie';
-
-      if (dlStatusBox && dlStatusMsg) {
-        dlStatusBox.style.display = 'flex';
-        dlStatusMsg.textContent = `Загрузка видеофайла «${title}» (${quality}, ${voiceName})...`;
-      }
+      const cleanTitle = title.replace(/[\\/:*?"<>|]/g, '_');
+      const filename = `${cleanTitle}_${quality}.mp4`;
 
       const downloadUrl = `/api/movies/${id}/download-mp4?quality=${quality}&voice=${encodeURIComponent(voiceName)}&title=${encodeURIComponent(title)}`;
 
-      // Hidden iframe initiates native download without opening a new tab or playing
+      if (dlStatusBox && dlStatusMsg) {
+        dlStatusBox.style.display = 'block';
+        dlStatusMsg.innerHTML = `
+          <div style="margin-bottom: 4px;">⏳ Идет подготовка и сохранение <strong>«${title}»</strong> (${quality}, ${voiceName})...</div>
+          <div style="font-size: 13px; color: #a1a1aa;">Если скачивание не началось автоматически, <a href="${downloadUrl}" download="${filename}" style="color: #00d9e7; text-decoration: underline;">нажмите сюда</a>.</div>
+        `;
+      }
+
+      // Native download trigger via <a> with download attribute
+      const link = document.createElement('a');
+      link.href = downloadUrl;
+      link.setAttribute('download', filename);
+      link.style.display = 'none';
+      document.body.appendChild(link);
+      link.click();
+      setTimeout(() => {
+        try { document.body.removeChild(link); } catch (e) {}
+      }, 2000);
+
+      // Hidden iframe fallback for older browsers
       let dlIframe = document.getElementById('dlHiddenIframe');
       if (!dlIframe) {
         dlIframe = document.createElement('iframe');
@@ -414,12 +430,13 @@ document.addEventListener('DOMContentLoaded', async () => {
       showToast(`Началась загрузка MP4: ${title} (${quality})`);
 
       setTimeout(() => {
-        if (dlStatusMsg) dlStatusMsg.textContent = `Загрузка передана в браузер. Проверьте шторку загрузок.`;
-      }, 2000);
-
-      setTimeout(() => {
-        if (dlStatusBox) dlStatusBox.style.display = 'none';
-      }, 9000);
+        if (dlStatusMsg) {
+          dlStatusMsg.innerHTML = `
+            <div style="margin-bottom: 4px;">✅ Загрузка отправлена в браузер! Проверьте шторку или папку «Загрузки».</div>
+            <div style="font-size: 13px; color: #a1a1aa;">Повторить скачивание: <a href="${downloadUrl}" download="${filename}" style="color: #00d9e7; text-decoration: underline;">скачать еще раз</a>.</div>
+          `;
+        }
+      }, 3000);
     };
   }
 

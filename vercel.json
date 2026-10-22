@@ -3,7 +3,8 @@
   "functions": {
     "api/*.js": {
       "maxDuration": 300,
-      "memory": 1024
+      "memory": 1024,
+      "regions": ["fra1"]
     }
   },
   "rewrites": [
