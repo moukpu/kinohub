@@ -146,19 +146,43 @@
         </div>
       </section>
 
-      <!-- Download Center Section -->
+      <!-- Direct Video Download Section -->
       <section class="download-section" id="downloadBlock">
         <div class="section-title-row">
           <h2 class="block-title">⬇ Скачать фильм</h2>
-          <span class="player-tip">Прямое скачивание файлов (.torrent) и Magnet-ссылки</span>
+          <span class="player-tip">Прямое скачивание видеофайла (MP4)</span>
         </div>
 
-        <p class="download-hint">
-          Выберите качество и озвучку. Для телефона нажмите <strong>«Magnet»</strong> (откроет в торрент-клиенте Flud / uTorrent / 1DM) или <strong>«Скачать .torrent»</strong> для прямой загрузки файла в память устройства.
-        </p>
+        <div class="direct-dl-card">
+          <div class="dl-options-grid">
+            <div class="dl-option-box">
+              <label for="dlQualitySelect" class="dl-field-label">Качество видео:</label>
+              <select id="dlQualitySelect" class="dl-field-select">
+                <option value="1080p">1080p (Full HD — высокое качество)</option>
+                <option value="720p" selected>720p (HD — оптимальное качество)</option>
+                <option value="480p">480p (SD — легкий размер)</option>
+                <option value="360p">360p (Мобильное)</option>
+              </select>
+            </div>
 
-        <div class="releases-wrapper" id="releasesList">
-          <div class="releases-loading">Поиск доступных раздач в высоком качестве...</div>
+            <div class="dl-option-box">
+              <label for="dlVoiceSelect" class="dl-field-label">Озвучка / Перевод:</label>
+              <select id="dlVoiceSelect" class="dl-field-select">
+                <option value="default">Основная озвучка (Дубляж / Проф.)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="dl-button-wrapper">
+            <button id="startDownloadBtn" class="btn btn-primary btn-dl-cta">
+              ⬇ Скачать выбранный видеофайл (.mp4)
+            </button>
+          </div>
+
+          <div id="dlStatusBox" class="dl-status-box" style="display: none;">
+            <div class="dl-status-spinner"></div>
+            <span id="dlStatusMsg">Подготовка к скачиванию...</span>
+          </div>
         </div>
       </section>
 

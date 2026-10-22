@@ -7,7 +7,6 @@ const { spawn } = require('child_process');
 
 const KinopoiskService = require('./services/kinopoisk');
 const PlayersService = require('./services/players');
-const TorrentsService = require('./services/torrents');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -168,116 +167,103 @@ app.get('/api/movies/:id/players', async (req, res) => {
 app.get('/api/movies/:id/download-mp4', async (req, res) => {
   try {
     const filmId = req.params.id;
-    const requestedQuality = req.query.quality || '1080p';
+    const requestedQuality = req.query.quality || '720p';
+    const requestedVoice = req.query.voice || '';
     const rawTitle = req.query.title || `movie_${filmId}`;
-    const cleanTitle = rawTitle.replace(/[\\/:*?"<>|]/g, '_');
+    const cleanTitle = rawTitle.replace(/[\\/:*?"<>|]/g, '_').slice(0, 80);
+    const filename = `${cleanTitle}_${requestedQuality}.mp4`;
 
     const playerData = await PlayersService.getPlayers(filmId);
-    let targetM3u8 = '';
+    let targetStream = '';
 
     if (playerData.directStream && playerData.directStream.m3u8Url) {
-      const masterUrl = playerData.directStream.m3u8Url;
-      try {
-        const masterPlaylist = await fetchTextWithHeaders(masterUrl);
-        const lines = masterPlaylist.split('\n');
-        
-        let foundSubUrl = '';
-        for (let i = 0; i < lines.length; i++) {
-          const line = lines[i];
-          if (line.includes('#EXT-X-STREAM-INF')) {
-            const nextLine = lines[i + 1] ? lines[i + 1].trim() : '';
-            if (nextLine.startsWith('http')) {
-              if (requestedQuality === '720p' && line.includes('648x')) {
-                foundSubUrl = nextLine;
-                break;
-              } else if (!foundSubUrl) {
-                foundSubUrl = nextLine; // First resolution
-              }
-            }
-          }
-        }
-        targetM3u8 = foundSubUrl || masterUrl;
-      } catch (e) {
-        targetM3u8 = masterUrl;
+      targetStream = playerData.directStream.m3u8Url;
+    } else if (playerData.balancers && playerData.balancers.length > 0) {
+      const collaps = playerData.balancers.find(b => b.name && b.name.toLowerCase().includes('collaps'));
+      if (collaps && collaps.defaultIframe) {
+        targetStream = collaps.defaultIframe;
       }
     }
 
-    if (!targetM3u8) {
-      return res.status(404).send('Прямой видеопоток для этого релиза недоступен. Попробуйте другой сервер.');
+    if (!targetStream) {
+      targetStream = `https://api.nextembed.ws/embed/movie/${filmId}`;
     }
 
-    const filename = `${cleanTitle}_${requestedQuality}.mp4`;
-    res.writeHead(200, {
-      'Content-Type': 'video/mp4',
-      'Content-Disposition': `attachment; filename="${encodeURIComponent(filename)}"; filename*=UTF-8''${encodeURIComponent(filename)}`
-    });
+    // Set download headers FIRST so mobile browsers always treat this as a file download, NEVER opening a video page
+    res.setHeader('Content-Type', 'video/mp4');
+    res.setHeader('Content-Disposition', `attachment; filename="${encodeURIComponent(filename)}"; filename*=UTF-8''${encodeURIComponent(filename)}`);
 
-    const headers = "Referer: https://api.nextembed.ws/\r\nOrigin: https://api.nextembed.ws\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n";
-    const args = [
-      '-headers', headers,
-      '-i', targetM3u8,
-      '-c', 'copy',
-      '-bsf:a', 'aac_adtstoasc',
-      '-movflags', 'frag_keyframe+empty_moov',
-      '-f', 'mp4',
-      'pipe:1'
-    ];
+    if (req.method === 'HEAD') {
+      return res.status(200).end();
+    }
 
-    const proc = spawn('ffmpeg', args);
-    proc.stdout.pipe(res);
+    if (typeof res.flushHeaders === 'function') {
+      res.flushHeaders();
+    }
 
-    proc.stderr.on('data', () => {});
+    // Check if ffmpeg is available
+    let hasFFmpeg = false;
+    try {
+      const test = spawn('ffmpeg', ['-version']);
+      test.on('error', () => { hasFFmpeg = false; });
+      hasFFmpeg = true;
+    } catch (e) {
+      hasFFmpeg = false;
+    }
 
-    res.on('close', () => {
-      proc.kill('SIGKILL');
-    });
+    if (hasFFmpeg && !process.env.VERCEL) {
+      const headers = "Referer: https://api.nextembed.ws/\r\nOrigin: https://api.nextembed.ws\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n";
+      const args = [
+        '-headers', headers,
+        '-i', targetStream,
+        '-c', 'copy',
+        '-bsf:a', 'aac_adtstoasc',
+        '-movflags', 'frag_keyframe+empty_moov',
+        '-f', 'mp4',
+        'pipe:1'
+      ];
 
-    proc.on('error', (err) => {
-      console.error('FFmpeg spawn error:', err.message);
-      if (!res.headersSent) res.status(500).send('Ошибка конвертации видео');
-    });
+      const proc = spawn('ffmpeg', args);
+      proc.stdout.pipe(res);
+
+      proc.stderr.on('data', () => {});
+
+      res.on('close', () => {
+        try { proc.kill('SIGKILL'); } catch (e) {}
+      });
+
+      proc.on('error', (err) => {
+        console.error('FFmpeg pipe error:', err.message);
+        if (!res.writableEnded) res.end();
+      });
+    } else {
+      // Direct stream pipe from source with attachment headers
+      const lib = targetStream.startsWith('https') ? https : require('http');
+      const remoteReq = lib.get(targetStream, {
+        headers: {
+          'Referer': 'https://api.nextembed.ws/',
+          'Origin': 'https://api.nextembed.ws',
+          'User-Agent': 'Mozilla/5.0'
+        }
+      }, (remoteRes) => {
+        remoteRes.pipe(res);
+      });
+
+      remoteReq.on('error', (err) => {
+        console.error('Direct stream pipe error:', err.message);
+        if (!res.writableEnded) res.end();
+      });
+
+      res.on('close', () => {
+        remoteReq.destroy();
+      });
+    }
   } catch (err) {
     console.error('Download error:', err.message);
-    res.status(500).send('Ошибка скачивания файла: ' + err.message);
-  }
-});
-
-// 10. Торренты
-app.get('/api/movies/:id/torrents', async (req, res) => {
-  try {
-    const titleRu = req.query.titleRu || '';
-    const titleEn = req.query.titleEn || '';
-    const year = req.query.year || '';
-    const torrents = await TorrentsService.getTorrents(titleRu, titleEn, year);
-    res.json(torrents);
-  } catch (err) {
-    res.status(500).json({ error: true, message: err.message });
-  }
-});
-
-// 11. Прямая загрузка торрент-файла (.torrent) через сервер без блокировок провайдера
-app.get('/api/torrents/download/:torrentId', (req, res) => {
-  const torrentId = req.params.torrentId;
-  const rawName = req.query.name || `movie_${torrentId}`;
-  const cleanName = rawName.replace(/[\\/:*?"<>|]/g, '_').slice(0, 100);
-  const rutorUrl = `http://d.rutor.info/download/${torrentId}`;
-
-  const httpLib = require('http');
-  const request = httpLib.get(rutorUrl, { headers: { 'User-Agent': 'Mozilla/5.0' } }, (remoteRes) => {
-    if (remoteRes.statusCode === 200) {
-      res.writeHead(200, {
-        'Content-Type': 'application/x-bittorrent',
-        'Content-Disposition': `attachment; filename="${encodeURIComponent(cleanName)}.torrent"; filename*=UTF-8''${encodeURIComponent(cleanName)}.torrent`
-      });
-      remoteRes.pipe(res);
-    } else {
-      res.status(remoteRes.statusCode).send('Не удалось загрузить торрент-файл');
+    if (!res.headersSent) {
+      res.status(500).send('Ошибка при подготовке скачивания: ' + err.message);
     }
-  });
-
-  request.on('error', (err) => {
-    res.status(500).send('Ошибка загрузки: ' + err.message);
-  });
+  }
 });
 
 // Dedicated Movie Page route

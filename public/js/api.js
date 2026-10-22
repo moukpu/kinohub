@@ -56,9 +56,5 @@ const API = {
 
   getPlayers(filmId, title = '') {
     return this.get(`/api/movies/${filmId}/players`, { title });
-  },
-
-  getTorrents(filmId, titleRu, titleEn, year) {
-    return this.get(`/api/movies/${filmId}/torrents`, { titleRu, titleEn, year });
   }
 };

@@ -19,10 +19,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     const q = headerSearchInput.value.trim();
     if (q) window.location.href = `/?search=${encodeURIComponent(q)}`;
   }
-  headerSearchBtn.onclick = doSearch;
-  headerSearchInput.onkeydown = (e) => {
-    if (e.key === 'Enter') doSearch();
-  };
+  if (headerSearchBtn) headerSearchBtn.onclick = doSearch;
+  if (headerSearchInput) {
+    headerSearchInput.onkeydown = (e) => {
+      if (e.key === 'Enter') doSearch();
+    };
+  }
 
   // DOM Elements
   const bcCategory = document.getElementById('bcCategory');
@@ -47,8 +49,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   const reloadPlayerBtn = document.getElementById('reloadPlayerBtn');
   const cinemaIframe = document.getElementById('cinemaIframe');
 
-  // Releases Elements
-  const releasesList = document.getElementById('releasesList');
+  // Direct Download Elements
+  const dlQualitySelect = document.getElementById('dlQualitySelect');
+  const dlVoiceSelect = document.getElementById('dlVoiceSelect');
+  const startDownloadBtn = document.getElementById('startDownloadBtn');
+  const dlStatusBox = document.getElementById('dlStatusBox');
+  const dlStatusMsg = document.getElementById('dlStatusMsg');
+
+  // Similar Movies Elements
   const similarBlock = document.getElementById('similarBlock');
   const similarGrid = document.getElementById('similarGrid');
 
@@ -59,11 +67,15 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Toast notification
   function showToast(msg) {
     const container = document.getElementById('toastContainer');
+    if (!container) return;
     const toast = document.createElement('div');
     toast.className = 'toast';
     toast.textContent = msg;
     container.appendChild(toast);
-    setTimeout(() => toast.remove(), 3500);
+    setTimeout(() => {
+      toast.style.opacity = '0';
+      setTimeout(() => toast.remove(), 250);
+    }, 3200);
   }
 
   // Bookmarks Storage
@@ -74,6 +86,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     return getBookmarks().some(m => String(m.kinopoiskId || m.filmId) === String(id));
   }
   function updateBookmarkBtn(id) {
+    if (!heroBookmarkBtn) return;
     if (isBookmarked(id)) {
       heroBookmarkBtn.innerHTML = '★ В закладках';
       heroBookmarkBtn.classList.add('btn-bookmarked');
@@ -82,27 +95,29 @@ document.addEventListener('DOMContentLoaded', async () => {
       heroBookmarkBtn.classList.remove('btn-bookmarked');
     }
   }
-  heroBookmarkBtn.onclick = () => {
-    if (!currentMovie) return;
-    let bms = getBookmarks();
-    const id = currentMovie.kinopoiskId || currentMovie.filmId;
-    if (isBookmarked(id)) {
-      bms = bms.filter(m => String(m.kinopoiskId || m.filmId) !== String(id));
-      localStorage.setItem('kinohub_bookmarks', JSON.stringify(bms));
-      showToast('Удалено из закладок');
-    } else {
-      bms.push(currentMovie);
-      localStorage.setItem('kinohub_bookmarks', JSON.stringify(bms));
-      showToast('Добавлено в закладки');
-    }
-    updateBookmarkBtn(id);
-  };
+  if (heroBookmarkBtn) {
+    heroBookmarkBtn.onclick = () => {
+      if (!currentMovie) return;
+      let bms = getBookmarks();
+      const id = currentMovie.kinopoiskId || currentMovie.filmId;
+      if (isBookmarked(id)) {
+        bms = bms.filter(m => String(m.kinopoiskId || m.filmId) !== String(id));
+        localStorage.setItem('kinohub_bookmarks', JSON.stringify(bms));
+        showToast('Удалено из закладок');
+      } else {
+        bms.push(currentMovie);
+        localStorage.setItem('kinohub_bookmarks', JSON.stringify(bms));
+        showToast('Добавлено в закладки');
+      }
+      updateBookmarkBtn(id);
+    };
+  }
 
   // 1. Fetch Movie Details
   try {
     const details = await API.getDetails(filmId);
     if (!details || details.error) {
-      movieTitleRu.textContent = 'Ошибка загрузки информации о фильме';
+      if (movieTitleRu) movieTitleRu.textContent = 'Ошибка загрузки информации о фильме';
       return;
     }
 
@@ -112,100 +127,137 @@ document.addEventListener('DOMContentLoaded', async () => {
     const year = details.year || '';
     const poster = details.posterUrl || details.posterUrlPreview || '';
 
-    document.title = `${titleRu} (${year}) смотреть онлайн — КиноХаб`;
+    document.title = `${titleRu} (${year}) смотреть онлайн и скачать — КиноХаб`;
 
     // Breadcrumbs
-    bcCategory.textContent = details.type === 'TV_SERIES' ? 'Сериалы' : 'Фильмы';
-    bcTitle.textContent = `${titleRu} (${year})`;
+    if (bcCategory) bcCategory.textContent = details.type === 'TV_SERIES' ? 'Сериалы' : 'Фильмы';
+    if (bcTitle) bcTitle.textContent = `${titleRu} (${year})`;
 
     // Hero
-    moviePoster.src = poster;
-    moviePoster.alt = titleRu;
-
-    if (details.ratingAgeLimits) {
-      const ageNum = details.ratingAgeLimits.replace('age', '');
-      movieAgeBadge.textContent = `${ageNum}+`;
-      movieAgeBadge.style.display = 'block';
+    if (moviePoster) {
+      moviePoster.src = poster;
+      moviePoster.alt = titleRu;
     }
 
-    movieTitleRu.textContent = titleRu;
-    movieTitleOrig.textContent = titleEn ? `${titleEn} (${year})` : year;
+    if (movieAgeBadge) {
+      if (details.ratingAgeLimits) {
+        const ageNum = details.ratingAgeLimits.replace('age', '');
+        movieAgeBadge.textContent = `${ageNum}+`;
+        movieAgeBadge.style.display = 'block';
+      } else {
+        movieAgeBadge.style.display = 'none';
+      }
+    }
+
+    if (movieTitleRu) movieTitleRu.textContent = titleRu;
+    if (movieTitleOrig) movieTitleOrig.textContent = titleEn ? `${titleEn} (${year})` : year;
 
     // Ratings
-    let ratingsHtml = '';
-    const kpRating = details.ratingKinopoisk || details.rating;
-    if (kpRating) {
-      ratingsHtml += `<div class="rating-badge rating-kp">⭐ Кинопоиск: <strong>${parseFloat(kpRating).toFixed(1)}</strong></div>`;
+    if (movieRatings) {
+      let ratingsHtml = '';
+      const kpRating = details.ratingKinopoisk || details.rating;
+      if (kpRating) {
+        ratingsHtml += `<div class="rating-badge rating-kp">⭐ Кинопоиск: <strong>${parseFloat(kpRating).toFixed(1)}</strong></div>`;
+      }
+      if (details.ratingImdb) {
+        ratingsHtml += `<div class="rating-badge rating-imdb">IMDb: <strong>${parseFloat(details.ratingImdb).toFixed(1)}</strong></div>`;
+      }
+      movieRatings.innerHTML = ratingsHtml;
     }
-    if (details.ratingImdb) {
-      ratingsHtml += `<div class="rating-badge rating-imdb">IMDb: <strong>${parseFloat(details.ratingImdb).toFixed(1)}</strong></div>`;
-    }
-    movieRatings.innerHTML = ratingsHtml;
 
     // Specs
-    specYear.textContent = year || '—';
-    specCountry.textContent = (details.countries || []).map(c => c.country).join(', ') || '—';
-    specGenre.textContent = (details.genres || []).map(g => g.genre).join(', ') || '—';
+    if (specYear) specYear.textContent = year || '—';
+    if (specCountry) specCountry.textContent = (details.countries || []).map(c => c.country).join(', ') || '—';
+    if (specGenre) specGenre.textContent = (details.genres || []).map(g => g.genre).join(', ') || '—';
     
-    if (details.slogan) {
-      specSlogan.textContent = `«${details.slogan}»`;
-    } else {
-      document.getElementById('rowSlogan').style.display = 'none';
+    const sloganRow = document.getElementById('rowSlogan');
+    if (sloganRow) {
+      if (details.slogan) {
+        if (specSlogan) specSlogan.textContent = `«${details.slogan}»`;
+        sloganRow.style.display = '';
+      } else {
+        sloganRow.style.display = 'none';
+      }
     }
 
-    if (details.filmLength) {
-      const mins = details.filmLength;
-      const h = Math.floor(mins / 60);
-      const m = mins % 60;
-      specDuration.textContent = h > 0 ? `${mins} мин. (${h} ч ${m} мин)` : `${mins} мин.`;
-    } else {
-      document.getElementById('rowDuration').style.display = 'none';
+    const durationRow = document.getElementById('rowDuration');
+    if (durationRow) {
+      if (details.filmLength) {
+        const mins = details.filmLength;
+        const h = Math.floor(mins / 60);
+        const m = mins % 60;
+        if (specDuration) specDuration.textContent = h > 0 ? `${mins} мин. (${h} ч ${m} мин)` : `${mins} мин.`;
+        durationRow.style.display = '';
+      } else {
+        durationRow.style.display = 'none';
+      }
     }
 
-    movieDescription.textContent = details.description || details.shortDescription || 'Описание фильма пока отсутствует.';
+    if (movieDescription) {
+      movieDescription.textContent = details.description || details.shortDescription || 'Описание фильма пока отсутствует.';
+    }
     updateBookmarkBtn(filmId);
 
-    // 2. Load Players & Balancers
-    loadPlayers(filmId, details);
+    // 2. Load Players & Setup Download
+    loadPlayersAndDownloads(filmId, details);
 
-    // 3. Load Torrents & Downloads
-    loadTorrents(filmId, titleRu, details.nameOriginal, year);
-
-    // 4. Load Similar Movies
+    // 3. Load Similar Movies
     loadSimilar(details);
 
   } catch (err) {
     console.error('Error loading movie page:', err);
-    movieTitleRu.textContent = 'Ошибка загрузки данных';
+    if (movieTitleRu) movieTitleRu.textContent = 'Ошибка загрузки данных';
   }
 
-  // Setup Players
-  async function loadPlayers(id, details) {
+  // Setup Players and Downloads
+  async function loadPlayersAndDownloads(id, details) {
+    let balancers = [];
+    let directStream = null;
+
     try {
       const playersData = await API.getPlayers(id, details.nameRu);
-      let balancers = (playersData && playersData.balancers) ? [...playersData.balancers] : [];
-
-      // Ensure Collaps is always present as fallback
-      if (!balancers.some(b => b.name.toLowerCase().includes('collaps'))) {
-        balancers.unshift({
-          name: 'Collaps',
-          defaultIframe: `https://api.nextembed.ws/embed/movie/${id}`,
-          translations: []
-        });
+      if (playersData) {
+        balancers = playersData.balancers ? [...playersData.balancers] : [];
+        directStream = playersData.directStream || null;
       }
+    } catch (e) {
+      console.warn('API getPlayers failed, using fallback:', e);
+    }
 
-      // Add backup server if IMDb ID exists
-      if (details.imdbId && !balancers.some(b => b.name.toLowerCase().includes('autoembed'))) {
-        balancers.push({
-          name: 'Резерв',
-          defaultIframe: `https://player.autoembed.cc/embed/movie/${details.imdbId}`,
-          translations: []
-        });
-      }
+    // Ensure Collaps is always present
+    if (!balancers.some(b => b.name.toLowerCase().includes('collaps'))) {
+      balancers.unshift({
+        name: 'Collaps',
+        defaultIframe: `https://api.nextembed.ws/embed/movie/${id}`,
+        translations: [
+          { name: 'Основная озвучка (1080p)', quality: '1080p', iframeUrl: `https://api.nextembed.ws/embed/movie/${id}` }
+        ]
+      });
+    }
 
-      currentPlayers = balancers;
+    // Ensure Veoveo fallback
+    if (!balancers.some(b => b.name.toLowerCase().includes('veoveo'))) {
+      balancers.push({
+        name: 'Veoveo',
+        defaultIframe: `https://player.shortener2.link/balancer-api/iframe?movie_id=15652`,
+        translations: []
+      });
+    }
+
+    // Add backup server if IMDb ID exists
+    if (details.imdbId && !balancers.some(b => b.name.toLowerCase().includes('autoembed'))) {
+      balancers.push({
+        name: 'Резерв',
+        defaultIframe: `https://player.autoembed.cc/embed/movie/${details.imdbId}`,
+        translations: []
+      });
+    }
+
+    currentPlayers = balancers;
+
+    // Render Server Tabs
+    if (serverTabsList) {
       serverTabsList.innerHTML = '';
-
       balancers.forEach((b, idx) => {
         const btn = document.createElement('button');
         btn.className = `server-tab ${idx === 0 ? 'active' : ''}`;
@@ -217,15 +269,10 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (balancers.length > 0) {
         switchServer(balancers[0], serverTabsList.children[0]);
       }
-    } catch (e) {
-      console.error('Player load error:', e);
-      serverTabsList.innerHTML = `
-        <button class="server-tab active" onclick="this.parentElement.nextElementSibling.querySelector('iframe').src='https://api.nextembed.ws/embed/movie/${id}'">
-          🎬 Сервер 1 (Collaps)
-        </button>
-      `;
-      cinemaIframe.src = `https://api.nextembed.ws/embed/movie/${id}`;
     }
+
+    // Setup Direct Download Section
+    setupDownloadSection(id, details, balancers, directStream);
   }
 
   function switchServer(balancer, tabBtn) {
@@ -235,76 +282,99 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Handle translations / voiceovers
     if (balancer.translations && balancer.translations.length > 1) {
-      playerOptionsBar.style.display = 'flex';
-      movieVoiceoverSelect.innerHTML = balancer.translations.map(t => 
-        `<option value="${t.iframeUrl}">${t.name} (${t.quality || 'HD'})</option>`
-      ).join('');
+      if (playerOptionsBar) playerOptionsBar.style.display = 'flex';
+      if (movieVoiceoverSelect) {
+        movieVoiceoverSelect.innerHTML = balancer.translations.map(t => 
+          `<option value="${t.iframeUrl}">${t.name} (${t.quality || 'HD'})</option>`
+        ).join('');
 
-      movieVoiceoverSelect.onchange = () => {
-        cinemaIframe.src = movieVoiceoverSelect.value;
-      };
-      cinemaIframe.src = balancer.translations[0].iframeUrl;
+        movieVoiceoverSelect.onchange = () => {
+          if (cinemaIframe) cinemaIframe.src = movieVoiceoverSelect.value;
+        };
+      }
+      if (cinemaIframe) cinemaIframe.src = balancer.translations[0].iframeUrl;
     } else {
-      playerOptionsBar.style.display = 'none';
-      cinemaIframe.src = balancer.defaultIframe;
+      if (playerOptionsBar) playerOptionsBar.style.display = 'none';
+      if (cinemaIframe) cinemaIframe.src = balancer.defaultIframe;
     }
   }
 
-  reloadPlayerBtn.onclick = () => {
-    if (cinemaIframe.src) {
-      const cur = cinemaIframe.src;
-      cinemaIframe.src = '';
-      setTimeout(() => cinemaIframe.src = cur, 100);
-      showToast('Плеер перезагружается...');
-    }
-  };
+  if (reloadPlayerBtn) {
+    reloadPlayerBtn.onclick = () => {
+      if (cinemaIframe && cinemaIframe.src) {
+        const cur = cinemaIframe.src;
+        cinemaIframe.src = '';
+        setTimeout(() => { cinemaIframe.src = cur; }, 100);
+        showToast('Плеер перезагружается...');
+      }
+    };
+  }
 
-  // Setup Downloads
-  async function loadTorrents(id, titleRu, titleEn, year) {
-    try {
-      const torrents = await API.getTorrents(id, titleRu, titleEn, year);
-      if (!torrents || !torrents.items || torrents.items.length === 0) {
-        releasesList.innerHTML = `
-          <div class="releases-empty">
-            Для этого фильма пока нет прямых торрент-раздач. Вы можете смотреть его онлайн в высоком качестве в плеере выше.
-          </div>
-        `;
-        return;
+  // Setup Direct Video Download
+  function setupDownloadSection(id, details, balancers, directStream) {
+    if (!startDownloadBtn || !dlVoiceSelect || !dlQualitySelect) return;
+
+    const voiceList = [];
+    if (directStream && Array.isArray(directStream.audios) && directStream.audios.length > 0) {
+      directStream.audios.forEach(v => {
+        if (v && !voiceList.includes(v)) voiceList.push(v);
+      });
+    }
+
+    balancers.forEach(b => {
+      (b.translations || []).forEach(t => {
+        if (t && t.name && !voiceList.includes(t.name)) {
+          voiceList.push(t.name);
+        }
+      });
+    });
+
+    if (voiceList.length > 0) {
+      dlVoiceSelect.innerHTML = voiceList.map((v, idx) => 
+        `<option value="${encodeURIComponent(v)}" ${idx === 0 ? 'selected' : ''}>${v}</option>`
+      ).join('');
+    } else {
+      dlVoiceSelect.innerHTML = '<option value="default" selected>Основная озвучка (Дубляж / Проф.)</option>';
+    }
+
+    startDownloadBtn.onclick = () => {
+      const quality = dlQualitySelect.value;
+      const voiceRaw = dlVoiceSelect.value;
+      const voiceName = voiceRaw === 'default' ? 'Дубляж' : decodeURIComponent(voiceRaw);
+      const title = details.nameRu || details.nameOriginal || 'movie';
+      
+      if (dlStatusBox && dlStatusMsg) {
+        dlStatusBox.style.display = 'flex';
+        dlStatusMsg.textContent = `Загрузка «${title}» (${quality}, ${voiceName})...`;
       }
 
-      releasesList.innerHTML = torrents.items.slice(0, 40).map(t => {
-        const downloadFileUrl = `/api/torrents/download/${t.id}?name=${encodeURIComponent(t.title)}`;
-        return `
-          <div class="release-item-card">
-            <div class="release-main-info">
-              <div class="release-title-text">${t.title}</div>
-              <div class="release-tags-row">
-                <span class="badge badge-quality">${t.quality}</span>
-                <span class="badge badge-voice">${t.voice}</span>
-                <span class="release-size">📁 ${t.size}</span>
-                <span class="release-seeds">🟢 ${t.seeds} раздают</span>
-              </div>
-            </div>
-            <div class="release-btn-group">
-              <a href="${downloadFileUrl}" class="btn btn-primary btn-sm release-btn" download="${t.title}.torrent">
-                ⬇ Скачать .torrent
-              </a>
-              <a href="${t.magnet}" class="btn btn-secondary btn-sm release-btn" title="Открыть в приложении">
-                🧲 Magnet
-              </a>
-            </div>
-          </div>
-        `;
-      }).join('');
+      // Generate direct download URL
+      const downloadUrl = `/api/movies/${id}/download-mp4?quality=${quality}&voice=${encodeURIComponent(voiceName)}&title=${encodeURIComponent(title)}`;
+      
+      // Native browser file download: creates an invisible anchor with download attribute and clicks it
+      // This immediately instructs the browser to trigger a file save dialog or background download without opening a video player page
+      const a = document.createElement('a');
+      a.href = downloadUrl;
+      a.download = `${title}_${quality}.mp4`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
 
-    } catch (e) {
-      console.error('Torrents load error:', e);
-      releasesList.innerHTML = '<div class="releases-empty">Не удалось загрузить список раздач.</div>';
-    }
+      showToast(`Началось скачивание «${title} (${quality})»`);
+
+      setTimeout(() => {
+        if (dlStatusMsg) dlStatusMsg.textContent = `Загрузка начата! Если файл не появился, проверьте загрузки браузера.`;
+      }, 1800);
+
+      setTimeout(() => {
+        if (dlStatusBox) dlStatusBox.style.display = 'none';
+      }, 8000);
+    };
   }
 
   // Setup Similar Movies
   async function loadSimilar(details) {
+    if (!similarBlock || !similarGrid) return;
     try {
       const pop = await API.getPopular(1);
       if (pop && pop.items) {

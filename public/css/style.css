@@ -659,105 +659,6 @@ body {
   }
 }
 
-/* Download Modal Releases */
-.dl-releases-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-height: 480px;
-  overflow-y: auto;
-}
-
-.dl-release-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 16px;
-  background: var(--bg-page);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  gap: 12px;
-}
-
-@media (max-width: 600px) {
-  .dl-release-card {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .dl-card-actions {
-    width: 100%;
-    justify-content: flex-start;
-  }
-}
-
-.dl-card-info {
-  flex: 1;
-}
-
-.dl-card-title {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-main);
-  margin-bottom: 4px;
-}
-
-.dl-card-meta {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
-
-.dl-badge {
-  display: inline-block;
-  padding: 2px 6px;
-  background: var(--border-color);
-  color: var(--text-main);
-  border-radius: var(--radius-xs);
-  font-weight: 600;
-  font-size: 0.75rem;
-}
-
-.dl-card-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
-}
-
-.dl-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 7px 12px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  border-radius: var(--radius-xs);
-  text-decoration: none;
-  cursor: pointer;
-  border: 1px solid transparent;
-}
-
-.dl-btn-file {
-  background: var(--accent);
-  color: #fff;
-}
-
-.dl-btn-file:hover {
-  background: var(--accent-hover);
-}
-
-.dl-btn-magnet {
-  background: var(--bg-card);
-  border-color: var(--border-strong);
-  color: var(--text-main);
-}
-
-.dl-btn-magnet:hover {
-  background: var(--bg-hover);
-}
-
 /* ==========================================================================
    Dedicated Movie Page Styles
    ========================================================================== */
@@ -1118,105 +1019,110 @@ body {
   margin-bottom: 30px;
 }
 
-.download-hint {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  margin-bottom: 18px;
-  line-height: 1.5;
-}
-
-.releases-wrapper {
+.direct-dl-card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-}
-
-.release-item-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 14px 18px;
+  gap: 16px;
   background: var(--bg-page);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
-  gap: 14px;
+  padding: 20px;
 }
 
-.release-main-info {
-  flex: 1;
-  min-width: 0;
+.dl-options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
 }
 
-.release-title-text {
-  font-size: 0.92rem;
+.dl-option-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dl-field-label {
+  font-size: 0.85rem;
   font-weight: 600;
-  color: var(--text-main);
-  margin-bottom: 6px;
-  word-break: break-word;
+  color: var(--text-secondary);
 }
 
-.release-tags-row {
+.dl-field-select {
+  padding: 10px 14px;
+  font-size: 0.88rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-xs);
+  background: var(--bg-card);
+  color: var(--text-main);
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.dl-field-select:focus {
+  border-color: var(--accent);
+}
+
+.dl-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+}
+
+.btn-dl-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 28px;
+  font-size: 0.96rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 460px;
+  transition: all 0.15s ease;
+  box-shadow: 0 4px 14px rgba(230, 74, 25, 0.25);
+}
+
+.btn-dl-cta:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(230, 74, 25, 0.35);
+}
+
+.btn-dl-cta:active {
+  transform: translateY(0);
+}
+
+.dl-status-box {
   display: flex;
   align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
-
-.badge-quality {
-  background: #dbeafe;
-  color: #1e40af;
-  font-weight: 700;
-  padding: 2px 7px;
-  border-radius: 4px;
-}
-
-[data-theme="dark"] .badge-quality {
-  background: #172554;
-  color: #93c5fd;
-}
-
-.badge-voice {
-  background: #f3f4f6;
-  color: #374151;
-  font-weight: 600;
-  padding: 2px 7px;
-  border-radius: 4px;
-}
-
-[data-theme="dark"] .badge-voice {
-  background: #27272a;
-  color: #d4d4d8;
-}
-
-.release-size {
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xs);
+  font-size: 0.88rem;
+  color: var(--text-main);
   font-weight: 500;
 }
 
-.release-seeds {
-  color: #16a34a;
-  font-weight: 600;
+.dl-status-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--border-strong);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
 }
 
-.release-btn-group {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
-}
-
-.release-btn {
-  padding: 7px 12px;
-  font-size: 0.82rem;
-  text-decoration: none;
-}
-
-.releases-empty, .releases-loading {
-  text-align: center;
-  padding: 36px 16px;
-  color: var(--text-muted);
-  font-size: 0.9rem;
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 .similar-section {
@@ -1247,18 +1153,9 @@ body {
   .cinema-section, .download-section {
     padding: 16px 12px;
   }
-  .release-item-card {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .release-btn-group {
+  .btn-dl-cta {
     width: 100%;
-    justify-content: stretch;
-  }
-  .release-btn-group .btn {
-    flex: 1;
-    text-align: center;
-    justify-content: center;
+    max-width: 100%;
   }
   .server-tabs-bar {
     flex-direction: column;
