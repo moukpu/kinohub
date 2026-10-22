@@ -187,7 +187,6 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
     const requestedVoice = req.query.voice || '';
     const rawTitle = req.query.title || `movie_${filmId}`;
     const cleanTitle = rawTitle.replace(/[\\/:*?"<>|]/g, '_').slice(0, 80);
-    const filename = `${cleanTitle}_${requestedQuality}.mp4`;
 
     const playerData = await PlayersService.getPlayers(filmId);
     let targetVideoM3u8 = '';
@@ -255,18 +254,27 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
           }
         }
 
+        let actualQuality = requestedQuality;
         // Filter video streams according to requested quality
         if (videoStreams.length > 0) {
           let matched = [];
           if (requestedQuality === '1080p') {
             matched = videoStreams.filter(v => v.info.includes('1920x') || v.info.includes('1080'));
+            if (matched.length > 0) actualQuality = '1080p';
           } else if (requestedQuality === '720p') {
             matched = videoStreams.filter(v => v.info.includes('1280x') || v.info.includes('720') || v.info.includes('648x'));
+            if (matched.length > 0) actualQuality = '720p';
           } else if (requestedQuality === '480p') {
             matched = videoStreams.filter(v => v.info.includes('854x') || v.info.includes('480') || v.info.includes('640x360'));
+            if (matched.length > 0) actualQuality = '480p';
           }
 
-          if (matched.length === 0) matched = videoStreams;
+          if (matched.length === 0) {
+            matched = videoStreams;
+            if (matched[0].info.includes('1920x') || matched[0].info.includes('1080')) actualQuality = '1080p';
+            else if (matched[0].info.includes('1280x') || matched[0].info.includes('720') || matched[0].info.includes('648x')) actualQuality = '720p';
+            else actualQuality = '480p';
+          }
           const xbcMatched = matched.filter(v => v.isXbc);
           targetVideoM3u8 = xbcMatched.length > 0 ? xbcMatched[0].url : matched[0].url;
         } else {
@@ -281,6 +289,7 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
       return res.status(404).send('Прямой видеопоток для этого фильма временно недоступен.');
     }
 
+    const filename = `${cleanTitle}_${actualQuality}.mp4`;
     res.setHeader('Content-Type', 'video/mp4');
     res.setHeader('Content-Disposition', `attachment; filename="${encodeURIComponent(filename)}"; filename*=UTF-8''${encodeURIComponent(filename)}`);
 
@@ -310,7 +319,7 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
       '-ac', '2',
       '-af', 'aresample=async=1',
       '-avoid_negative_ts', 'make_zero',
-      '-movflags', '+frag_keyframe+empty_moov+default_base_moof',
+      '-movflags', '+frag_keyframe+empty_moov+default_base_moof+write_mfra',
       '-f', 'mp4',
       'pipe:1'
     );

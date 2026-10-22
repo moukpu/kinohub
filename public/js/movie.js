@@ -365,6 +365,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   function setupDownloadSection(id, details, balancers, directStream) {
     if (!startDownloadBtn || !dlQualitySelect || !dlVoiceSelect) return;
 
+    // Dynamically set available qualities from stream
+    if (directStream && Array.isArray(directStream.qualities) && directStream.qualities.length > 0) {
+      dlQualitySelect.innerHTML = directStream.qualities.map(q => {
+        let label = q;
+        if (q === '1080p') label = '1080p (Full HD — высокое качество)';
+        else if (q === '720p') label = '720p (HD — оптимальное качество)';
+        else if (q === '480p') label = '480p (SD — легкий размер)';
+        return `<option value="${q}">${label}</option>`;
+      }).join('');
+    }
+
     const voiceList = [];
     if (directStream && Array.isArray(directStream.audios) && directStream.audios.length > 0) {
       directStream.audios.forEach(v => {

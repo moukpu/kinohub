@@ -116,10 +116,25 @@ const PlayersService = {
             } catch (err) {}
           }
 
+          const cleanM3u8Url = m3u8Match[1].replace(/\\/g, '');
+          let qualities = ['720p', '480p'];
+          try {
+            const masterText = await fetchText(cleanM3u8Url, {
+              headers: { 'Referer': 'https://api.nextembed.ws/' }
+            });
+            if (masterText) {
+              const detected = [];
+              if (masterText.includes('1920x') || masterText.includes('1080')) detected.push('1080p');
+              if (masterText.includes('1280x') || masterText.includes('720')) detected.push('720p');
+              if (masterText.includes('854x') || masterText.includes('640x') || masterText.includes('480')) detected.push('480p');
+              if (detected.length > 0) qualities = detected;
+            }
+          } catch (err) {}
+
           directStream = {
-            m3u8Url: m3u8Match[1].replace(/\\/g, ''),
+            m3u8Url: cleanM3u8Url,
             audios: audioNames,
-            qualities: ['1080p', '720p', '480p', '360p']
+            qualities
           };
         }
       }
