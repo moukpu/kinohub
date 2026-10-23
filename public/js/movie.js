@@ -407,7 +407,9 @@ document.addEventListener('DOMContentLoaded', async () => {
       const cleanTitle = title.replace(/[\\/:*?"<>|]/g, '_');
       const filename = `${cleanTitle}_${quality}.mp4`;
 
-      const downloadUrl = `/api/movies/${id}/download-mp4?quality=${quality}&voice=${encodeURIComponent(voiceName)}&title=${encodeURIComponent(title)}`;
+      const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+      const apiHost = isLocal ? '' : 'https://kinohub-api.onrender.com';
+      const downloadUrl = `${apiHost}/api/movies/${id}/download-mp4?quality=${quality}&voice=${encodeURIComponent(voiceName)}&title=${encodeURIComponent(title)}`;
 
       if (dlStatusBox && dlStatusMsg) {
         dlStatusBox.style.display = 'block';
@@ -427,16 +429,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       setTimeout(() => {
         try { document.body.removeChild(link); } catch (e) {}
       }, 2000);
-
-      // Hidden iframe fallback for older browsers
-      let dlIframe = document.getElementById('dlHiddenIframe');
-      if (!dlIframe) {
-        dlIframe = document.createElement('iframe');
-        dlIframe.id = 'dlHiddenIframe';
-        dlIframe.style.display = 'none';
-        document.body.appendChild(dlIframe);
-      }
-      dlIframe.src = downloadUrl;
 
       showToast(`Началась загрузка MP4: ${title} (${quality})`);
 

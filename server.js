@@ -183,6 +183,13 @@ app.get('/api/movies/:id/players', async (req, res) => {
 app.get('/api/movies/:id/download-mp4', async (req, res) => {
   try {
     const filmId = req.params.id;
+
+    // If running on Vercel serverless environment, redirect to persistent Render backend to avoid 300s timeout
+    if (process.env.VERCEL) {
+      const qs = new URLSearchParams(req.query).toString();
+      return res.redirect(307, `https://kinohub-api.onrender.com/api/movies/${filmId}/download-mp4${qs ? '?' + qs : ''}`);
+    }
+
     const requestedQuality = req.query.quality || '720p';
     const requestedVoice = req.query.voice || '';
     const rawTitle = req.query.title || `movie_${filmId}`;
@@ -191,6 +198,7 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
     const playerData = await PlayersService.getPlayers(filmId);
     let targetVideoM3u8 = '';
     let targetAudioM3u8 = '';
+    let actualQuality = requestedQuality;
 
     if (playerData.directStream && playerData.directStream.m3u8Url) {
       const masterUrl = playerData.directStream.m3u8Url;
@@ -254,7 +262,7 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
           }
         }
 
-        let actualQuality = requestedQuality;
+        actualQuality = requestedQuality;
         // Filter video streams according to requested quality
         if (videoStreams.length > 0) {
           let matched = [];
