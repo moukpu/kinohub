@@ -73,6 +73,115 @@ app.get('/api/debug-ffmpeg', (req, res) => {
   });
 });
 
+app.get('/api/debug-download', async (req, res) => {
+  const filmId = req.query.id || '258687';
+  try {
+    const playerData = await PlayersService.getPlayers(filmId);
+    if (!playerData.directStream || !playerData.directStream.m3u8Url) {
+      return res.json({ error: 'No directStream.m3u8Url', playerData });
+    }
+    const masterUrl = playerData.directStream.m3u8Url;
+    const masterPlaylist = await fetchTextWithHeaders(masterUrl);
+    const lines = masterPlaylist.split('\n');
+
+    let targetVideoM3u8 = '';
+    let targetAudioM3u8 = '';
+
+    const audioTracks = [];
+    for (const line of lines) {
+      if (line.includes('#EXT-X-MEDIA:TYPE=AUDIO') && line.includes('URI=')) {
+        const uriMatch = line.match(/URI="([^"]+)"/);
+        if (uriMatch) audioTracks.push(uriMatch[1]);
+      }
+    }
+    if (audioTracks.length > 0) {
+      targetAudioM3u8 = audioTracks.find(u => u.includes('x-bc.interkh.com')) || audioTracks[0];
+    }
+
+    const videoStreams = [];
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      if (line.includes('#EXT-X-STREAM-INF')) {
+        const nextLine = lines[i + 1] ? lines[i + 1].trim() : '';
+        if (nextLine.startsWith('http')) videoStreams.push(nextLine);
+      }
+    }
+    targetVideoM3u8 = videoStreams.find(u => u.includes('x-bc.interkh.com')) || videoStreams[0];
+
+    const headers = "Referer: https://api.nextembed.ws/\r\nOrigin: https://api.nextembed.ws\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n";
+    const args = ['-headers', headers, '-i', targetVideoM3u8];
+    if (targetAudioM3u8) {
+      args.push('-headers', headers, '-i', targetAudioM3u8);
+      args.push('-map', '0:v:0', '-map', '1:a:0');
+    } else {
+      args.push('-map', '0:v:0', '-map', '0:a:0?');
+    }
+
+    args.push(
+      '-c:v', 'copy',
+      '-c:a', 'aac',
+      '-b:a', '128k',
+      '-ar', '44100',
+      '-ac', '2',
+      '-af', 'aresample=async=1',
+      '-avoid_negative_ts', 'make_zero',
+      '-movflags', '+frag_keyframe+empty_moov+default_base_moof',
+      '-f', 'mp4',
+      'pipe:1'
+    );
+
+    const bin = ffmpegPath || 'ffmpeg';
+    const proc = spawn(bin, args);
+    let bytesReceived = 0;
+    const stderrChunks = [];
+
+    proc.stdout.on('data', chunk => {
+      bytesReceived += chunk.length;
+      if (bytesReceived > 200000) {
+        proc.kill();
+      }
+    });
+
+    proc.stderr.on('data', data => {
+      stderrChunks.push(data.toString());
+    });
+
+    proc.on('close', code => {
+      if (!res.headersSent) {
+        res.json({
+          success: bytesReceived > 0,
+          bytesReceived,
+          code,
+          targetVideoM3u8: targetVideoM3u8.slice(0, 100) + '...',
+          targetAudioM3u8: targetAudioM3u8 ? targetAudioM3u8.slice(0, 100) + '...' : null,
+          stderr: stderrChunks.join('').slice(-2000)
+        });
+      }
+    });
+
+    proc.on('error', err => {
+      if (!res.headersSent) {
+        res.json({ error: err.message, stderr: stderrChunks.join('') });
+      }
+    });
+
+    setTimeout(() => {
+      if (!res.headersSent) {
+        proc.kill();
+        res.json({
+          timeout: true,
+          bytesReceived,
+          stderr: stderrChunks.join('').slice(-2000)
+        });
+      }
+    }, 15000);
+  } catch (err) {
+    if (!res.headersSent) {
+      res.json({ error: err.message, stack: err.stack });
+    }
+  }
+});
+
 // 1. Популярные
 app.get('/api/movies/popular', async (req, res) => {
   try {
