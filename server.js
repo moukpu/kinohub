@@ -7,10 +7,14 @@ const https = require('https');
 const { spawn } = require('child_process');
 
 let ffmpegPath = null;
-try {
-  ffmpegPath = require('ffmpeg-static');
-} catch (e) {
-  ffmpegPath = 'ffmpeg';
+if (fs.existsSync('/usr/bin/ffmpeg')) {
+  ffmpegPath = '/usr/bin/ffmpeg';
+} else {
+  try {
+    ffmpegPath = require('ffmpeg-static');
+  } catch (e) {
+    ffmpegPath = 'ffmpeg';
+  }
 }
 
 const KinopoiskService = require('./services/kinopoisk');
