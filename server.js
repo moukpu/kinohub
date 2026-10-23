@@ -59,16 +59,17 @@ app.get('/api/health', (req, res) => {
 
 app.get('/api/debug-ffmpeg', (req, res) => {
   const bin = ffmpegPath || 'ffmpeg';
-  const { execFile } = require('child_process');
-  execFile(bin, ['-version'], (err, stdout, stderr) => {
-    res.json({
-      bin,
-      exists: fs.existsSync(bin),
-      platform: process.platform,
-      arch: process.arch,
-      error: err ? { message: err.message, code: err.code } : null,
-      stdout: stdout ? stdout.slice(0, 300) : null,
-      stderr: stderr ? stderr.slice(0, 300) : null
+  const { exec, execFile } = require('child_process');
+  
+  exec('which ffmpeg; ls -l /usr/bin/ffmpeg || true', (shErr, shOut) => {
+    execFile(bin, ['-v', 'debug', '-headers', 'User-Agent: test\r\n', '-i', 'https://api.nextembed.ws/embed/movie/180', '-f', 'null', '-'], { timeout: 5000 }, (err, stdout, stderr) => {
+      res.json({
+        bin,
+        systemWhich: shOut,
+        error: err ? { message: err.message, code: err.code, signal: err.signal } : null,
+        stdout: stdout ? stdout.slice(0, 500) : null,
+        stderr: stderr ? stderr.slice(0, 1000) : null
+      });
     });
   });
 });
@@ -146,12 +147,13 @@ app.get('/api/debug-download', async (req, res) => {
       stderrChunks.push(data.toString());
     });
 
-    proc.on('close', code => {
+    proc.on('close', (code, signal) => {
       if (!res.headersSent) {
         res.json({
           success: bytesReceived > 0,
           bytesReceived,
           code,
+          signal,
           targetVideoM3u8: targetVideoM3u8.slice(0, 100) + '...',
           targetAudioM3u8: targetAudioM3u8 ? targetAudioM3u8.slice(0, 100) + '...' : null,
           stderr: stderrChunks.join('').slice(-2000)
