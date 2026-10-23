@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const fs = require('fs');
 const https = require('https');
 const { spawn } = require('child_process');
 
@@ -53,6 +54,22 @@ app.get('/api/health', (req, res) => {
     status: 'ok',
     ffmpeg: !!ffmpegPath,
     uptime: process.uptime()
+  });
+});
+
+app.get('/api/debug-ffmpeg', (req, res) => {
+  const bin = ffmpegPath || 'ffmpeg';
+  const { execFile } = require('child_process');
+  execFile(bin, ['-version'], (err, stdout, stderr) => {
+    res.json({
+      bin,
+      exists: fs.existsSync(bin),
+      platform: process.platform,
+      arch: process.arch,
+      error: err ? { message: err.message, code: err.code } : null,
+      stdout: stdout ? stdout.slice(0, 300) : null,
+      stderr: stderr ? stderr.slice(0, 300) : null
+    });
   });
 });
 
