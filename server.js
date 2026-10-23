@@ -327,7 +327,7 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
       '-ac', '2',
       '-af', 'aresample=async=1',
       '-avoid_negative_ts', 'make_zero',
-      '-movflags', '+frag_keyframe+empty_moov+default_base_moof+write_mfra',
+      '-movflags', '+frag_keyframe+empty_moov+default_base_moof',
       '-f', 'mp4',
       'pipe:1'
     );
@@ -336,7 +336,9 @@ app.get('/api/movies/:id/download-mp4', async (req, res) => {
     const proc = spawn(bin, args);
     proc.stdout.pipe(res);
 
-    proc.stderr.on('data', () => {});
+    proc.stderr.on('data', (data) => {
+      // Log errors or warnings if needed
+    });
 
     res.on('close', () => {
       try { proc.kill('SIGKILL'); } catch (e) {}
